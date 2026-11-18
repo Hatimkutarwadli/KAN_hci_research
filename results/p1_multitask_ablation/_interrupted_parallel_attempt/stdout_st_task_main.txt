@@ -1,0 +1,70 @@
+E:\HCI LAB\researchproject\synthetic-dataset-research\src\baselines.py:187: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\autograd\generated\python_variable_methods.cpp:821.)
+  run += float(loss) * len(yb)
+  gru seed0 ep1 train 0.5932 cal 0.5569
+  gru seed0 ep2 train 0.5080 cal 0.5523
+  gru seed0 ep3 train 0.5040 cal 0.5510
+  gru seed0 ep4 train 0.4987 cal 0.5725
+  gru seed0 ep5 train 0.4829 cal 0.5665
+  gru seed0 ep6 train 0.4673 cal 0.5716
+  gru seed0 ep7 train 0.4542 cal 0.5855
+st_task sev_dep_t0 seed0: wall 194s cpu 151s params 10369 best_epoch 3 epochs_run 7
+  gru seed1 ep1 train 0.5961 cal 0.5546
+  gru seed1 ep2 train 0.5047 cal 0.5532
+  gru seed1 ep3 train 0.4999 cal 0.5516
+  gru seed1 ep4 train 0.4889 cal 0.5540
+  gru seed1 ep5 train 0.4740 cal 0.5733
+  gru seed1 ep6 train 0.4661 cal 0.5714
+  gru seed1 ep7 train 0.4489 cal 0.5840
+st_task sev_dep_t0 seed1: wall 153s cpu 157s params 10369 best_epoch 3 epochs_run 7
+  gru seed2 ep1 train 0.5917 cal 0.5484
+  gru seed2 ep2 train 0.5076 cal 0.5509
+  gru seed2 ep3 train 0.4964 cal 0.5606
+  gru seed2 ep4 train 0.4903 cal 0.5560
+  gru seed2 ep5 train 0.4853 cal 0.5554
+st_task sev_dep_t0 seed2: wall 151s cpu 112s params 10369 best_epoch 1 epochs_run 5
+  gru seed3 ep1 train 0.5906 cal 0.5655
+  gru seed3 ep2 train 0.5105 cal 0.5604
+  gru seed3 ep3 train 0.4954 cal 0.5492
+  gru seed3 ep4 train 0.4898 cal 0.5596
+  gru seed3 ep5 train 0.4813 cal 0.5580
+  gru seed3 ep6 train 0.4730 cal 0.5758
+  gru seed3 ep7 train 0.4600 cal 0.5727
+st_task sev_dep_t0 seed3: wall 265s cpu 135s params 10369 best_epoch 3 epochs_run 7
+  gru seed4 ep1 train 0.5947 cal 0.5638
+  gru seed4 ep2 train 0.5078 cal 0.5596
+  gru seed4 ep3 train 0.5022 cal 0.5593
+  gru seed4 ep4 train 0.4849 cal 0.5577
+  gru seed4 ep5 train 0.4700 cal 0.5630
+  gru seed4 ep6 train 0.4623 cal 0.5692
+  gru seed4 ep7 train 0.4458 cal 0.5845
+  gru seed4 ep8 train 0.4331 cal 0.5857
+st_task sev_dep_t0 seed4: wall 277s cpu 156s params 10369 best_epoch 4 epochs_run 8
+  gru seed0 ep1 train 0.6772 cal 0.7358
+  gru seed0 ep2 train 0.6103 cal 0.7386
+  gru seed0 ep3 train 0.5993 cal 0.7412
+  gru seed0 ep4 train 0.5928 cal 0.7428
+  gru seed0 ep5 train 0.5716 cal 0.7608
+st_task sev_anx_t0 seed0: wall 118s cpu 108s params 10369 best_epoch 1 epochs_run 5
+  gru seed1 ep1 train 0.6769 cal 0.7323
+  gru seed1 ep2 train 0.6145 cal 0.7393
+  gru seed1 ep3 train 0.6017 cal 0.7494
+  gru seed1 ep4 train 0.5871 cal 0.7645
+  gru seed1 ep5 train 0.5706 cal 0.7560
+st_task sev_anx_t0 seed1: wall 110s cpu 105s params 10369 best_epoch 1 epochs_run 5
+  gru seed2 ep1 train 0.6729 cal 0.7371
+  gru seed2 ep2 train 0.6101 cal 0.7338
+  gru seed2 ep3 train 0.5930 cal 0.7363
+  gru seed2 ep4 train 0.5867 cal 0.7483
+  gru seed2 ep5 train 0.5751 cal 0.7707
+  gru seed2 ep6 train 0.5591 cal 0.7677
+st_task sev_anx_t0 seed2: wall 300s cpu 105s params 10369 best_epoch 2 epochs_run 6
+  gru seed3 ep1 train 0.6824 cal 0.7267
+  gru seed3 ep2 train 0.6112 cal 0.7265
+  gru seed3 ep3 train 0.5980 cal 0.7461
+  gru seed3 ep4 train 0.5961 cal 0.7463
+  gru seed3 ep5 train 0.5768 cal 0.7519
+  gru seed3 ep6 train 0.5649 cal 0.7658
+st_task sev_anx_t0 seed3: wall 222s cpu 112s params 10369 best_epoch 2 epochs_run 6
+  gru seed4 ep1 train 0.6736 cal 0.7246
+  gru seed4 ep2 train 0.6115 cal 0.7249

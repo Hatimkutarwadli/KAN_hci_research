@@ -1,0 +1,112 @@
+  gru seed0 ep1 train 0.6446 cal 0.6490
+  gru seed0 ep2 train 0.5600 cal 0.6494
+  gru seed0 ep3 train 0.5547 cal 0.6448
+  gru seed0 ep4 train 0.5501 cal 0.6495
+  gru seed0 ep5 train 0.5355 cal 0.6578
+  gru seed0 ep6 train 0.5255 cal 0.6658
+  gru seed0 ep7 train 0.5143 cal 0.6804
+family family_severity seed0: wall 48s cpu 158s params 10402 best_epoch 3 epochs_run 7
+  gru seed1 ep1 train 0.6413 cal 0.6442
+  gru seed1 ep2 train 0.5600 cal 0.6477
+  gru seed1 ep3 train 0.5524 cal 0.6483
+  gru seed1 ep4 train 0.5418 cal 0.6523
+  gru seed1 ep5 train 0.5283 cal 0.6651
+family family_severity seed1: wall 22s cpu 82s params 10402 best_epoch 1 epochs_run 5
+  gru seed2 ep1 train 0.6398 cal 0.6394
+  gru seed2 ep2 train 0.5585 cal 0.6461
+  gru seed2 ep3 train 0.5463 cal 0.6495
+  gru seed2 ep4 train 0.5411 cal 0.6521
+  gru seed2 ep5 train 0.5343 cal 0.6548
+family family_severity seed2: wall 21s cpu 81s params 10402 best_epoch 1 epochs_run 5
+  gru seed3 ep1 train 0.6413 cal 0.6506
+  gru seed3 ep2 train 0.5607 cal 0.6441
+  gru seed3 ep3 train 0.5479 cal 0.6472
+  gru seed3 ep4 train 0.5468 cal 0.6491
+  gru seed3 ep5 train 0.5358 cal 0.6559
+  gru seed3 ep6 train 0.5296 cal 0.6589
+family family_severity seed3: wall 26s cpu 96s params 10402 best_epoch 2 epochs_run 6
+  gru seed4 ep1 train 0.6501 cal 0.6477
+  gru seed4 ep2 train 0.5608 cal 0.6451
+  gru seed4 ep3 train 0.5503 cal 0.6494
+  gru seed4 ep4 train 0.5366 cal 0.6554
+  gru seed4 ep5 train 0.5293 cal 0.6610
+  gru seed4 ep6 train 0.5243 cal 0.6631
+family family_severity seed4: wall 25s cpu 96s params 10402 best_epoch 2 epochs_run 6
+  gru seed0 ep1 train 0.2525 cal 0.2096
+  gru seed0 ep2 train 0.1791 cal 0.2082
+  gru seed0 ep3 train 0.1771 cal 0.2065
+  gru seed0 ep4 train 0.1721 cal 0.2085
+  gru seed0 ep5 train 0.1742 cal 0.2086
+  gru seed0 ep6 train 0.1670 cal 0.2141
+  gru seed0 ep7 train 0.1642 cal 0.2185
+family family_status seed0: wall 30s cpu 112s params 10402 best_epoch 3 epochs_run 7
+  gru seed1 ep1 train 0.2711 cal 0.2090
+  gru seed1 ep2 train 0.1813 cal 0.2052
+  gru seed1 ep3 train 0.1793 cal 0.2068
+  gru seed1 ep4 train 0.1721 cal 0.2091
+  gru seed1 ep5 train 0.1716 cal 0.2057
+  gru seed1 ep6 train 0.1664 cal 0.2134
+family family_status seed1: wall 46s cpu 127s params 10402 best_epoch 2 epochs_run 6
+  gru seed2 ep1 train 0.2696 cal 0.2058
+  gru seed2 ep2 train 0.1794 cal 0.2079
+  gru seed2 ep3 train 0.1723 cal 0.2087
+  gru seed2 ep4 train 0.1737 cal 0.2061
+  gru seed2 ep5 train 0.1727 cal 0.2116
+family family_status seed2: wall 32s cpu 107s params 10402 best_epoch 1 epochs_run 5
+  gru seed3 ep1 train 0.2629 cal 0.2075
+  gru seed3 ep2 train 0.1824 cal 0.2054
+  gru seed3 ep3 train 0.1726 cal 0.2077
+  gru seed3 ep4 train 0.1733 cal 0.2099
+  gru seed3 ep5 train 0.1710 cal 0.2081
+  gru seed3 ep6 train 0.1678 cal 0.2075
+family family_status seed3: wall 41s cpu 142s params 10402 best_epoch 2 epochs_run 6
+  gru seed4 ep1 train 0.2712 cal 0.2127
+  gru seed4 ep2 train 0.1819 cal 0.2061
+  gru seed4 ep3 train 0.1745 cal 0.2082
+  gru seed4 ep4 train 0.1712 cal 0.2092
+  gru seed4 ep5 train 0.1675 cal 0.2133
+  gru seed4 ep6 train 0.1713 cal 0.2088
+family family_status seed4: wall 37s cpu 134s params 10402 best_epoch 2 epochs_run 6
+  gru seed0 ep1 train 0.2257 cal 0.1440
+  gru seed0 ep2 train 0.1248 cal 0.1398
+  gru seed0 ep3 train 0.1217 cal 0.1412
+  gru seed0 ep4 train 0.1240 cal 0.1402
+  gru seed0 ep5 train 0.1191 cal 0.1429
+  gru seed0 ep6 train 0.1224 cal 0.1395
+  gru seed0 ep7 train 0.1174 cal 0.1398
+  gru seed0 ep8 train 0.1163 cal 0.1426
+  gru seed0 ep9 train 0.1171 cal 0.1440
+  gru seed0 ep10 train 0.1124 cal 0.1454
+family family_onset_sust seed0: wall 48s cpu 175s params 10534 best_epoch 6 epochs_run 10
+  gru seed1 ep1 train 0.2352 cal 0.1470
+  gru seed1 ep2 train 0.1269 cal 0.1390
+  gru seed1 ep3 train 0.1269 cal 0.1377
+  gru seed1 ep4 train 0.1221 cal 0.1413
+  gru seed1 ep5 train 0.1219 cal 0.1410
+  gru seed1 ep6 train 0.1222 cal 0.1414
+  gru seed1 ep7 train 0.1189 cal 0.1436
+family family_onset_sust seed1: wall 38s cpu 136s params 10534 best_epoch 3 epochs_run 7
+  gru seed2 ep1 train 0.2154 cal 0.1439
+  gru seed2 ep2 train 0.1227 cal 0.1381
+  gru seed2 ep3 train 0.1250 cal 0.1379
+  gru seed2 ep4 train 0.1264 cal 0.1379
+  gru seed2 ep5 train 0.1221 cal 0.1385
+  gru seed2 ep6 train 0.1199 cal 0.1392
+  gru seed2 ep7 train 0.1157 cal 0.1444
+  gru seed2 ep8 train 0.1172 cal 0.1442
+family family_onset_sust seed2: wall 50s cpu 176s params 10534 best_epoch 4 epochs_run 8
+  gru seed3 ep1 train 0.2374 cal 0.1478
+  gru seed3 ep2 train 0.1306 cal 0.1392
+  gru seed3 ep3 train 0.1236 cal 0.1394
+  gru seed3 ep4 train 0.1219 cal 0.1405
+  gru seed3 ep5 train 0.1215 cal 0.1397
+  gru seed3 ep6 train 0.1215 cal 0.1403
+family family_onset_sust seed3: wall 44s cpu 148s params 10534 best_epoch 2 epochs_run 6
+  gru seed4 ep1 train 0.2178 cal 0.1417
+  gru seed4 ep2 train 0.1258 cal 0.1383
+  gru seed4 ep3 train 0.1238 cal 0.1372
+  gru seed4 ep4 train 0.1234 cal 0.1404
+  gru seed4 ep5 train 0.1190 cal 0.1401
+  gru seed4 ep6 train 0.1199 cal 0.1417
+  gru seed4 ep7 train 0.1148 cal 0.1405
+family family_onset_sust seed4: wall 47s cpu 161s params 10534 best_epoch 3 epochs_run 7

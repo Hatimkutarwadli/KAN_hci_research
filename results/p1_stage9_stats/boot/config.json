@@ -1,0 +1,27 @@
+{
+ "B": 2000,
+ "boot_seed": 20261120,
+ "N": 200,
+ "scenarios": [
+  "C0",
+  "S1_r40",
+  "S2_r40_L7",
+  "S3_k3",
+  "S3_k7",
+  "S3_k14",
+  "S4_activity_absent",
+  "S4_sleep_absent",
+  "S4_cardiac_absent",
+  "S5_rand40",
+  "S5_blk40"
+ ],
+ "configs": [
+  "baseline",
+  "R0O0T1",
+  "R0O2T1",
+  "R0O3T1"
+ ],
+ "decision_sha256": "3a6817ef64285a45b391c5d80178f370f068956554b15a2e7778fdb89e3ea80e",
+ "n_arrays": 1540,
+ "note": "row 0 = pooled point estimate; rows 1..B = participant-cluster bootstrap with shared counts C (counts_C.npy)"
+}

@@ -1,0 +1,12 @@
+{
+ "SYNTHETIC": true,
+ "id": "S-HET",
+ "family": "shift",
+ "seed": 3101,
+ "overrides": {
+  "sens_sd": 0.7
+ },
+ "rho_scale": 1.0,
+ "crn_partner": "R1",
+ "purpose": "Participant heterogeneity: per-person effect sensitivity sens_sd 0.30->0.70. RQ6. Same seed streams as R1 (3101-3103): common random numbers. Frozen thresholds (approved)."
+}

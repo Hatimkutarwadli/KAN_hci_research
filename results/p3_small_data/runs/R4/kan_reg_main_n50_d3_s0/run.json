@@ -1,0 +1,104 @@
+{
+ "SYNTHETIC": true,
+ "test_split_loaded": false,
+ "ds": "R4",
+ "model": "kan_reg",
+ "ts": "main",
+ "n": 50,
+ "draw": 3,
+ "seed": 0,
+ "variant": "primary",
+ "id": "kan_reg_main_n50_d3_s0",
+ "cost": 0.8333333333333334,
+ "wall_s": 177.89395459997468,
+ "cpu_s": 580.078125,
+ "finite": true,
+ "n_params": 29336,
+ "partial_rerun": false,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.5910009293402395,
+   "cal_loss": 0.445478618144989
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.38102430967874423,
+   "cal_loss": 0.35151779651641846
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.29414920976085046,
+   "cal_loss": 0.2971534729003906
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.2421546894119632,
+   "cal_loss": 0.2689529359340668
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.2099953135623727,
+   "cal_loss": 0.26245763897895813
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.20212211037835767,
+   "cal_loss": 0.2563314437866211
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.1866556437617989,
+   "cal_loss": 0.25270548462867737
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.18345665677901238,
+   "cal_loss": 0.25307637453079224
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.18139701639452288,
+   "cal_loss": 0.25555941462516785
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.16972203262390628,
+   "cal_loss": 0.2501211166381836
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.1626052354292203,
+   "cal_loss": 0.2522558569908142
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.1573650328574642,
+   "cal_loss": 0.2506393790245056
+  },
+  {
+   "epoch": 13,
+   "train_loss": 0.15848736869391575,
+   "cal_loss": 0.25807327032089233
+  },
+  {
+   "epoch": 14,
+   "train_loss": 0.15373828963566852,
+   "cal_loss": 0.25276580452919006
+  }
+ ],
+ "best_epoch": 10,
+ "epochs_run": 14,
+ "hparams": {
+  "epochs": 25,
+  "patience": 4,
+  "batch_size": 256,
+  "lr": 0.002,
+  "weight_decay": 0.001,
+  "epoch_frac": 0.5,
+  "model_kwargs": {
+   "dropout": 0.3
+  }
+ },
+ "finished": "2026-11-17T23:38:47.539833"
+}

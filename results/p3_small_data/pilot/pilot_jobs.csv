@@ -1,0 +1,17 @@
+id,model,ts,n,cpu_s,wall_s,finite,best_epoch,epochs_run
+gbt_forecast_n400_d0_s0,gbt,forecast,400,546.421875,186.31660939997528,True,,
+gbt_forecast_n50_d0_s0,gbt,forecast,50,232.109375,71.99121809995268,True,,
+gbt_main_n400_d0_s0,gbt,main,400,776.21875,269.56228459998965,True,,
+gbt_main_n50_d0_s0,gbt,main,50,363.265625,136.53541020001285,True,,
+gru_forecast_n400_d0_s0,gru,forecast,400,157.328125,54.70968209998682,True,4.0,8.0
+gru_forecast_n50_d0_s0,gru,forecast,50,58.296875,18.739251099992543,True,6.0,10.0
+gru_main_n400_d0_s0,gru,main,400,160.453125,56.507510900031775,True,4.0,8.0
+gru_main_n50_d0_s0,gru,main,50,56.640625,19.100753300008364,True,6.0,10.0
+kan_reg_main_n400_d0_s0,kan_reg,main,400,632.046875,207.03281210002024,True,2.0,6.0
+kan_reg_main_n50_d0_s0,kan_reg,main,50,775.8125,215.12922570004594,True,10.0,14.0
+m1_all_n400_d0_s0,m1,all,400,3063.65625,990.5722330999561,True,4.0,8.0
+m1_all_n50_d0_s0,m1,all,50,2321.140625,699.5502828999888,True,12.0,16.0
+mlp_b2_reg_main_n400_d0_s0,mlp_b2_reg,main,400,108.015625,32.025614500045776,True,3.0,7.0
+mlp_b2_reg_main_n50_d0_s0,mlp_b2_reg,main,50,51.03125,14.941595299984328,True,6.0,10.0
+mlp_m1_all_n400_d0_s0,mlp_m1,all,400,251.953125,92.73350540001411,True,3.0,7.0
+mlp_m1_all_n50_d0_s0,mlp_m1,all,50,106.40625,38.23740290000569,True,5.0,9.0

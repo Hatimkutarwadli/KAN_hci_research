@@ -1,0 +1,64 @@
+{
+ "SYNTHETIC": true,
+ "test_split_loaded": false,
+ "ds": "R4",
+ "model": "kan_reg",
+ "ts": "main",
+ "n": 400,
+ "draw": 1,
+ "seed": 0,
+ "variant": "primary",
+ "id": "kan_reg_main_n400_d1_s0",
+ "cost": 6.666666666666667,
+ "wall_s": 124.28951040003449,
+ "cpu_s": 412.828125,
+ "finite": true,
+ "n_params": 29336,
+ "partial_rerun": false,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.32611652413363096,
+   "cal_loss": 0.22335126996040344
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.22503146040183242,
+   "cal_loss": 0.21532471477985382
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.2099924487516444,
+   "cal_loss": 0.21554845571517944
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.20778020815182757,
+   "cal_loss": 0.2160198986530304
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.1931407493481072,
+   "cal_loss": 0.2246248424053192
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.18187205366549952,
+   "cal_loss": 0.2317735254764557
+  }
+ ],
+ "best_epoch": 2,
+ "epochs_run": 6,
+ "hparams": {
+  "epochs": 25,
+  "patience": 4,
+  "batch_size": 256,
+  "lr": 0.002,
+  "weight_decay": 0.001,
+  "epoch_frac": 0.5,
+  "model_kwargs": {
+   "dropout": 0.3
+  }
+ },
+ "finished": "2026-11-17T21:32:35.721617"
+}

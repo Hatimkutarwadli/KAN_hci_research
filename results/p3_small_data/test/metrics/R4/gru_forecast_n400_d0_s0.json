@@ -1,0 +1,80 @@
+{
+ "sev_dep_h7": {
+  "metric": "rmse",
+  "value": 3.058974027633667,
+  "const_rmse": 3.806774616241455,
+  "n": 17200
+ },
+ "sev_dep_h14": {
+  "metric": "rmse",
+  "value": 3.177793264389038,
+  "const_rmse": 3.7869784832000732,
+  "n": 15800
+ },
+ "sev_dep_h21": {
+  "metric": "rmse",
+  "value": 3.3633131980895996,
+  "const_rmse": 3.7736027240753174,
+  "n": 14400
+ },
+ "sev_anx_h7": {
+  "metric": "rmse",
+  "value": 2.802198648452759,
+  "const_rmse": 3.3679850101470947,
+  "n": 17200
+ },
+ "sev_anx_h14": {
+  "metric": "rmse",
+  "value": 2.9037528038024902,
+  "const_rmse": 3.3508341312408447,
+  "n": 15800
+ },
+ "sev_anx_h21": {
+  "metric": "rmse",
+  "value": 3.009910821914673,
+  "const_rmse": 3.3424649238586426,
+  "n": 14400
+ },
+ "status_dep_h7": {
+  "metric": "ap",
+  "value": 0.2698915012828791,
+  "prevalence": 0.06709302216768265,
+  "n": 17200,
+  "n_pos": 1154
+ },
+ "status_dep_h14": {
+  "metric": "ap",
+  "value": 0.22411407293977662,
+  "prevalence": 0.06670886278152466,
+  "n": 15800,
+  "n_pos": 1054
+ },
+ "status_dep_h21": {
+  "metric": "ap",
+  "value": 0.17377974333188043,
+  "prevalence": 0.06604166328907013,
+  "n": 14400,
+  "n_pos": 951
+ },
+ "status_anx_h7": {
+  "metric": "ap",
+  "value": 0.23138689276090124,
+  "prevalence": 0.05738371983170509,
+  "n": 17200,
+  "n_pos": 987
+ },
+ "status_anx_h14": {
+  "metric": "ap",
+  "value": 0.21672338155301618,
+  "prevalence": 0.056329112499952316,
+  "n": 15800,
+  "n_pos": 890
+ },
+ "status_anx_h21": {
+  "metric": "ap",
+  "value": 0.18582151493502555,
+  "prevalence": 0.05590277910232544,
+  "n": 14400,
+  "n_pos": 805
+ }
+}

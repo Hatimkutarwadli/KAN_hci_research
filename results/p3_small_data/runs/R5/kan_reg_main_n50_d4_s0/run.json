@@ -1,0 +1,104 @@
+{
+ "SYNTHETIC": true,
+ "test_split_loaded": false,
+ "ds": "R5",
+ "model": "kan_reg",
+ "ts": "main",
+ "n": 50,
+ "draw": 4,
+ "seed": 0,
+ "variant": "primary",
+ "id": "kan_reg_main_n50_d4_s0",
+ "cost": 0.8333333333333334,
+ "wall_s": 167.42715360003058,
+ "cpu_s": 588.421875,
+ "finite": true,
+ "n_params": 29336,
+ "partial_rerun": false,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.5928529827312756,
+   "cal_loss": 0.42675840854644775
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.39376024106497404,
+   "cal_loss": 0.32731181383132935
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.30848389628112954,
+   "cal_loss": 0.27272921800613403
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.25921637863241215,
+   "cal_loss": 0.24963511526584625
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.23686921302990246,
+   "cal_loss": 0.23496554791927338
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.2124631461981804,
+   "cal_loss": 0.22829727828502655
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.20576570374991304,
+   "cal_loss": 0.22495384514331818
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.20237342382630993,
+   "cal_loss": 0.2262578010559082
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.19007731323601096,
+   "cal_loss": 0.22092577815055847
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.1862940788461316,
+   "cal_loss": 0.2183074802160263
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.17131071837358577,
+   "cal_loss": 0.2241704761981964
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.1637943728957125,
+   "cal_loss": 0.2200247347354889
+  },
+  {
+   "epoch": 13,
+   "train_loss": 0.15689157710280469,
+   "cal_loss": 0.21896162629127502
+  },
+  {
+   "epoch": 14,
+   "train_loss": 0.14453172596872493,
+   "cal_loss": 0.21939536929130554
+  }
+ ],
+ "best_epoch": 10,
+ "epochs_run": 14,
+ "hparams": {
+  "epochs": 25,
+  "patience": 4,
+  "batch_size": 256,
+  "lr": 0.002,
+  "weight_decay": 0.001,
+  "epoch_frac": 0.5,
+  "model_kwargs": {
+   "dropout": 0.3
+  }
+ },
+ "finished": "2026-11-17T23:50:14.937139"
+}

@@ -1,0 +1,112 @@
+{
+ "sev_dep_t0": {
+  "metric": "rmse",
+  "value": 3.069772720336914,
+  "const_rmse": 3.87286114692688,
+  "n": 18600
+ },
+ "sev_anx_t0": {
+  "metric": "rmse",
+  "value": 2.8300821781158447,
+  "const_rmse": 3.373710870742798,
+  "n": 18600
+ },
+ "status_dep_t0": {
+  "metric": "ap",
+  "value": 0.19794518938784328,
+  "prevalence": 0.06806451827287674,
+  "n": 18600,
+  "n_pos": 1266
+ },
+ "status_anx_t0": {
+  "metric": "ap",
+  "value": 0.22266637809364465,
+  "prevalence": 0.058225806802511215,
+  "n": 18600,
+  "n_pos": 1083
+ },
+ "onset_sust_dep_h7": {
+  "metric": "ap",
+  "value": 0.06543105177320202,
+  "prevalence": 0.017279822379350662,
+  "n": 12558,
+  "n_pos": 217
+ },
+ "onset_sust_dep_h14": {
+  "metric": "ap",
+  "value": 0.10121021685450393,
+  "prevalence": 0.033445391803979874,
+  "n": 11601,
+  "n_pos": 388
+ },
+ "onset_sust_dep_h21": {
+  "metric": "ap",
+  "value": 0.12157574511757308,
+  "prevalence": 0.04965673014521599,
+  "n": 10633,
+  "n_pos": 528
+ },
+ "onset_sust_anx_h7": {
+  "metric": "ap",
+  "value": 0.14004503188196074,
+  "prevalence": 0.01764899119734764,
+  "n": 12182,
+  "n_pos": 215
+ },
+ "onset_sust_anx_h14": {
+  "metric": "ap",
+  "value": 0.1852661083917361,
+  "prevalence": 0.03460514545440674,
+  "n": 11270,
+  "n_pos": 390
+ },
+ "onset_sust_anx_h21": {
+  "metric": "ap",
+  "value": 0.22093453010107852,
+  "prevalence": 0.05229579657316208,
+  "n": 10345,
+  "n_pos": 541
+ },
+ "onset_cross_dep_h7": {
+  "metric": "ap",
+  "value": 0.08817361869352254,
+  "prevalence": 0.020728910341858864,
+  "n": 11771,
+  "n_pos": 244
+ },
+ "onset_cross_dep_h14": {
+  "metric": "ap",
+  "value": 0.1527874232930012,
+  "prevalence": 0.040640730410814285,
+  "n": 10925,
+  "n_pos": 444
+ },
+ "onset_cross_dep_h21": {
+  "metric": "ap",
+  "value": 0.17010953920906413,
+  "prevalence": 0.059659939259290695,
+  "n": 10057,
+  "n_pos": 600
+ },
+ "onset_cross_anx_h7": {
+  "metric": "ap",
+  "value": 0.17593090099311848,
+  "prevalence": 0.027201395481824875,
+  "n": 11470,
+  "n_pos": 312
+ },
+ "onset_cross_anx_h14": {
+  "metric": "ap",
+  "value": 0.1982807904322828,
+  "prevalence": 0.05133970454335213,
+  "n": 10674,
+  "n_pos": 548
+ },
+ "onset_cross_anx_h21": {
+  "metric": "ap",
+  "value": 0.24635467574871825,
+  "prevalence": 0.07472839951515198,
+  "n": 9849,
+  "n_pos": 736
+ }
+}

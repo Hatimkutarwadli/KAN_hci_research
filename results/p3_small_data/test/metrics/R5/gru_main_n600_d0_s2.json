@@ -1,0 +1,112 @@
+{
+ "sev_dep_t0": {
+  "metric": "rmse",
+  "value": 2.7704334259033203,
+  "const_rmse": 3.9502007961273193,
+  "n": 18600
+ },
+ "sev_anx_t0": {
+  "metric": "rmse",
+  "value": 2.7951741218566895,
+  "const_rmse": 3.5252270698547363,
+  "n": 18600
+ },
+ "status_dep_t0": {
+  "metric": "ap",
+  "value": 0.33948145312678824,
+  "prevalence": 0.0647311806678772,
+  "n": 18600,
+  "n_pos": 1204
+ },
+ "status_anx_t0": {
+  "metric": "ap",
+  "value": 0.32981277169400874,
+  "prevalence": 0.07231182605028152,
+  "n": 18600,
+  "n_pos": 1345
+ },
+ "onset_sust_dep_h7": {
+  "metric": "ap",
+  "value": 0.11605568178175515,
+  "prevalence": 0.019905956462025642,
+  "n": 12760,
+  "n_pos": 254
+ },
+ "onset_sust_dep_h14": {
+  "metric": "ap",
+  "value": 0.19822861877447076,
+  "prevalence": 0.038803692907094955,
+  "n": 11803,
+  "n_pos": 458
+ },
+ "onset_sust_dep_h21": {
+  "metric": "ap",
+  "value": 0.21921535696444483,
+  "prevalence": 0.05618185177445412,
+  "n": 10822,
+  "n_pos": 608
+ },
+ "onset_sust_anx_h7": {
+  "metric": "ap",
+  "value": 0.15704332120242315,
+  "prevalence": 0.018410775810480118,
+  "n": 12547,
+  "n_pos": 231
+ },
+ "onset_sust_anx_h14": {
+  "metric": "ap",
+  "value": 0.20934095579257572,
+  "prevalence": 0.03677864000201225,
+  "n": 11610,
+  "n_pos": 427
+ },
+ "onset_sust_anx_h21": {
+  "metric": "ap",
+  "value": 0.28772368980738694,
+  "prevalence": 0.05465815216302872,
+  "n": 10648,
+  "n_pos": 582
+ },
+ "onset_cross_dep_h7": {
+  "metric": "ap",
+  "value": 0.11717732532548278,
+  "prevalence": 0.025194911286234856,
+  "n": 12185,
+  "n_pos": 307
+ },
+ "onset_cross_dep_h14": {
+  "metric": "ap",
+  "value": 0.20221275314190407,
+  "prevalence": 0.04998233914375305,
+  "n": 11324,
+  "n_pos": 566
+ },
+ "onset_cross_dep_h21": {
+  "metric": "ap",
+  "value": 0.23009610074981734,
+  "prevalence": 0.07285276055335999,
+  "n": 10432,
+  "n_pos": 760
+ },
+ "onset_cross_anx_h7": {
+  "metric": "ap",
+  "value": 0.13830937542343041,
+  "prevalence": 0.021748051047325134,
+  "n": 12185,
+  "n_pos": 265
+ },
+ "onset_cross_anx_h14": {
+  "metric": "ap",
+  "value": 0.23332821302637424,
+  "prevalence": 0.044004593044519424,
+  "n": 11317,
+  "n_pos": 498
+ },
+ "onset_cross_anx_h21": {
+  "metric": "ap",
+  "value": 0.31286916033320405,
+  "prevalence": 0.06638526171445847,
+  "n": 10424,
+  "n_pos": 692
+ }
+}

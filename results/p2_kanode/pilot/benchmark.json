@@ -1,0 +1,55 @@
+{
+ "SYNTHETIC": true,
+ "threads": 4,
+ "batch": 256,
+ "results": {
+  "m1": {
+   "sec_per_batch_median": 0.2441549999639392,
+   "n_params": 20932,
+   "ratio_vs_m1": 1.0,
+   "projected_wall_min_per_seed_if_m1_epochs_meanM1": 11.051538313000153,
+   "projected_wall_min_per_seed_if_m1_epochs_maxM1": 14.583858390000144
+  },
+  "kanode_S1": {
+   "sec_per_batch_median": 0.7148526000091806,
+   "n_params": 21580,
+   "ratio_vs_m1": 2.9278638574461375,
+   "projected_wall_min_per_seed_if_m1_epochs_meanM1": 32.35739959581441,
+   "projected_wall_min_per_seed_if_m1_epochs_maxM1": 42.69955188219404
+  },
+  "kanode_S2": {
+   "sec_per_batch_median": 1.202914800029248,
+   "n_params": 21580,
+   "ratio_vs_m1": 4.926848928782594,
+   "projected_wall_min_per_seed_if_m1_epochs_meanM1": 54.44925969880459,
+   "projected_wall_min_per_seed_if_m1_epochs_maxM1": 71.85246708628925
+  },
+  "kanode_noflow": {
+   "sec_per_batch_median": 0.3384814999299124,
+   "n_params": 20932,
+   "ratio_vs_m1": 1.38633859630114,
+   "projected_wall_min_per_seed_if_m1_epochs_meanM1": 15.321174111812901,
+   "projected_wall_min_per_seed_if_m1_epochs_maxM1": 20.218165769047406
+  },
+  "gru": {
+   "sec_per_batch_median": 0.017877599922940135,
+   "n_params": 10864,
+   "ratio_vs_m1": 0.07322233796391879,
+   "projected_wall_min_per_seed_if_m1_epochs_meanM1": 0.8092194733756941,
+   "projected_wall_min_per_seed_if_m1_epochs_maxM1": 1.0678642078505232
+  },
+  "grud": {
+   "sec_per_batch_median": 0.042864899965934455,
+   "n_params": 11024,
+   "ratio_vs_m1": 0.17556429306082386,
+   "projected_wall_min_per_seed_if_m1_epochs_meanM1": 1.9402555111564819,
+   "projected_wall_min_per_seed_if_m1_epochs_maxM1": 2.56040478833954
+  }
+ },
+ "m1_saved_wall_s_mean": 663.0922987800092,
+ "m1_saved_wall_s_max": 875.0315034000087,
+ "G2_projection_kanode_S1_min": 42.69955188219404,
+ "G2_limit_min": 75,
+ "G2_projection_pass": true,
+ "note": "projection = (sec/batch ratio vs M1) x saved M1 wall time per seed; assumes a similar number of epochs; the measured wall time of the real run is the binding G2 value"
+}

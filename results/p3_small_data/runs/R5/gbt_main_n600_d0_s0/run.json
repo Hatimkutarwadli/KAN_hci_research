@@ -1,0 +1,20 @@
+{
+ "SYNTHETIC": true,
+ "test_split_loaded": false,
+ "ds": "R5",
+ "model": "gbt",
+ "ts": "main",
+ "n": 600,
+ "draw": 0,
+ "seed": 0,
+ "variant": "primary",
+ "id": "gbt_main_n600_d0_s0",
+ "cost": 3.0,
+ "wall_s": 180.65489830006845,
+ "cpu_s": 585.96875,
+ "finite": true,
+ "n_params": null,
+ "partial_rerun": false,
+ "history": null,
+ "finished": "2026-11-17T22:47:02.522323"
+}

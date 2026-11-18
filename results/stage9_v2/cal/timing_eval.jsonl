@@ -1,0 +1,118 @@
+{"scenario": "C0", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 10.684978700010106}
+{"scenario": "S1_r10", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 10.899243700027}
+{"scenario": "S1_r10", "rep": 1, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 11.594353699998464}
+{"scenario": "S1_r20", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 12.113380099995993}
+{"scenario": "S1_r20", "rep": 1, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 10.562259400030598}
+{"scenario": "S1_r40", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.603797200019471}
+{"scenario": "S1_r40", "rep": 1, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.692809399974067}
+{"scenario": "S1_r60", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.51520059996983}
+{"scenario": "S1_r60", "rep": 1, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.417411500005983}
+{"scenario": "S2_r10_L7", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.769372700015083}
+{"scenario": "S2_r10_L7", "rep": 1, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.533964000002015}
+{"scenario": "S2_r20_L7", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.40329990000464}
+{"scenario": "S2_r20_L7", "rep": 1, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.625687499996275}
+{"scenario": "S2_r40_L7", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.310438600019552}
+{"scenario": "S2_r40_L7", "rep": 1, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.089625700027682}
+{"scenario": "S2_r60_L7", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.103809799998999}
+{"scenario": "S2_r60_L7", "rep": 1, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.667892900004517}
+{"scenario": "S2_r20_L3", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.688338699983433}
+{"scenario": "S2_r20_L3", "rep": 1, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 7.85715940000955}
+{"scenario": "S2_r20_L14", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 7.548136800003704}
+{"scenario": "S2_r20_L14", "rep": 1, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 7.947877699974924}
+{"scenario": "S3_k3", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.122071899997536}
+{"scenario": "S3_k7", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.150270799989812}
+{"scenario": "S3_k14", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.597042799985502}
+{"scenario": "S4_activity_rand40", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.501375899999402}
+{"scenario": "S4_activity_rand40", "rep": 1, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.014434800017625}
+{"scenario": "S4_activity_blk40", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 7.854503399983514}
+{"scenario": "S4_activity_blk40", "rep": 1, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.251438400009647}
+{"scenario": "S4_activity_absent", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 7.93668359995354}
+{"scenario": "S4_sleep_rand40", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.148462400014978}
+{"scenario": "S4_sleep_rand40", "rep": 1, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.104179800022393}
+{"scenario": "S4_sleep_blk40", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.507174600032158}
+{"scenario": "S4_sleep_blk40", "rep": 1, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.321103799971752}
+{"scenario": "S4_sleep_absent", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.35481669998262}
+{"scenario": "S4_cardiac_rand40", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 9.609087000018917}
+{"scenario": "S4_cardiac_rand40", "rep": 1, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.246229299984407}
+{"scenario": "S4_cardiac_blk40", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.205079400038812}
+{"scenario": "S4_cardiac_blk40", "rep": 1, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.204926799982786}
+{"scenario": "S4_cardiac_absent", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.52430109999841}
+{"scenario": "S4_circadian_rand40", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.741662800021004}
+{"scenario": "S4_circadian_rand40", "rep": 1, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.24272330000531}
+{"scenario": "S4_circadian_blk40", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.341689799970482}
+{"scenario": "S4_circadian_blk40", "rep": 1, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.300138899998274}
+{"scenario": "S4_circadian_absent", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.010580800008029}
+{"scenario": "S5_rand40", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.111067899968475}
+{"scenario": "S5_rand40", "rep": 1, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.546373500023037}
+{"scenario": "S5_blk40", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 9.088190999988}
+{"scenario": "S5_blk40", "rep": 1, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.535659699991811}
+{"scenario": "Z0", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.444570299994666}
+{"scenario": "S1_r20_O", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.385970700008329}
+{"scenario": "S1_r20_O", "rep": 1, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.23955559998285}
+{"scenario": "S1_r40_O", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.189660900039598}
+{"scenario": "S1_r40_O", "rep": 1, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.471302800055128}
+{"scenario": "S2_r20_L7_O", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.7437836000463}
+{"scenario": "S2_r20_L7_O", "rep": 1, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.265809800010175}
+{"scenario": "S2_r40_L7_O", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.363396300002933}
+{"scenario": "S2_r40_L7_O", "rep": 1, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.67971190001117}
+{"scenario": "S3_k7_O", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.373212600010447}
+{"scenario": "S3_k14_O", "rep": 0, "configs": ["R1O0T0", "R1O0T1", "R0O1T0", "R0O1T1", "R0O2T0", "R0O2T1", "R0O3T0", "R0O3T1"], "total_s": 8.435192799952347}
+{"scenario": "C0", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.3339545000344515}
+{"scenario": "S1_r10", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.0219235999975353}
+{"scenario": "S1_r10", "rep": 1, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.0665380000136793}
+{"scenario": "S1_r20", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.030831300013233}
+{"scenario": "S1_r20", "rep": 1, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.111270199995488}
+{"scenario": "S1_r40", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 2.9712543999776244}
+{"scenario": "S1_r40", "rep": 1, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.0425237999879755}
+{"scenario": "S1_r60", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.166041899996344}
+{"scenario": "S1_r60", "rep": 1, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 2.957251299987547}
+{"scenario": "S2_r10_L7", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.123162899981253}
+{"scenario": "S2_r10_L7", "rep": 1, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.349530200008303}
+{"scenario": "S2_r20_L7", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.110915200028103}
+{"scenario": "S2_r20_L7", "rep": 1, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.18942920002155}
+{"scenario": "S2_r40_L7", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.261523799970746}
+{"scenario": "S2_r40_L7", "rep": 1, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.242374299967196}
+{"scenario": "S2_r60_L7", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.1090388000011444}
+{"scenario": "S2_r60_L7", "rep": 1, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.052809900022112}
+{"scenario": "S2_r20_L3", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.0516778000164777}
+{"scenario": "S2_r20_L3", "rep": 1, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.1775343000190333}
+{"scenario": "S2_r20_L14", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.507400599948596}
+{"scenario": "S2_r20_L14", "rep": 1, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.2094002999947406}
+{"scenario": "S3_k3", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.197737100010272}
+{"scenario": "S3_k7", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.136250099982135}
+{"scenario": "S3_k14", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.2927771999966353}
+{"scenario": "S4_activity_rand40", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.2133007000084035}
+{"scenario": "S4_activity_rand40", "rep": 1, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.1517796000116505}
+{"scenario": "S4_activity_blk40", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.2413833000464365}
+{"scenario": "S4_activity_blk40", "rep": 1, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.3016727999784052}
+{"scenario": "S4_activity_absent", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.598459900007583}
+{"scenario": "S4_sleep_rand40", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.525949299975764}
+{"scenario": "S4_sleep_rand40", "rep": 1, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.340766499983147}
+{"scenario": "S4_sleep_blk40", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.3933452000492252}
+{"scenario": "S4_sleep_blk40", "rep": 1, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.31406230002176}
+{"scenario": "S4_sleep_absent", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.3548669000156224}
+{"scenario": "S4_cardiac_rand40", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.341085000021849}
+{"scenario": "S4_cardiac_rand40", "rep": 1, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.320308499969542}
+{"scenario": "S4_cardiac_blk40", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.2111534000141546}
+{"scenario": "S4_cardiac_blk40", "rep": 1, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.639420900028199}
+{"scenario": "S4_cardiac_absent", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.354752400016878}
+{"scenario": "S4_circadian_rand40", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.3209182000136934}
+{"scenario": "S4_circadian_rand40", "rep": 1, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.755107600009069}
+{"scenario": "S4_circadian_blk40", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.6905792000470683}
+{"scenario": "S4_circadian_blk40", "rep": 1, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.4821388000273146}
+{"scenario": "S4_circadian_absent", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.352712000021711}
+{"scenario": "S5_rand40", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.2316695000045}
+{"scenario": "S5_rand40", "rep": 1, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.3521795999840833}
+{"scenario": "S5_blk40", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.4009030000306666}
+{"scenario": "S5_blk40", "rep": 1, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.3551208000280894}
+{"scenario": "Z0", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.2875202000141144}
+{"scenario": "S1_r20_O", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.2524544000043534}
+{"scenario": "S1_r20_O", "rep": 1, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.298828599974513}
+{"scenario": "S1_r40_O", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.2538673999952152}
+{"scenario": "S1_r40_O", "rep": 1, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.1148850999888964}
+{"scenario": "S2_r20_L7_O", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.2139356999541633}
+{"scenario": "S2_r20_L7_O", "rep": 1, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.327350999985356}
+{"scenario": "S2_r40_L7_O", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.6393910000333562}
+{"scenario": "S2_r40_L7_O", "rep": 1, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.4056607999955304}
+{"scenario": "S3_k7_O", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.1776472000055946}
+{"scenario": "S3_k14_O", "rep": 0, "configs": ["R0O0T1", "R0O2T1", "R0O3T1"], "total_s": 3.3569169999682344}

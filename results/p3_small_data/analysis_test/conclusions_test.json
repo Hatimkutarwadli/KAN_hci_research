@@ -1,0 +1,226 @@
+{
+ "SYNTHETIC": true,
+ "split": "test",
+ "RQ1a_n50": {
+  "label": "mixed",
+  "n": 50,
+  "n_reproducible_KAN": 0,
+  "n_reproducible_MLP": 0,
+  "n_KAN_one_dataset_only": 3,
+  "KAN_consistent_per_dataset": {
+   "R4": 0,
+   "R5": 3
+  },
+  "primary_only": {
+   "reproducible_KAN": 0,
+   "reproducible_MLP": 0
+  }
+ },
+ "RQ1b_n50": {
+  "label": "not supported",
+  "n": 50,
+  "per_model": {
+   "kan_reg": {
+    "rep_adv": 0,
+    "rep_loss": 0,
+    "one_ds_adv": 1
+   },
+   "m1": {
+    "rep_adv": 0,
+    "rep_loss": 4,
+    "one_ds_adv": 0
+   }
+  },
+  "supported_by": []
+ },
+ "RQ1a_n100": {
+  "label": "not supported",
+  "n": 100,
+  "n_reproducible_KAN": 0,
+  "n_reproducible_MLP": 0,
+  "n_KAN_one_dataset_only": 2,
+  "KAN_consistent_per_dataset": {
+   "R4": 1,
+   "R5": 1
+  },
+  "primary_only": {
+   "reproducible_KAN": 0,
+   "reproducible_MLP": 0
+  }
+ },
+ "RQ1b_n100": {
+  "label": "not supported",
+  "n": 100,
+  "per_model": {
+   "kan_reg": {
+    "rep_adv": 0,
+    "rep_loss": 0,
+    "one_ds_adv": 0
+   },
+   "m1": {
+    "rep_adv": 0,
+    "rep_loss": 4,
+    "one_ds_adv": 0
+   }
+  },
+  "supported_by": []
+ },
+ "secondary_counts": {
+  "200": {
+   "RQ1a_counts": {
+    "n": 200,
+    "n_reproducible_KAN": 4,
+    "n_reproducible_MLP": 0,
+    "n_KAN_one_dataset_only": 1,
+    "KAN_consistent_per_dataset": {
+     "R4": 5,
+     "R5": 4
+    },
+    "primary_only": {
+     "reproducible_KAN": 2,
+     "reproducible_MLP": 0
+    }
+   },
+   "RQ1b_counts": {
+    "n": 200,
+    "per_model": {
+     "kan_reg": {
+      "rep_adv": 0,
+      "rep_loss": 1,
+      "one_ds_adv": 1
+     },
+     "m1": {
+      "rep_adv": 0,
+      "rep_loss": 2,
+      "one_ds_adv": 0
+     }
+    },
+    "supported_by": []
+   }
+  },
+  "400": {
+   "RQ1a_counts": {
+    "n": 400,
+    "n_reproducible_KAN": 1,
+    "n_reproducible_MLP": 0,
+    "n_KAN_one_dataset_only": 2,
+    "KAN_consistent_per_dataset": {
+     "R4": 2,
+     "R5": 2
+    },
+    "primary_only": {
+     "reproducible_KAN": 0,
+     "reproducible_MLP": 0
+    }
+   },
+   "RQ1b_counts": {
+    "n": 400,
+    "per_model": {
+     "kan_reg": {
+      "rep_adv": 0,
+      "rep_loss": 1,
+      "one_ds_adv": 0
+     },
+     "m1": {
+      "rep_adv": 0,
+      "rep_loss": 3,
+      "one_ds_adv": 0
+     }
+    },
+    "supported_by": []
+   }
+  },
+  "600": {
+   "RQ1a_counts": {
+    "n": 600,
+    "n_reproducible_KAN": 0,
+    "n_reproducible_MLP": 2,
+    "n_KAN_one_dataset_only": 1,
+    "KAN_consistent_per_dataset": {
+     "R4": 1,
+     "R5": 0
+    },
+    "primary_only": {
+     "reproducible_KAN": 0,
+     "reproducible_MLP": 2
+    }
+   },
+   "RQ1b_counts": {
+    "n": 600,
+    "per_model": {
+     "kan_reg": {
+      "rep_adv": 0,
+      "rep_loss": 1,
+      "one_ds_adv": 0
+     },
+     "m1": {
+      "rep_adv": 0,
+      "rep_loss": 4,
+      "one_ds_adv": 0
+     }
+    },
+    "supported_by": []
+   }
+  }
+ },
+ "cal_vs_test": {
+  "50": {
+   "comparisons": 72,
+   "same_sign": 62,
+   "same_better_label": 51,
+   "direction_reversals": 0
+  },
+  "100": {
+   "comparisons": 72,
+   "same_sign": 62,
+   "same_better_label": 60,
+   "direction_reversals": 0
+  },
+  "200": {
+   "comparisons": 72,
+   "same_sign": 58,
+   "same_better_label": 45,
+   "direction_reversals": 3
+  },
+  "400": {
+   "comparisons": 72,
+   "same_sign": 56,
+   "same_better_label": 53,
+   "direction_reversals": 1
+  },
+  "600": {
+   "comparisons": 72,
+   "same_sign": 59,
+   "same_better_label": 53,
+   "direction_reversals": 3
+  }
+ },
+ "labels_cal_vs_test": {
+  "RQ1a_n50": {
+   "cal": "not supported",
+   "test": "mixed"
+  },
+  "RQ1a_n100": {
+   "cal": "mixed",
+   "test": "not supported"
+  },
+  "RQ1b_n50": {
+   "cal": "not supported",
+   "test": "not supported"
+  },
+  "RQ1b_n100": {
+   "cal": "not supported",
+   "test": "not supported"
+  }
+ },
+ "test_access": {
+  "SYNTHETIC": true,
+  "lock_sha256": "e53fa546a51426030fd54831f42f0f15897a7071ecb19d0f85cea158b01e90a7",
+  "lock_n_files": 1735,
+  "start": "2026-11-18T01:26:48.449636",
+  "scope": "416 primary jobs; R4 and R5 test splits; inference only",
+  "end": "2026-11-18T01:41:51.140709",
+  "n_jobs": 416,
+  "all_finite": true
+ }
+}

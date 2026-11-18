@@ -1,0 +1,11 @@
+E:\HCI LAB\researchproject\synthetic-dataset-research\src\baselines.py:187: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\autograd\generated\python_variable_methods.cpp:821.)
+  run += float(loss) * len(yb)
+  grud seed3 ep1 train 0.3087 cal 0.2217
+  grud seed3 ep2 train 0.2054 cal 0.2184
+  grud seed3 ep3 train 0.1978 cal 0.2182
+  grud seed3 ep4 train 0.1960 cal 0.2195
+  grud seed3 ep5 train 0.1937 cal 0.2188
+  grud seed3 ep6 train 0.1923 cal 0.2197
+  grud seed3 ep7 train 0.1886 cal 0.2215
+done grud wall 62s -> results/p2_kanode/full/grud_main_seed3

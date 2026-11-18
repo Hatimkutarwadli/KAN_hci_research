@@ -1,0 +1,25 @@
+{
+ "SYNTHETIC": true,
+ "stage": "9 step 2",
+ "config": "R0.O0.T1 (frozen 2 flags, frozen ffill<=3 then 0, training augmentation)",
+ "model": "GRUNet (unchanged, 10 input channels, 10864 params)",
+ "taskset": "main (16 heads)",
+ "training": "frozen fit_nn defaults: 25 epochs max, patience 4, bs 256, lr 2e-3, wd 1e-5, epoch_frac 0.5, epoch selected on CLEAN calibration loss; seeds 0-4, same seed/init/batch order as the baseline",
+ "augmentation": {
+  "p_aug": 0.5,
+  "rate": "U(0,0.5)",
+  "families": [
+   "random_day",
+   "block(3/7/14)",
+   "single_group(block 1/7)",
+   "multi_group(block 1/7)"
+  ],
+  "excluded": [
+   "explicit trailing outage",
+   "whole-group removal"
+  ],
+  "source": "train participants only, random numbers only, honest flags"
+ },
+ "evaluation": "Stage 8 scenarios/replicates/metrics, origins 27,29,...,119, CALIBRATION split only; test split locked",
+ "baseline": "existing frozen GRU main checkpoints (results/stage3), metrics from results/stage8_missing/cal/metrics"
+}

@@ -1,0 +1,32 @@
+{
+ "SYNTHETIC": true,
+ "split": "cal",
+ "n_origins": 1000,
+ "truth": {
+  "sleep_variability->dep": {
+   "lag": 3,
+   "sign": 1,
+   "beta_per_std_unit": 0.12253316192440328,
+   "a": 0.08
+  },
+  "steps->dep": {
+   "lag": 2,
+   "sign": -1,
+   "beta_per_std_unit": -0.08702580463206457,
+   "a": 0.08
+  },
+  "steps->anx": {
+   "lag": 2,
+   "sign": -1,
+   "beta_per_std_unit": -0.052868018797391114,
+   "a": 0.08
+  },
+  "hrv->anx": {
+   "lag": 1,
+   "sign": -1,
+   "beta_per_std_unit": -0.09223630227447399,
+   "a": 0.08
+  }
+ },
+ "benchmark_source": "train+cal truth of this dataset"
+}

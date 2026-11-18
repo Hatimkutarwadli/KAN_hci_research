@@ -1,0 +1,104 @@
+{
+ "SYNTHETIC": true,
+ "test_split_loaded": false,
+ "ds": "R4",
+ "model": "kan_reg",
+ "ts": "main",
+ "n": 50,
+ "draw": 4,
+ "seed": 1,
+ "variant": "primary",
+ "id": "kan_reg_main_n50_d4_s1",
+ "cost": 0.8333333333333334,
+ "wall_s": 152.74204570008442,
+ "cpu_s": 547.265625,
+ "finite": true,
+ "n_params": 29336,
+ "partial_rerun": false,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.6225277084176258,
+   "cal_loss": 0.4380965232849121
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.4176803985590576,
+   "cal_loss": 0.33041080832481384
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.34268810946454287,
+   "cal_loss": 0.2833467423915863
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.30217627696452604,
+   "cal_loss": 0.2599583566188812
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.2821606348406884,
+   "cal_loss": 0.2503805458545685
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.2638623312980898,
+   "cal_loss": 0.24150244891643524
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.25411153119738383,
+   "cal_loss": 0.24194344878196716
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.24870384081717462,
+   "cal_loss": 0.24005845189094543
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.238019559678211,
+   "cal_loss": 0.23924121260643005
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.2092425279335309,
+   "cal_loss": 0.2366732805967331
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.21842133579715606,
+   "cal_loss": 0.24728631973266602
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.2033052037223693,
+   "cal_loss": 0.2611520290374756
+  },
+  {
+   "epoch": 13,
+   "train_loss": 0.19545239633129488,
+   "cal_loss": 0.2649093568325043
+  },
+  {
+   "epoch": 14,
+   "train_loss": 0.1904250313710141,
+   "cal_loss": 0.2521061599254608
+  }
+ ],
+ "best_epoch": 10,
+ "epochs_run": 14,
+ "hparams": {
+  "epochs": 25,
+  "patience": 4,
+  "batch_size": 256,
+  "lr": 0.002,
+  "weight_decay": 0.001,
+  "epoch_frac": 0.5,
+  "model_kwargs": {
+   "dropout": 0.3
+  }
+ },
+ "finished": "2026-11-17T23:41:02.992829"
+}

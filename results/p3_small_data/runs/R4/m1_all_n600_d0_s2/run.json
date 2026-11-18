@@ -1,0 +1,104 @@
+{
+ "SYNTHETIC": true,
+ "test_split_loaded": false,
+ "ds": "R4",
+ "model": "m1",
+ "ts": "all",
+ "n": 600,
+ "draw": 0,
+ "seed": 2,
+ "variant": "primary",
+ "id": "m1_all_n600_d0_s2",
+ "cost": 54.0,
+ "wall_s": 871.1486565000378,
+ "cpu_s": 2668.484375,
+ "finite": true,
+ "n_params": 20932,
+ "partial_rerun": true,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.44967003402744143,
+   "cal_loss": 0.3337417542934418
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.3324797810021267,
+   "cal_loss": 0.32853570580482483
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.32390960591668294,
+   "cal_loss": 0.32846203446388245
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.3287241595363959,
+   "cal_loss": 0.3260447084903717
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.3249961680109783,
+   "cal_loss": 0.33833593130111694
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.3219010252978212,
+   "cal_loss": 0.32703354954719543
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.32353852706143504,
+   "cal_loss": 0.3345157206058502
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.3146862010289264,
+   "cal_loss": 0.32942619919776917
+  }
+ ],
+ "best_epoch": 4,
+ "epochs_run": 8,
+ "hparams": {
+  "epochs": 25,
+  "patience": 4,
+  "batch_size": 256,
+  "lr": 0.002,
+  "weight_decay": 0.001,
+  "epoch_frac": 0.5,
+  "model_kwargs": {
+   "dropout": 0.3,
+   "heads": [
+    "sev_dep_t0",
+    "sev_dep_h7",
+    "sev_dep_h14",
+    "sev_dep_h21",
+    "sev_anx_t0",
+    "sev_anx_h7",
+    "sev_anx_h14",
+    "sev_anx_h21",
+    "status_dep_t0",
+    "status_dep_h7",
+    "status_dep_h14",
+    "status_dep_h21",
+    "status_anx_t0",
+    "status_anx_h7",
+    "status_anx_h14",
+    "status_anx_h21",
+    "onset_sust_dep_h7",
+    "onset_sust_dep_h14",
+    "onset_sust_dep_h21",
+    "onset_sust_anx_h7",
+    "onset_sust_anx_h14",
+    "onset_sust_anx_h21",
+    "onset_cross_dep_h7",
+    "onset_cross_dep_h14",
+    "onset_cross_dep_h21",
+    "onset_cross_anx_h7",
+    "onset_cross_anx_h14",
+    "onset_cross_anx_h21"
+   ]
+  }
+ },
+ "finished": "2026-11-17T19:17:20.631623"
+}

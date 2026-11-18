@@ -1,0 +1,17 @@
+{
+ "SYNTHETIC": true,
+ "item": "P2-1 KAN-ODE one-seed feasibility pilot (calibration only; test split not loaded)",
+ "seed": 0,
+ "data": "data/processed_v1 (frozen, unchanged); splits train/cal/test 600/200/200 unchanged",
+ "kanode": {"latent_dim": 8, "substeps": 1, "step_h_days": 1.0, "solver": "fixed-step RK4", "kappa_range": [0.05, 2.0], "rho_init": -1.2,
+            "vector_field": "kappa * (zbar - z + 2 tanh(K_f(z))) -- autonomous between observation days",
+            "update": "m * tanh(z + K_g([z, xt])) + (1 - m) * z, m = 1 - missing_day", "encoder_heads": "M1 (unchanged)"},
+ "protocol_kan": {"taskset": "all", "epochs": 25, "patience": 4, "batch_size": 256, "lr": 0.002, "weight_decay": 0.001, "epoch_frac": 0.5, "dropout": 0.3,
+                  "note": "identical to results/stage4_m1 (M1)"},
+ "protocol_gru": {"tasksets": ["main", "forecast"], "epochs": 25, "patience": 4, "batch_size": 256, "lr": 0.002, "weight_decay": 1e-05, "epoch_frac": 0.5, "dropout": 0.0,
+                  "note": "identical to results/stage3 and results/stage3c_forecast (GRU)"},
+ "gates": {"G1": "no NaN/Inf in latent or outputs; latent within spline grid or extrapolation fraction reported; RK4 S=1 vs S=4 discrepancy small; kappa*h <= 2",
+           "G2_max_wall_min_per_seed": 75,
+           "G3": "KAN-ODE seed-0 best calibration loss compared with the M1 5-seed mean and SD (feasibility assessment only, not superiority)"},
+ "references_to_verify": ["Chen et al. 2018 Neural ODEs", "Rubanova et al. 2019 Latent ODEs / ODE-RNN", "Che et al. 2018 GRU-D (Scientific Reports)", "Liu et al. 2024 KAN", "Koenig et al. 2024 KAN-ODEs"]
+}

@@ -1,0 +1,62 @@
+{
+  "n_participants": 1000,
+  "n_days": 120,
+  "burn_in": 60,
+  "seed": 2027,
+  "a": 0.08,
+  "z_noise": 0.2,
+  "coupling": 0.03,
+  "m_sd": 0.5,
+  "base_sd": 0.6,
+  "female_shift": 0.15,
+  "ep_prob": 0.006,
+  "ep_len": [
+    10,
+    25
+  ],
+  "ep_drift": [
+    0.08,
+    0.16
+  ],
+  "ep_anx_share": 0.5,
+  "eff_sv_dep": 0.06,
+  "eff_steps_dep": -0.05,
+  "eff_steps_anx": -0.03,
+  "eff_hrv_anx": -0.05,
+  "eff_stress_direct": 0.03,
+  "lag_sv": 3,
+  "lag_steps": 2,
+  "lag_hrv": 1,
+  "sens_sd": 0.3,
+  "rev_steps": -0.15,
+  "rev_hrv": -0.1,
+  "sev_intercept": 8.0,
+  "sev_scale": 3.0,
+  "sev_noise": 1.0,
+  "z_thr_dep": 2.45,
+  "z_thr_anx": 2.05,
+  "miss_mean": 0.12,
+  "miss_persist": 0.6,
+  "miss_informative": 0.5,
+  "partial_hrv_miss": 0.04,
+  "sensor_sd": 0.35,
+  "noisy_group_mult": 1.6,
+  "stress_proxy_sd": 0.8,
+  "horizons": [
+    7,
+    14,
+    21
+  ],
+  "persistence_days": 3,
+  "p_female": 0.65,
+  "age_probs": [
+    0.45,
+    0.45,
+    0.1
+  ],
+  "split_fracs": [
+    0.6,
+    0.2,
+    0.2
+  ]
+}

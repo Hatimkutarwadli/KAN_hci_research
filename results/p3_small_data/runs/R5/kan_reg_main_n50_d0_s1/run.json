@@ -1,0 +1,109 @@
+{
+ "SYNTHETIC": true,
+ "test_split_loaded": false,
+ "ds": "R5",
+ "model": "kan_reg",
+ "ts": "main",
+ "n": 50,
+ "draw": 0,
+ "seed": 1,
+ "variant": "primary",
+ "id": "kan_reg_main_n50_d0_s1",
+ "cost": 0.8333333333333334,
+ "wall_s": 180.76031899999361,
+ "cpu_s": 633.703125,
+ "finite": true,
+ "n_params": 29336,
+ "partial_rerun": false,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.6239155853691921,
+   "cal_loss": 0.4104101359844208
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.41538339373885946,
+   "cal_loss": 0.31686675548553467
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.3351854157960543,
+   "cal_loss": 0.2639481723308563
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.2954534452128154,
+   "cal_loss": 0.2389175295829773
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.2783725810948239,
+   "cal_loss": 0.22815905511379242
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.2660315170723905,
+   "cal_loss": 0.22540375590324402
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.2495433283236719,
+   "cal_loss": 0.22240325808525085
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.23921806530285908,
+   "cal_loss": 0.225075826048851
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.23002234033358995,
+   "cal_loss": 0.21877995133399963
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.21740012610471376,
+   "cal_loss": 0.21931301057338715
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.21035567413735135,
+   "cal_loss": 0.21477065980434418
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.20159433183170133,
+   "cal_loss": 0.21741873025894165
+  },
+  {
+   "epoch": 13,
+   "train_loss": 0.17873545663972054,
+   "cal_loss": 0.22014369070529938
+  },
+  {
+   "epoch": 14,
+   "train_loss": 0.17240168709908762,
+   "cal_loss": 0.22725483775138855
+  },
+  {
+   "epoch": 15,
+   "train_loss": 0.16024052863479943,
+   "cal_loss": 0.22978149354457855
+  }
+ ],
+ "best_epoch": 11,
+ "epochs_run": 15,
+ "hparams": {
+  "epochs": 25,
+  "patience": 4,
+  "batch_size": 256,
+  "lr": 0.002,
+  "weight_decay": 0.001,
+  "epoch_frac": 0.5,
+  "model_kwargs": {
+   "dropout": 0.3
+  }
+ },
+ "finished": "2026-11-17T23:44:27.871966"
+}

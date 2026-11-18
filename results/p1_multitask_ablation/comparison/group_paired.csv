@@ -1,0 +1,81 @@
+group,metric,split,A,B,description,A_mean,B_mean,worse_pct_mean,worse_pct_sd,n_seeds_A_better,n_seeds
+Severity nowcast,rmse,cal,ST,MT,single-task vs multitask (total effect),2.915845799446106,2.9226547956466673,-0.23267818176403332,0.23704027238876732,4,5
+Severity nowcast,rmse,cal,ST-matched,MT,single-task at MT's epochs vs multitask (equal budget),2.9392151832580566,2.9226547956466673,0.5671078019361975,0.4428647425462383,0,5
+Severity nowcast,rmse,cal,ST,ST-matched,ST selection advantage (own early stopping vs MT's epochs),2.915845799446106,2.9392151832580566,-0.7945180376333272,0.2306496241176431,5,5
+Severity nowcast,rmse,cal,FAM,MT,family-only multitask vs full multitask (cross-family sharing),2.922048330307007,2.9226547956466673,-0.020417077432951115,0.2838117140190606,2,5
+Severity nowcast,rmse,cal,ST,FAM,single-task vs family multitask (within-family sharing),2.915845799446106,2.922048330307007,-0.21197814808739332,0.2391946968346361,4,5
+Severity nowcast,rmse,test,ST,MT,single-task vs multitask (total effect),2.9505157470703125,2.9370116233825683,0.4604375360528115,0.3664379994840338,0,5
+Severity nowcast,rmse,test,ST-matched,MT,single-task at MT's epochs vs multitask (equal budget),2.952903318405151,2.9370116233825683,0.5413604399442458,0.35627372240302563,0,5
+Severity nowcast,rmse,test,ST,ST-matched,ST selection advantage (own early stopping vs MT's epochs),2.9505157470703125,2.952903318405151,-0.0801851983351887,0.2877786509124349,2,5
+Severity nowcast,rmse,test,FAM,MT,family-only multitask vs full multitask (cross-family sharing),2.936178755760193,2.9370116233825683,-0.028142458784177808,0.21818693420163723,2,5
+Severity nowcast,rmse,test,ST,FAM,single-task vs family multitask (within-family sharing),2.9505157470703125,2.936178755760193,0.48879092240056066,0.323296007430201,0,5
+Status nowcast,ap,cal,ST,MT,single-task vs multitask (total effect),0.3019723552805233,0.28671344569262586,-5.3510088640269,2.269796815289012,5,5
+Status nowcast,ap,cal,ST-matched,MT,single-task at MT's epochs vs multitask (equal budget),0.30233740288682237,0.28671344569262586,-5.462148805304926,1.619633046611253,5,5
+Status nowcast,ap,cal,ST,ST-matched,ST selection advantage (own early stopping vs MT's epochs),0.3019723552805233,0.30233740288682237,0.10316378115989563,1.6895089533708778,2,5
+Status nowcast,ap,cal,FAM,MT,family-only multitask vs full multitask (cross-family sharing),0.2995354296245533,0.28671344569262586,-4.5370337480213845,5.001376464316388,4,5
+Status nowcast,ap,cal,ST,FAM,single-task vs family multitask (within-family sharing),0.3019723552805233,0.2995354296245533,-0.9567549628718265,5.129305334392485,3,5
+Status nowcast,ap,test,ST,MT,single-task vs multitask (total effect),0.3525488743409749,0.342576156610365,-2.9329802658680832,3.551757791356507,4,5
+Status nowcast,ap,test,ST-matched,MT,single-task at MT's epochs vs multitask (equal budget),0.34849152542889306,0.342576156610365,-1.7522031436580927,3.431957058260245,3,5
+Status nowcast,ap,test,ST,ST-matched,ST selection advantage (own early stopping vs MT's epochs),0.3525488743409749,0.34849152542889306,-1.188128130721577,2.780395865185738,3,5
+Status nowcast,ap,test,FAM,MT,family-only multitask vs full multitask (cross-family sharing),0.3577346788302017,0.342576156610365,-4.432844987880533,1.7199299249662752,5,5
+Status nowcast,ap,test,ST,FAM,single-task vs family multitask (within-family sharing),0.3525488743409749,0.3577346788302017,1.4349449276368005,3.075377574894235,1,5
+Status nowcast,auroc,cal,ST,MT,single-task vs multitask (total effect),0.8344458554801986,0.8322242889064796,-0.26711245004018036,0.36132269828472896,3,5
+Status nowcast,auroc,cal,ST-matched,MT,single-task at MT's epochs vs multitask (equal budget),0.834421693583607,0.8322242889064796,-0.26409590479201034,0.2720255229995102,4,5
+Status nowcast,auroc,cal,ST,ST-matched,ST selection advantage (own early stopping vs MT's epochs),0.8344458554801986,0.834421693583607,-0.0029523781575150564,0.20497048333918258,3,5
+Status nowcast,auroc,cal,FAM,MT,family-only multitask vs full multitask (cross-family sharing),0.8323948513521945,0.8322242889064796,-0.02046323336681981,0.34176516012819064,3,5
+Status nowcast,auroc,cal,ST,FAM,single-task vs family multitask (within-family sharing),0.8344458554801986,0.8323948513521945,-0.2466700611239927,0.17550800611906767,4,5
+Status nowcast,auroc,test,ST,MT,single-task vs multitask (total effect),0.8592509865740519,0.8596268675224839,0.043755385397622255,0.21708454192170118,2,5
+Status nowcast,auroc,test,ST-matched,MT,single-task at MT's epochs vs multitask (equal budget),0.8571814288057522,0.8596268675224839,0.2845149739322616,0.2659342740544239,1,5
+Status nowcast,auroc,test,ST,ST-matched,ST selection advantage (own early stopping vs MT's epochs),0.8592509865740519,0.8571814288057522,-0.24179450501855868,0.2514089128460632,4,5
+Status nowcast,auroc,test,FAM,MT,family-only multitask vs full multitask (cross-family sharing),0.859161615068676,0.8596268675224839,0.05411266554100917,0.27005237681574534,2,5
+Status nowcast,auroc,test,ST,FAM,single-task vs family multitask (within-family sharing),0.8592509865740519,0.859161615068676,-0.010579093846164062,0.1679081448932236,2,5
+Sustained onset,ap,cal,ST,MT,single-task vs multitask (total effect),0.12373515649597874,0.1320519646824911,6.2043714592951265,3.75078711178577,0,5
+Sustained onset,ap,cal,ST-matched,MT,single-task at MT's epochs vs multitask (equal budget),0.12278246389169707,0.1320519646824911,6.849797818715837,5.379779822832009,1,5
+Sustained onset,ap,cal,ST,ST-matched,ST selection advantage (own early stopping vs MT's epochs),0.12373515649597874,0.12278246389169707,-0.8007898074463444,3.1190808492626796,2,5
+Sustained onset,ap,cal,FAM,MT,family-only multitask vs full multitask (cross-family sharing),0.12981105636591048,0.1320519646824911,1.6356260781040306,7.705105008226957,2,5
+Sustained onset,ap,cal,ST,FAM,single-task vs family multitask (within-family sharing),0.12373515649597874,0.12981105636591048,4.083064183979575,9.73428069389194,2,5
+Sustained onset,ap,test,ST,MT,single-task vs multitask (total effect),0.09970791878093554,0.11568167762075306,13.671164096110084,5.73114656699968,0,5
+Sustained onset,ap,test,ST-matched,MT,single-task at MT's epochs vs multitask (equal budget),0.10080310192055161,0.11568167762075306,12.861997719108057,4.858221209958187,0,5
+Sustained onset,ap,test,ST,ST-matched,ST selection advantage (own early stopping vs MT's epochs),0.09970791878093554,0.10080310192055161,0.8131365296829831,6.334316694493824,2,5
+Sustained onset,ap,test,FAM,MT,family-only multitask vs full multitask (cross-family sharing),0.10243444187388864,0.11568167762075306,11.362459808995037,6.023770928248721,0,5
+Sustained onset,ap,test,ST,FAM,single-task vs family multitask (within-family sharing),0.09970791878093554,0.10243444187388864,2.5235369737107196,4.299447876641222,1,5
+Sustained onset,auroc,cal,ST,MT,single-task vs multitask (total effect),0.7734320570235738,0.784206465362483,1.3727865679995213,0.6845040868834117,0,5
+Sustained onset,auroc,cal,ST-matched,MT,single-task at MT's epochs vs multitask (equal budget),0.7706038892388409,0.784206465362483,1.7338035981108664,0.4668771888908077,0,5
+Sustained onset,auroc,cal,ST,ST-matched,ST selection advantage (own early stopping vs MT's epochs),0.7734320570235738,0.7706038892388409,-0.3672646817755414,0.47600296038063705,3,5
+Sustained onset,auroc,cal,FAM,MT,family-only multitask vs full multitask (cross-family sharing),0.7821994717863285,0.784206465362483,0.25501655643229715,0.5434392878820218,2,5
+Sustained onset,auroc,cal,ST,FAM,single-task vs family multitask (within-family sharing),0.7734320570235738,0.7821994717863285,1.119329542577572,0.7085873564885374,0,5
+Sustained onset,auroc,test,ST,MT,single-task vs multitask (total effect),0.7791467307957018,0.786843460767537,0.9776393093104154,0.2973636200018173,0,5
+Sustained onset,auroc,test,ST-matched,MT,single-task at MT's epochs vs multitask (equal budget),0.7811627029498955,0.786843460767537,0.7212605644865617,0.3701474065228854,0,5
+Sustained onset,auroc,test,ST,ST-matched,ST selection advantage (own early stopping vs MT's epochs),0.7791467307957018,0.7811627029498955,0.25766488834500273,0.3092021026810213,1,5
+Sustained onset,auroc,test,FAM,MT,family-only multitask vs full multitask (cross-family sharing),0.786491230654334,0.786843460767537,0.04433993312118428,0.42717151867428543,2,5
+Sustained onset,auroc,test,ST,FAM,single-task vs family multitask (within-family sharing),0.7791467307957018,0.786491230654334,0.9326781864755563,0.40705300487413026,0,5
+Severity forecast,rmse,cal,ST,MT,single-task vs multitask (total effect),3.152106118202209,3.147155563036601,0.1578199718245334,0.243500332470221,2,5
+Severity forecast,rmse,cal,ST-matched,MT,single-task at MT's epochs vs multitask (equal budget),3.168860403696696,3.147155563036601,0.6898201138178728,0.39194139034076847,0,5
+Severity forecast,rmse,cal,ST,ST-matched,ST selection advantage (own early stopping vs MT's epochs),3.152106118202209,3.168860403696696,-0.5274997106935003,0.3480369925869552,5,5
+Severity forecast,rmse,cal,FAM,MT,family-only multitask vs full multitask (cross-family sharing),3.1599056084950763,3.147155563036601,0.40555535572593737,0.2780763228923615,0,5
+Severity forecast,rmse,cal,ST,FAM,single-task vs family multitask (within-family sharing),3.152106118202209,3.1599056084950763,-0.2465938385093986,0.13295560213715998,5,5
+Severity forecast,rmse,test,ST,MT,single-task vs multitask (total effect),3.144953926404317,3.1212984482447306,0.7582653219594622,0.37069978496779266,0,5
+Severity forecast,rmse,test,ST-matched,MT,single-task at MT's epochs vs multitask (equal budget),3.1439836740493776,3.1212984482447306,0.7266656937032087,0.3023398799825179,0,5
+Severity forecast,rmse,test,ST,ST-matched,ST selection advantage (own early stopping vs MT's epochs),3.144953926404317,3.1439836740493776,0.03200546127799506,0.451184704767272,2,5
+Severity forecast,rmse,test,FAM,MT,family-only multitask vs full multitask (cross-family sharing),3.1307770808537803,3.1212984482447306,0.30386365260329146,0.24898320728094642,1,5
+Severity forecast,rmse,test,ST,FAM,single-task vs family multitask (within-family sharing),3.144953926404317,3.1307770808537803,0.45287575984049405,0.19200558990676342,0,5
+Status forecast,ap,cal,ST,MT,single-task vs multitask (total effect),0.24271906573143304,0.2424379958289462,-0.1201608234045783,1.146489051262259,2,5
+Status forecast,ap,cal,ST-matched,MT,single-task at MT's epochs vs multitask (equal budget),0.23851189971524636,0.2424379958289462,1.615763727249804,0.9568049224564824,0,5
+Status forecast,ap,cal,ST,ST-matched,ST selection advantage (own early stopping vs MT's epochs),0.24271906573143304,0.23851189971524636,-1.7652471469893112,0.7645716619488634,5,5
+Status forecast,ap,cal,FAM,MT,family-only multitask vs full multitask (cross-family sharing),0.24038552715025308,0.2424379958289462,0.8234296196752906,3.234402340888749,3,5
+Status forecast,ap,cal,ST,FAM,single-task vs family multitask (within-family sharing),0.24271906573143304,0.24038552715025308,-1.0179124958315646,2.6805993928951155,3,5
+Status forecast,ap,test,ST,MT,single-task vs multitask (total effect),0.25813529318979855,0.2783561842047348,7.2432119047423695,2.384860762697257,0,5
+Status forecast,ap,test,ST-matched,MT,single-task at MT's epochs vs multitask (equal budget),0.2672308828005564,0.2783561842047348,4.001836512408222,0.6054096181846271,0,5
+Status forecast,ap,test,ST,ST-matched,ST selection advantage (own early stopping vs MT's epochs),0.25813529318979855,0.2672308828005564,3.367473313730698,2.824023476907908,1,5
+Status forecast,ap,test,FAM,MT,family-only multitask vs full multitask (cross-family sharing),0.2813669072493434,0.2783561842047348,-1.0584589795763033,2.6073455139209427,3,5
+Status forecast,ap,test,ST,FAM,single-task vs family multitask (within-family sharing),0.25813529318979855,0.2813669072493434,8.125256899278517,4.564028945627207,0,5
+Status forecast,auroc,cal,ST,MT,single-task vs multitask (total effect),0.8028354789983849,0.8052519909299714,0.29999296189392066,0.14156401458616866,0,5
+Status forecast,auroc,cal,ST-matched,MT,single-task at MT's epochs vs multitask (equal budget),0.8004730243218056,0.8052519909299714,0.5935928716977512,0.2968215324318119,0,5
+Status forecast,auroc,cal,ST,ST-matched,ST selection advantage (own early stopping vs MT's epochs),0.8028354789983849,0.8004730243218056,-0.29599725999903614,0.303472316010342,4,5
+Status forecast,auroc,cal,FAM,MT,family-only multitask vs full multitask (cross-family sharing),0.8008759392512518,0.8052519909299714,0.5434308564797308,0.21661984350852515,0,5
+Status forecast,auroc,cal,ST,FAM,single-task vs family multitask (within-family sharing),0.8028354789983849,0.8008759392512518,-0.24524070513147472,0.3017075507357936,4,5
+Status forecast,auroc,test,ST,MT,single-task vs multitask (total effect),0.8075951930455029,0.8147020492378922,0.8713790317507739,0.5816529432479722,0,5
+Status forecast,auroc,test,ST-matched,MT,single-task at MT's epochs vs multitask (equal budget),0.811391249421049,0.8147020492378922,0.405971369735518,0.330932643991303,0,5
+Status forecast,auroc,test,ST,ST-matched,ST selection advantage (own early stopping vs MT's epochs),0.8075951930455029,0.811391249421049,0.46760773870350325,0.39566092030498484,1,5
+Status forecast,auroc,test,FAM,MT,family-only multitask vs full multitask (cross-family sharing),0.8118606902736694,0.8147020492378922,0.3483509594866448,0.3420462634947354,1,5
+Status forecast,auroc,test,ST,FAM,single-task vs family multitask (within-family sharing),0.8075951930455029,0.8118606902736694,0.5248635801063362,0.4721313537310436,1,5

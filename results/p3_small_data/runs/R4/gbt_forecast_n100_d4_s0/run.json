@@ -1,0 +1,20 @@
+{
+ "SYNTHETIC": true,
+ "test_split_loaded": false,
+ "ds": "R4",
+ "model": "gbt",
+ "ts": "forecast",
+ "n": 100,
+ "draw": 4,
+ "seed": 0,
+ "variant": "primary",
+ "id": "gbt_forecast_n100_d4_s0",
+ "cost": 0.5,
+ "wall_s": 65.19349010009319,
+ "cpu_s": 202.453125,
+ "finite": true,
+ "n_params": null,
+ "partial_rerun": false,
+ "history": null,
+ "finished": "2026-11-17T23:58:28.974528"
+}

@@ -1,0 +1,23 @@
+S-HET gbt main seed0: 155s
+S-HET gbt forecast seed0: 130s
+E:\HCI LAB\researchproject\synthetic-dataset-research\src\baselines.py:187: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\autograd\generated\python_variable_methods.cpp:821.)
+  run += float(loss) * len(yb)
+S-HET gru main seed0: 49s
+S-HET gru main seed1: 36s
+S-HET gru main seed2: 46s
+S-HET gru forecast seed0: 40s
+S-HET gru forecast seed1: 37s
+S-HET gru forecast seed2: 39s
+S-HET kan_reg main seed0: 149s
+S-HET kan_reg main seed1: 142s
+S-HET kan_reg main seed2: 179s
+S-HET mlp_b2_reg main seed0: 26s
+S-HET mlp_b2_reg main seed1: 28s
+S-HET mlp_b2_reg main seed2: 21s
+S-HET mlp_m1 all seed0: 100s
+S-HET mlp_m1 all seed1: 90s
+S-HET mlp_m1 all seed2: 64s
+S-HET gru_aug main seed0: 27s
+S-HET gru_aug main seed1: 26s
+S-HET gru_aug main seed2: 31s

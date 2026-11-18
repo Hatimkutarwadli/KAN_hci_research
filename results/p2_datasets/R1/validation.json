@@ -1,0 +1,161 @@
+{
+ "SYNTHETIC": true,
+ "dataset": "R1",
+ "test_split_inspected": false,
+ "simulator_level_pooled_rates": {
+  "daily_prevalence_dep": 0.06925,
+  "daily_prevalence_anx": 0.07150833333333333,
+  "missing_day_rate": 0.15840833333333335,
+  "hrv_missing_rate": 0.191825,
+  "gap_length_mean": 2.4864617396991497,
+  "gap_length_p90": 5.0,
+  "gap_length_max": 18,
+  "participant_rate_any_sustained_onset_dep": 0.262,
+  "participant_rate_any_sustained_onset_anx": 0.255,
+  "prevalent_rate_dep": 0.067,
+  "prevalent_rate_anx": 0.071
+ },
+ "split_sizes": {
+  "train": 600,
+  "test": 200,
+  "cal": 200
+ },
+ "train_cal_onset_counts": {
+  "train": {
+   "onset_sust_dep_h7": {
+    "eligible_origins": 38172,
+    "positive_origins": 715,
+    "positive_participants": 107
+   },
+   "onset_cross_dep_h7": {
+    "eligible_origins": 36064,
+    "positive_origins": 884,
+    "positive_participants": 133
+   },
+   "onset_sust_dep_h14": {
+    "eligible_origins": 35282,
+    "positive_origins": 1302,
+    "positive_participants": 107
+   },
+   "onset_cross_dep_h14": {
+    "eligible_origins": 33501,
+    "positive_origins": 1613,
+    "positive_participants": 133
+   },
+   "onset_sust_dep_h21": {
+    "eligible_origins": 32350,
+    "positive_origins": 1761,
+    "positive_participants": 107
+   },
+   "onset_cross_dep_h21": {
+    "eligible_origins": 30890,
+    "positive_origins": 2215,
+    "positive_participants": 133
+   },
+   "onset_sust_anx_h7": {
+    "eligible_origins": 37530,
+    "positive_origins": 709,
+    "positive_participants": 106
+   },
+   "onset_cross_anx_h7": {
+    "eligible_origins": 35770,
+    "positive_origins": 811,
+    "positive_participants": 122
+   },
+   "onset_sust_anx_h14": {
+    "eligible_origins": 34747,
+    "positive_origins": 1360,
+    "positive_participants": 106
+   },
+   "onset_cross_anx_h14": {
+    "eligible_origins": 33222,
+    "positive_origins": 1545,
+    "positive_participants": 122
+   },
+   "onset_sust_anx_h21": {
+    "eligible_origins": 31910,
+    "positive_origins": 1883,
+    "positive_participants": 106
+   },
+   "onset_cross_anx_h21": {
+    "eligible_origins": 30631,
+    "positive_origins": 2153,
+    "positive_participants": 122
+   }
+  },
+  "cal": {
+   "onset_sust_dep_h7": {
+    "eligible_origins": 12414,
+    "positive_origins": 217,
+    "positive_participants": 37
+   },
+   "onset_cross_dep_h7": {
+    "eligible_origins": 11734,
+    "positive_origins": 248,
+    "positive_participants": 38
+   },
+   "onset_sust_dep_h14": {
+    "eligible_origins": 11451,
+    "positive_origins": 377,
+    "positive_participants": 37
+   },
+   "onset_cross_dep_h14": {
+    "eligible_origins": 10874,
+    "positive_origins": 446,
+    "positive_participants": 38
+   },
+   "onset_sust_dep_h21": {
+    "eligible_origins": 10485,
+    "positive_origins": 500,
+    "positive_participants": 37
+   },
+   "onset_cross_dep_h21": {
+    "eligible_origins": 9991,
+    "positive_origins": 587,
+    "positive_participants": 38
+   },
+   "onset_sust_anx_h7": {
+    "eligible_origins": 12552,
+    "positive_origins": 159,
+    "positive_participants": 25
+   },
+   "onset_cross_anx_h7": {
+    "eligible_origins": 12043,
+    "positive_origins": 233,
+    "positive_participants": 36
+   },
+   "onset_sust_anx_h14": {
+    "eligible_origins": 11580,
+    "positive_origins": 295,
+    "positive_participants": 25
+   },
+   "onset_cross_anx_h14": {
+    "eligible_origins": 11161,
+    "positive_origins": 424,
+    "positive_participants": 36
+   },
+   "onset_sust_anx_h21": {
+    "eligible_origins": 10591,
+    "positive_origins": 387,
+    "positive_participants": 25
+   },
+   "onset_cross_anx_h21": {
+    "eligible_origins": 10261,
+    "positive_origins": 560,
+    "positive_participants": 36
+   }
+  }
+ },
+ "processed_has_nan": {
+  "train": false,
+  "cal": false
+ },
+ "gates": {
+  "prevalence_5_to_10pct": true,
+  "cal_min_evaluable_sustained_onset_participants": 25,
+  "cal_onset_participants_ge_25": true,
+  "no_nan_in_processed_train_cal": true,
+  "label_cross_check_vs_simulator": "PASS (asserted in run)",
+  "all_pass": true
+ }
+}

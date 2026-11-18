@@ -1,0 +1,33 @@
+{
+ "SYNTHETIC": true,
+ "split": "test (final reporting only; no selection)",
+ "models": [
+  "gbt",
+  "gru",
+  "kan",
+  "kan_reg",
+  "m1",
+  "m1_static"
+ ],
+ "bootstrap": {
+  "B": 100,
+  "seed": 20261116,
+  "models": [
+   "gru",
+   "m1"
+  ],
+  "resampling": "participants within subgroup and within complement separately"
+ },
+ "min_participants": 30,
+ "min_event_participants": 10,
+ "ece": "equal-count 10 bins",
+ "leadtime": "thresholds from calibration split (all participants), not refitted per subgroup",
+ "group_sizes_test": {
+  "all": 200,
+  "sex=F": 133,
+  "sex=M": 67,
+  "age_group=0": 84,
+  "age_group=1": 104,
+  "age_group=2": 12
+ }
+}

@@ -1,0 +1,7 @@
+  mlp_m1 seed0 ep1 train 0.4613 cal 0.3408
+  mlp_m1 seed0 ep2 train 0.3353 cal 0.3359
+  mlp_m1 seed0 ep3 train 0.3273 cal 0.3294
+  mlp_m1 seed0 ep4 train 0.3218 cal 0.3301
+  mlp_m1 seed0 ep5 train 0.3165 cal 0.3309
+  mlp_m1 seed0 ep6 train 0.3154 cal 0.3339
+  mlp_m1 seed0 ep7 train 0.3119 cal 0.3303

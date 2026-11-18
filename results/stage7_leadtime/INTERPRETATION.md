@@ -1,0 +1,22 @@
+# Stage 7 (additional, post-hoc, pre-specified): early-warning lead-time analysis - interpretation
+
+**All data and results are SYNTHETIC.** Lead times describe a simulator's 3-day latent threshold, not clinical warning time. Post-processing of saved predictions only: nothing retrained; thresholds from calibration data only. Test predictions had already been evaluated in earlier stages, and calibration data were reused (selection in earlier stages, thresholds here). **No model-selection or superiority claim is made.** Protocol: `src/leadtime.py` docstring and `config.json`; tau rule = (floor(f*n)+1)-th largest calibration never-onset window maximum, alarm iff score > tau (calibration FAP <= target by construction: realised 0.096-0.200 dep, 0.099-0.198 anx). The random null went through the identical `run_one` path (separate calibration/test draws, 5 seeds).
+
+## Cohort and event count (test; per target)
+32 evaluable onset participants (dep and anx), 139 / 132 never-onset. Excluded (no at-risk window from day 27): about 29-36 test participants with onset at or before day 27 (plus any prevalent). Only 32 events: one participant = 3.1 detection-rate points; bootstrap 95% CIs for detection are about +-0.15 wide.
+
+## Findings (test; mean over seeds unless stated; per-seed values in `per_seed_tables.md`)
+1. **Models are above the random null but absolute warning performance is weak.** Detection with lead >= 1 day: at 10% false-alarm target, dep 0.09-0.16 (null 0.03), anx 0.14-0.23 (null 0.04); at 20% target, dep 0.23-0.31 (null 0.05), anx 0.25-0.36 (null 0.06). In other words, most onsets (roughly 64-91%) raised no alarm in their 21-day pre-onset window.
+2. **Long-lead detection is very low.** Lead >= 14 days: at most about 0.07 at 10% target and 0.18 at 20% target; lead = 21 days: 0-0.16 (mostly < 0.07). Detection falls monotonically with lead for every model.
+3. **Lead time of detected onsets:** median earliest in-window lead 5.5-11 days at 10% target and 7.5-18 days at 20% target, but this rests on only about 3-10 detected participants per run and varies by several days across seeds. Treat as indicative only.
+4. **False alarms and precision:** realised test false-alarm proportions were 0.05-0.12 (10% target) and 0.17-0.21 (20% target), i.e. calibration thresholds transfer roughly but not exactly (e.g. GBT dep 10%: 0.050 realised). Episode rate 0.08-0.21 (10%) / 0.29-0.43 (20%) per 100 participant-days; alarm burden 0.6-5% of participant-days. Participant precision 0.21-0.39 versus 0.05-0.13 for the null; day-level precision 0.07-0.20 with day-level recall only 0.02-0.21.
+5. **Participant-level AUC (detection-vs-false-alarm area)** was 0.53 (GBT) to 0.63 (M1, KANGRU variants). **Its chance level is NOT 0.5:** the random null scored about 0.18-0.20 because onset participants are scored on at most 21 days and never-onset participants on 70 days, so the max-score of the latter is larger by construction. Compare AUC only with the null, not with 0.5.
+6. **Model comparison is inconclusive.** Differences between models are mostly smaller than seed SD and bootstrap intervals (seed-0 paired differences vs GRU: 2 of 28 detection contrasts excluded zero, both favouring the other model at a single operating point, consistent with chance among that many comparisons). Rankings do not clearly reproduce the earlier GRU-first ranking; GBT is lowest on participant AUC (0.53). No ranking is claimed.
+
+## Limitations
+- Small event count (32 per target), wide CIs, seed SDs up to 0.07 in detection.
+- Exclusions: onset at day <= 27 (and prevalent) removed; 5-6 test onsets after day 96 contribute alarms only up to day 96 and cannot show short leads (see achievable-lead table in `summary_tables.md`; lead 21 is unachievable for 7-8 onset participants).
+- Unequal exposure (21-day onset window vs 70-day never-onset window) makes participant precision and AUC depend on the cohort mix; day-level numbers are less affected.
+- Thresholds from 135 / 131 calibration never-onset participants transfer only roughly; calibration data were reused (also used for model selection and Stage 6).
+- Only the h21 head, W = 21, two false-alarm targets and one alarm rule were examined (pre-specified); episode gap 7 days is arbitrary.
+- Bootstrap CIs use seed 0 only with thresholds held fixed; test split already evaluated in earlier stages; one synthetic dataset; no clinical or causal claims.

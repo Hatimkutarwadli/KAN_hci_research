@@ -1,0 +1,13 @@
+E:\HCI LAB\researchproject\synthetic-dataset-research\src\baselines.py:187: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\autograd\generated\python_variable_methods.cpp:821.)
+  run += float(loss) * len(yb)
+  kanode seed3 ep1 train 0.4466 cal 0.3594
+  kanode seed3 ep2 train 0.3371 cal 0.3560
+  kanode seed3 ep3 train 0.3233 cal 0.3525
+  kanode seed3 ep4 train 0.3216 cal 0.3503
+  kanode seed3 ep5 train 0.3227 cal 0.3470
+  kanode seed3 ep6 train 0.3198 cal 0.3642
+  kanode seed3 ep7 train 0.3146 cal 0.3636
+  kanode seed3 ep8 train 0.3138 cal 0.3545
+  kanode seed3 ep9 train 0.3124 cal 0.3543
+done kanode wall 1367s -> results/p2_kanode/full/kanode_all_seed3

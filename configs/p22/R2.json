@@ -1,0 +1,10 @@
+{
+ "SYNTHETIC": true,
+ "id": "R2",
+ "family": "replication",
+ "seed": 3201,
+ "overrides": {},
+ "rho_scale": 1.0,
+ "crn_partner": null,
+ "purpose": "Replication of the frozen v1 configuration with a new, documented seed (streams 3201, 3202, 3203). Thresholds unchanged."
+}

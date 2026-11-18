@@ -1,0 +1,8 @@
+{
+ "SYNTHETIC": true,
+ "test_evaluated_once": true,
+ "plan_lock": {
+  "results/p2_kanode\\ANALYSIS_PLAN.md": "ea3f5609551659fd55fcb04a1744ed6b2b8750b45501f0ffcb5907dc2883c57e",
+  "extension_p21/analyze_p21.py": "b27b441e3498b43111997d9ed5f1f9ba732e1e1ba62fc144387a187a9049975b"
+ }
+}

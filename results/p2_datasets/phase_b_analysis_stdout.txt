@@ -1,0 +1,226 @@
+dataset family_type  gate_flagged        C1            C1_beaten  C1_gru_rank1        C2  C2_nK  C2_nM        C3  C3_nm  C1_noGBT C1_noGBT_beaten        C4            C5
+     v1 replication         False     mixed status_fc;status_now             4 supported      0      9 supported      0 supported                 supported     supported
+     R1 replication         False supported                                  6 supported      0      6 supported      0 supported                 supported not supported
+     R2 replication         False     mixed           status_now             4 supported      1      0 supported      0     mixed      status_now supported     supported
+     R3 replication         False     mixed           status_now             4 supported      0      3 supported      0 supported                 supported     supported
+  S-EFF       shift          True     mixed          onset_cross             5 supported      0      5 supported      0 supported                 supported         mixed
+   S-AR       shift         False supported                                  3 supported      0      3 supported      0 supported                 supported     supported
+ S-MISS       shift         False supported                                  5 supported      0      7 supported      0 supported                 supported         mixed
+  S-HET       shift         False supported                                  6 supported      0      1 supported      0 supported                 supported     supported
+S-NOISE       shift         False supported                                  6 supported      0      6 supported      0 supported                 supported     supported
+label    inconclusive (scale-dependent)  shift-sensitive  suggestive  within replication noise
+shift                                                                                         
+S-AR                                  3                7           8                        18
+S-EFF                                12                9           5                        10
+S-HET                                 3                5          11                        17
+S-MISS                                1                5           9                        21
+S-NOISE                               0                3           8                        25
+{
+ "RQ3_S-EFF_KAN_gain": {
+  "label": "inconclusive",
+  "n_plus": 0,
+  "n_minus": 2,
+  "n_inconclusive": 3,
+  "n_suggestive": 3,
+  "n": 10,
+  "gate_flagged": true
+ },
+ "RQ4a_S-AR_lag": {
+  "label": "not supported",
+  "H_max": 0.4166666666666667,
+  "rep_H_max_max": 0.4722222222222222,
+  "sign_acc": 1.0,
+  "gate_flagged": false
+ },
+ "RQ4b_S-EFF_lag": {
+  "label": "not supported",
+  "H_max": 0.3611111111111111,
+  "rep_H_max_max": 0.4722222222222222,
+  "sign_acc": 1.0,
+  "gate_flagged": true
+ },
+ "RQ5_S-MISS_aug_severity": {
+  "label": "mixed",
+  "rel_change_pct": -0.22244063928745264,
+  "better_n": 2,
+  "magnitude_label": "shift-sensitive",
+  "magnitude_direction": "augmentation helps less",
+  "C5_label_S_MISS": "mixed"
+ },
+ "RQ6a_S-HET_M1": {
+  "label": "not supported",
+  "n_plus": 0,
+  "n_minus": 1,
+  "n_inconclusive": 1,
+  "n_suggestive": 2,
+  "n": 6
+ },
+ "robustness_of_replication_conclusions": {
+  "C1": {
+   "per_shift": {
+    "S-EFF": "mixed",
+    "S-AR": "supported",
+    "S-MISS": "supported",
+    "S-HET": "supported",
+    "S-NOISE": "supported"
+   },
+   "n_supported": 4,
+   "of": 5,
+   "label": "mixed",
+   "sensitivity_excl_gate_flagged": {
+    "n_supported": 4,
+    "of": 4,
+    "label": "supported"
+   },
+   "replication": {
+    "per_dataset": {
+     "v1": "mixed",
+     "R1": "supported",
+     "R2": "mixed",
+     "R3": "mixed"
+    },
+    "overall": "not supported"
+   }
+  },
+  "C1_noGBT": {
+   "per_shift": {
+    "S-EFF": "supported",
+    "S-AR": "supported",
+    "S-MISS": "supported",
+    "S-HET": "supported",
+    "S-NOISE": "supported"
+   },
+   "n_supported": 5,
+   "of": 5,
+   "label": "supported",
+   "sensitivity_excl_gate_flagged": {
+    "n_supported": 4,
+    "of": 4,
+    "label": "supported"
+   },
+   "replication": {
+    "per_dataset": {
+     "v1": "supported",
+     "R1": "supported",
+     "R2": "mixed",
+     "R3": "supported"
+    },
+    "overall": "mixed"
+   }
+  },
+  "C2": {
+   "per_shift": {
+    "S-EFF": "supported",
+    "S-AR": "supported",
+    "S-MISS": "supported",
+    "S-HET": "supported",
+    "S-NOISE": "supported"
+   },
+   "n_supported": 5,
+   "of": 5,
+   "label": "supported",
+   "sensitivity_excl_gate_flagged": {
+    "n_supported": 4,
+    "of": 4,
+    "label": "supported"
+   },
+   "replication": {
+    "per_dataset": {
+     "v1": "supported",
+     "R1": "supported",
+     "R2": "supported",
+     "R3": "supported"
+    },
+    "overall": "supported"
+   }
+  },
+  "C3": {
+   "per_shift": {
+    "S-EFF": "supported",
+    "S-AR": "supported",
+    "S-MISS": "supported",
+    "S-HET": "supported",
+    "S-NOISE": "supported"
+   },
+   "n_supported": 5,
+   "of": 5,
+   "label": "supported",
+   "sensitivity_excl_gate_flagged": {
+    "n_supported": 4,
+    "of": 4,
+    "label": "supported"
+   },
+   "replication": {
+    "per_dataset": {
+     "v1": "supported",
+     "R1": "supported",
+     "R2": "supported",
+     "R3": "supported"
+    },
+    "overall": "supported"
+   }
+  },
+  "C4": {
+   "per_shift": {
+    "S-EFF": "supported",
+    "S-AR": "supported",
+    "S-MISS": "supported",
+    "S-HET": "supported",
+    "S-NOISE": "supported"
+   },
+   "n_supported": 5,
+   "of": 5,
+   "label": "supported",
+   "sensitivity_excl_gate_flagged": {
+    "n_supported": 4,
+    "of": 4,
+    "label": "supported"
+   },
+   "replication": {
+    "per_dataset": {
+     "v1": "supported",
+     "R1": "supported",
+     "R2": "supported",
+     "R3": "supported"
+    },
+    "overall": "supported"
+   }
+  },
+  "C5": {
+   "per_shift": {
+    "S-EFF": "mixed",
+    "S-AR": "supported",
+    "S-MISS": "mixed",
+    "S-HET": "supported",
+    "S-NOISE": "supported"
+   },
+   "n_supported": 3,
+   "of": 5,
+   "label": "mixed",
+   "sensitivity_excl_gate_flagged": {
+    "n_supported": 3,
+    "of": 4,
+    "label": "mixed"
+   },
+   "replication": {
+    "per_dataset": {
+     "v1": "supported",
+     "R1": "not supported",
+     "R2": "supported",
+     "R3": "supported"
+    },
+    "overall": "mixed"
+   }
+  }
+ },
+ "rank_shifted_families": [
+  [
+   "S-AR",
+   "status_fc"
+  ],
+  [
+   "S-EFF",
+   "onset_cross"
+  ]
+ ]
+}

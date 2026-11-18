@@ -1,0 +1,70 @@
+E:\HCI LAB\researchproject\synthetic-dataset-research\src\baselines.py:187: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\autograd\generated\python_variable_methods.cpp:821.)
+  run += float(loss) * len(yb)
+  gru seed0 ep1 train 0.6446 cal 0.6490
+  gru seed0 ep2 train 0.5600 cal 0.6494
+  gru seed0 ep3 train 0.5547 cal 0.6448
+  gru seed0 ep4 train 0.5501 cal 0.6495
+  gru seed0 ep5 train 0.5355 cal 0.6578
+  gru seed0 ep6 train 0.5255 cal 0.6658
+  gru seed0 ep7 train 0.5143 cal 0.6804
+family family_severity seed0: wall 195s cpu 154s params 10402 best_epoch 3 epochs_run 7
+  gru seed1 ep1 train 0.6413 cal 0.6442
+  gru seed1 ep2 train 0.5600 cal 0.6477
+  gru seed1 ep3 train 0.5524 cal 0.6483
+  gru seed1 ep4 train 0.5418 cal 0.6523
+  gru seed1 ep5 train 0.5283 cal 0.6651
+family family_severity seed1: wall 129s cpu 117s params 10402 best_epoch 1 epochs_run 5
+  gru seed2 ep1 train 0.6398 cal 0.6394
+  gru seed2 ep2 train 0.5585 cal 0.6461
+  gru seed2 ep3 train 0.5463 cal 0.6495
+  gru seed2 ep4 train 0.5411 cal 0.6521
+  gru seed2 ep5 train 0.5343 cal 0.6548
+family family_severity seed2: wall 120s cpu 109s params 10402 best_epoch 1 epochs_run 5
+  gru seed3 ep1 train 0.6413 cal 0.6506
+  gru seed3 ep2 train 0.5607 cal 0.6441
+  gru seed3 ep3 train 0.5479 cal 0.6472
+  gru seed3 ep4 train 0.5468 cal 0.6491
+  gru seed3 ep5 train 0.5358 cal 0.6559
+  gru seed3 ep6 train 0.5296 cal 0.6589
+family family_severity seed3: wall 232s cpu 121s params 10402 best_epoch 2 epochs_run 6
+  gru seed4 ep1 train 0.6501 cal 0.6477
+  gru seed4 ep2 train 0.5608 cal 0.6451
+  gru seed4 ep3 train 0.5503 cal 0.6494
+  gru seed4 ep4 train 0.5366 cal 0.6554
+  gru seed4 ep5 train 0.5293 cal 0.6610
+  gru seed4 ep6 train 0.5243 cal 0.6631
+family family_severity seed4: wall 181s cpu 123s params 10402 best_epoch 2 epochs_run 6
+  gru seed0 ep1 train 0.2525 cal 0.2096
+  gru seed0 ep2 train 0.1791 cal 0.2082
+  gru seed0 ep3 train 0.1771 cal 0.2065
+  gru seed0 ep4 train 0.1721 cal 0.2085
+  gru seed0 ep5 train 0.1742 cal 0.2086
+  gru seed0 ep6 train 0.1670 cal 0.2141
+  gru seed0 ep7 train 0.1642 cal 0.2185
+family family_status seed0: wall 246s cpu 135s params 10402 best_epoch 3 epochs_run 7
+  gru seed1 ep1 train 0.2711 cal 0.2090
+  gru seed1 ep2 train 0.1813 cal 0.2052
+  gru seed1 ep3 train 0.1793 cal 0.2068
+  gru seed1 ep4 train 0.1721 cal 0.2091
+  gru seed1 ep5 train 0.1716 cal 0.2057
+  gru seed1 ep6 train 0.1664 cal 0.2134
+family family_status seed1: wall 131s cpu 122s params 10402 best_epoch 2 epochs_run 6
+  gru seed2 ep1 train 0.2696 cal 0.2058
+  gru seed2 ep2 train 0.1794 cal 0.2079
+  gru seed2 ep3 train 0.1723 cal 0.2087
+  gru seed2 ep4 train 0.1737 cal 0.2061
+  gru seed2 ep5 train 0.1727 cal 0.2116
+family family_status seed2: wall 204s cpu 97s params 10402 best_epoch 1 epochs_run 5
+  gru seed3 ep1 train 0.2629 cal 0.2075
+  gru seed3 ep2 train 0.1824 cal 0.2054
+  gru seed3 ep3 train 0.1726 cal 0.2077
+  gru seed3 ep4 train 0.1733 cal 0.2099
+  gru seed3 ep5 train 0.1710 cal 0.2081
+  gru seed3 ep6 train 0.1678 cal 0.2075
+family family_status seed3: wall 260s cpu 105s params 10402 best_epoch 2 epochs_run 6
+  gru seed4 ep1 train 0.2712 cal 0.2127
+  gru seed4 ep2 train 0.1819 cal 0.2061
+  gru seed4 ep3 train 0.1745 cal 0.2082
+  gru seed4 ep4 train 0.1712 cal 0.2092
+  gru seed4 ep5 train 0.1675 cal 0.2133

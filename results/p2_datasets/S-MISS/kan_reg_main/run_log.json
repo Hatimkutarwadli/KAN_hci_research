@@ -1,0 +1,199 @@
+{
+ "SYNTHETIC": true,
+ "dataset": "S-MISS",
+ "test_split_loaded": false,
+ "heads": [
+  "sev_dep_t0",
+  "sev_anx_t0",
+  "status_dep_t0",
+  "status_anx_t0",
+  "onset_sust_dep_h7",
+  "onset_sust_dep_h14",
+  "onset_sust_dep_h21",
+  "onset_sust_anx_h7",
+  "onset_sust_anx_h14",
+  "onset_sust_anx_h21",
+  "onset_cross_dep_h7",
+  "onset_cross_dep_h14",
+  "onset_cross_dep_h21",
+  "onset_cross_anx_h7",
+  "onset_cross_anx_h14",
+  "onset_cross_anx_h21"
+ ],
+ "runs": [
+  {
+   "model": "kan_reg",
+   "taskset": "main",
+   "seed": 0,
+   "wall_s": 139.57764530007262,
+   "cpu_s": 514.875,
+   "n_params": 29336,
+   "best_cal_loss": 0.21109086275100708,
+   "best_epoch": 2,
+   "epochs_run": 6,
+   "hparams": {
+    "epochs": 25,
+    "patience": 4,
+    "batch_size": 256,
+    "lr": 0.002,
+    "weight_decay": 0.001,
+    "epoch_frac": 0.5,
+    "model_kwargs": {
+     "dropout": 0.3
+    }
+   },
+   "history": [
+    {
+     "epoch": 1,
+     "train_loss": 0.30108976700613577,
+     "cal_loss": 0.2184661626815796
+    },
+    {
+     "epoch": 2,
+     "train_loss": 0.22632490702427416,
+     "cal_loss": 0.21109086275100708
+    },
+    {
+     "epoch": 3,
+     "train_loss": 0.2184717928572795,
+     "cal_loss": 0.21515975892543793
+    },
+    {
+     "epoch": 4,
+     "train_loss": 0.2062121234059761,
+     "cal_loss": 0.21730367839336395
+    },
+    {
+     "epoch": 5,
+     "train_loss": 0.20006961504191054,
+     "cal_loss": 0.22931894659996033
+    },
+    {
+     "epoch": 6,
+     "train_loss": 0.18810632646724743,
+     "cal_loss": 0.22522836923599243
+    }
+   ]
+  },
+  {
+   "model": "kan_reg",
+   "taskset": "main",
+   "seed": 1,
+   "wall_s": 161.29802820004988,
+   "cpu_s": 596.3125,
+   "n_params": 29336,
+   "best_cal_loss": 0.21263030171394348,
+   "best_epoch": 3,
+   "epochs_run": 7,
+   "hparams": {
+    "epochs": 25,
+    "patience": 4,
+    "batch_size": 256,
+    "lr": 0.002,
+    "weight_decay": 0.001,
+    "epoch_frac": 0.5,
+    "model_kwargs": {
+     "dropout": 0.3
+    }
+   },
+   "history": [
+    {
+     "epoch": 1,
+     "train_loss": 0.3093524386699054,
+     "cal_loss": 0.21651802957057953
+    },
+    {
+     "epoch": 2,
+     "train_loss": 0.22657336551869642,
+     "cal_loss": 0.21750910580158234
+    },
+    {
+     "epoch": 3,
+     "train_loss": 0.21669235722565736,
+     "cal_loss": 0.21263030171394348
+    },
+    {
+     "epoch": 4,
+     "train_loss": 0.20946722853995567,
+     "cal_loss": 0.2129170298576355
+    },
+    {
+     "epoch": 5,
+     "train_loss": 0.2082874508656054,
+     "cal_loss": 0.21514782309532166
+    },
+    {
+     "epoch": 6,
+     "train_loss": 0.19424863956948762,
+     "cal_loss": 0.21715880930423737
+    },
+    {
+     "epoch": 7,
+     "train_loss": 0.18827532878486058,
+     "cal_loss": 0.21981748938560486
+    }
+   ]
+  },
+  {
+   "model": "kan_reg",
+   "taskset": "main",
+   "seed": 2,
+   "wall_s": 168.14283999998588,
+   "cpu_s": 609.59375,
+   "n_params": 29336,
+   "best_cal_loss": 0.2113543599843979,
+   "best_epoch": 3,
+   "epochs_run": 7,
+   "hparams": {
+    "epochs": 25,
+    "patience": 4,
+    "batch_size": 256,
+    "lr": 0.002,
+    "weight_decay": 0.001,
+    "epoch_frac": 0.5,
+    "model_kwargs": {
+     "dropout": 0.3
+    }
+   },
+   "history": [
+    {
+     "epoch": 1,
+     "train_loss": 0.30623466259262466,
+     "cal_loss": 0.21815934777259827
+    },
+    {
+     "epoch": 2,
+     "train_loss": 0.22872577683045445,
+     "cal_loss": 0.21532534062862396
+    },
+    {
+     "epoch": 3,
+     "train_loss": 0.22157052878196948,
+     "cal_loss": 0.2113543599843979
+    },
+    {
+     "epoch": 4,
+     "train_loss": 0.20817310861789198,
+     "cal_loss": 0.214976966381073
+    },
+    {
+     "epoch": 5,
+     "train_loss": 0.19788010264382994,
+     "cal_loss": 0.21528880298137665
+    },
+    {
+     "epoch": 6,
+     "train_loss": 0.19136244516646136,
+     "cal_loss": 0.2159137725830078
+    },
+    {
+     "epoch": 7,
+     "train_loss": 0.19057006395845857,
+     "cal_loss": 0.223332017660141
+    }
+   ]
+  }
+ ],
+ "torch_threads": 4,
+ "torch": "2.15.0+cpu"
+}

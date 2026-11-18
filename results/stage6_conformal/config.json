@@ -1,0 +1,64 @@
+{
+ "nonconformity_score": "absolute residual |y - yhat|",
+ "interval": "yhat +- q (symmetric, constant width 2q)",
+ "quantile": "ceil((n+1)(1-alpha))-th smallest calibration score",
+ "levels": [
+  "90%",
+  "95%"
+ ],
+ "calibration_participants": 200,
+ "test_participants": 200,
+ "origin_rule": "one origin per participant, uniform on days 27..98, seed 20261114 (identical for all models/tasks)",
+ "robustness": "1000 further origin draws, seed 7",
+ "min_reliable_subgroup_n": 30,
+ "tasks": [
+  "sev_dep_t0",
+  "sev_dep_h7",
+  "sev_dep_h14",
+  "sev_dep_h21",
+  "sev_anx_t0",
+  "sev_anx_h7",
+  "sev_anx_h14",
+  "sev_anx_h21"
+ ],
+ "models": {
+  "gbt": [
+   0
+  ],
+  "gru": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "kan": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "kan_reg": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "m1": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "m1_static": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ]
+ }
+}

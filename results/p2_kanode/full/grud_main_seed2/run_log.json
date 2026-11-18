@@ -1,0 +1,128 @@
+{
+ "SYNTHETIC": true,
+ "test_split_loaded": false,
+ "model": "grud",
+ "taskset": "main",
+ "heads": [
+  "sev_dep_t0",
+  "sev_anx_t0",
+  "status_dep_t0",
+  "status_anx_t0",
+  "onset_sust_dep_h7",
+  "onset_sust_dep_h14",
+  "onset_sust_dep_h21",
+  "onset_sust_anx_h7",
+  "onset_sust_anx_h14",
+  "onset_sust_anx_h21",
+  "onset_cross_dep_h7",
+  "onset_cross_dep_h14",
+  "onset_cross_dep_h21",
+  "onset_cross_anx_h7",
+  "onset_cross_anx_h14",
+  "onset_cross_anx_h21"
+ ],
+ "seed": 2,
+ "wall_s": 76.70543079997879,
+ "cpu_s": 290.71875,
+ "n_params": 11024,
+ "torch_threads": 4,
+ "quick": false,
+ "best_cal_loss": 0.21812854707241058,
+ "final_diagnostics": {},
+ "epoch_diagnostics": [
+  {
+   "epoch": 1
+  },
+  {
+   "epoch": 2
+  },
+  {
+   "epoch": 3
+  },
+  {
+   "epoch": 4
+  },
+  {
+   "epoch": 5
+  },
+  {
+   "epoch": 6
+  },
+  {
+   "epoch": 7
+  },
+  {
+   "epoch": 8
+  },
+  {
+   "epoch": 9
+  },
+  {
+   "epoch": 10
+  }
+ ],
+ "best_epoch": 6,
+ "epochs_run": 10,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.3285088905788237,
+   "cal_loss": 0.22153306007385254
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.19866518778612963,
+   "cal_loss": 0.21903112530708313
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.1993400336337346,
+   "cal_loss": 0.21931137144565582
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.20017516312419728,
+   "cal_loss": 0.21905061602592468
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.19659208707911993,
+   "cal_loss": 0.2186485379934311
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.19367533896559028,
+   "cal_loss": 0.21812854707241058
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.19024551185228492,
+   "cal_loss": 0.22206370532512665
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.1908321974909861,
+   "cal_loss": 0.21872209012508392
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.18548818787793533,
+   "cal_loss": 0.22092649340629578
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.18008546216086246,
+   "cal_loss": 0.22280611097812653
+  }
+ ],
+ "hparams": {
+  "epochs": 25,
+  "patience": 4,
+  "batch_size": 256,
+  "lr": 0.002,
+  "weight_decay": 1e-05,
+  "epoch_frac": 0.5,
+  "model_kwargs": {}
+ },
+ "torch": "2.15.0+cpu"
+}

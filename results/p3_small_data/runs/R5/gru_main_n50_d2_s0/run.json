@@ -1,0 +1,127 @@
+{
+ "SYNTHETIC": true,
+ "test_split_loaded": false,
+ "ds": "R5",
+ "model": "gru",
+ "ts": "main",
+ "n": 50,
+ "draw": 2,
+ "seed": 0,
+ "variant": "primary",
+ "id": "gru_main_n50_d2_s0",
+ "cost": 0.18333333333333335,
+ "wall_s": 21.29435629991349,
+ "cpu_s": 69.0,
+ "finite": true,
+ "n_params": 10864,
+ "partial_rerun": false,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.6753022034450243,
+   "cal_loss": 0.6234285235404968
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.5450482249516313,
+   "cal_loss": 0.3817514479160309
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.2829037037972481,
+   "cal_loss": 0.25553303956985474
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.24122814168212234,
+   "cal_loss": 0.23391804099082947
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.21842559087661004,
+   "cal_loss": 0.22539420425891876
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.2175728020232211,
+   "cal_loss": 0.22266438603401184
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.19757126964548583,
+   "cal_loss": 0.22177626192569733
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.2131834942775388,
+   "cal_loss": 0.2213856726884842
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.19183775069893047,
+   "cal_loss": 0.21737055480480194
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.2022557782934558,
+   "cal_loss": 0.2160339653491974
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.19306903131546513,
+   "cal_loss": 0.21665555238723755
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.1995490575477641,
+   "cal_loss": 0.21825367212295532
+  },
+  {
+   "epoch": 13,
+   "train_loss": 0.1936546352826139,
+   "cal_loss": 0.22391930222511292
+  },
+  {
+   "epoch": 14,
+   "train_loss": 0.18780777186475775,
+   "cal_loss": 0.21403956413269043
+  },
+  {
+   "epoch": 15,
+   "train_loss": 0.17864314273480447,
+   "cal_loss": 0.2137387990951538
+  },
+  {
+   "epoch": 16,
+   "train_loss": 0.18184239768212843,
+   "cal_loss": 0.21609380841255188
+  },
+  {
+   "epoch": 17,
+   "train_loss": 0.18540297181375565,
+   "cal_loss": 0.21506603062152863
+  },
+  {
+   "epoch": 18,
+   "train_loss": 0.1857064282092997,
+   "cal_loss": 0.21669861674308777
+  },
+  {
+   "epoch": 19,
+   "train_loss": 0.17760816222237003,
+   "cal_loss": 0.21673360466957092
+  }
+ ],
+ "best_epoch": 15,
+ "epochs_run": 19,
+ "hparams": {
+  "epochs": 25,
+  "patience": 4,
+  "batch_size": 256,
+  "lr": 0.002,
+  "weight_decay": 1e-05,
+  "epoch_frac": 0.5,
+  "model_kwargs": {}
+ },
+ "finished": "2026-11-18T00:19:56.254555"
+}

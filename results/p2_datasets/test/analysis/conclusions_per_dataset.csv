@@ -1,0 +1,10 @@
+dataset,role,qualified_exploratory,below_minimum_test,C1,C1_beaten,C1_gru_rank1,C2,C2_nK,C2_nM,C3,C3_nm,C1_noGBT,C1_noGBT_beaten,C4,C5
+v1,historical reference (test previously inspected),False,False,supported,,6,mixed,3,4,supported,0,supported,,supported,supported
+R1,fresh replicate,False,False,not supported,onset_cross;onset_sust;sev_fc;sev_now,1,supported,0,6,mixed,1,mixed,onset_cross;onset_sust,supported,not supported
+R2,fresh replicate,False,False,mixed,status_fc,4,mixed,3,3,supported,0,supported,,supported,supported
+R3,fresh replicate,False,False,supported,,3,supported,0,5,supported,0,supported,,supported,supported
+S-EFF,shift,True,False,not supported,onset_cross;onset_sust;sev_fc;sev_now;status_now,1,supported,0,9,supported,0,mixed,onset_cross;onset_sust,supported,mixed
+S-AR,shift,False,False,not supported,sev_fc;sev_now;status_fc;status_now,1,supported,0,3,supported,0,supported,,supported,supported
+S-MISS,shift,False,False,mixed,onset_cross;sev_now,3,supported,0,4,supported,0,supported,,supported,not supported
+S-HET,shift,False,False,not supported,onset_sust;sev_fc;sev_now,2,supported,1,0,mixed,1,mixed,onset_sust,supported,mixed
+S-NOISE,shift,False,False,not supported,onset_cross;onset_sust;sev_fc;sev_now,1,supported,0,3,mixed,1,mixed,onset_cross;onset_sust,supported,supported

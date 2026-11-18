@@ -1,0 +1,45 @@
+{
+ "SYNTHETIC": true,
+ "analysis_only": true,
+ "tiers": {
+  "A": "true latent state + dynamics + status run length + static",
+  "B": "A + true stress, noise-free features (lags 0-3), person parameters"
+ },
+ "excluded_columns": [
+  "onset_day_*",
+  "onset_day_sust_*",
+  "prevalent_*",
+  "any label"
+ ],
+ "model": "HistGradientBoosting lr 0.05, 15 leaves, min_leaf 50, l2 1, n_iter chosen on calibration from [100, 300]",
+ "heads": [
+  "sev_dep_t0",
+  "sev_dep_h7",
+  "sev_dep_h14",
+  "sev_dep_h21",
+  "sev_anx_t0",
+  "sev_anx_h7",
+  "sev_anx_h14",
+  "sev_anx_h21",
+  "status_dep_t0",
+  "status_dep_h7",
+  "status_dep_h14",
+  "status_dep_h21",
+  "status_anx_t0",
+  "status_anx_h7",
+  "status_anx_h14",
+  "status_anx_h21",
+  "onset_sust_dep_h7",
+  "onset_sust_dep_h14",
+  "onset_sust_dep_h21",
+  "onset_sust_anx_h7",
+  "onset_sust_anx_h14",
+  "onset_sust_anx_h21"
+ ],
+ "bootstrap": {
+  "B": 100,
+  "seed": 20261117,
+  "unit": "participant"
+ },
+ "split_use": "train fit; calibration selection and thresholds; test report only"
+}

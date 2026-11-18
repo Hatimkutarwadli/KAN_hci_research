@@ -1,0 +1,12 @@
+{
+ "SYNTHETIC": true,
+ "id": "S-NOISE",
+ "family": "shift",
+ "seed": 3101,
+ "overrides": {
+  "sensor_sd": 0.7
+ },
+ "rho_scale": 1.0,
+ "crn_partner": "R1",
+ "purpose": "Sensor noise: sensor_sd 0.35->0.70 (all participants). RQ1/2/6. Same seed streams as R1 (3101-3103): common random numbers. Frozen thresholds (approved)."
+}

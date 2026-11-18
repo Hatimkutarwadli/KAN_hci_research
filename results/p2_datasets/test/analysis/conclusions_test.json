@@ -1,0 +1,523 @@
+{
+ "SYNTHETIC": true,
+ "split": "test",
+ "lock_sha256": "9a395f02f8464833e08bd8945f8695d4af5ef797eef32efbedc9faeaaa4b4ca3",
+ "v1_role": "historical reference; test previously inspected; sensitivity only",
+ "S-EFF": "gate-failing; qualified/exploratory; retained",
+ "stage5_observational_regression": "not performed (not added post hoc)",
+ "event_flags": [
+  {
+   "dataset": "v1",
+   "min_sust_onset_participants": 32,
+   "min_cross_onset_participants": 41,
+   "below_minimum_test": false,
+   "status_now_prevalence": 0.07551075145602226,
+   "onset_sust_prevalence": 0.03201529632012049
+  },
+  {
+   "dataset": "R1",
+   "min_sust_onset_participants": 26,
+   "min_cross_onset_participants": 35,
+   "below_minimum_test": false,
+   "status_now_prevalence": 0.06344086118042469,
+   "onset_sust_prevalence": 0.03120957330490152
+  },
+  {
+   "dataset": "R2",
+   "min_sust_onset_participants": 27,
+   "min_cross_onset_participants": 30,
+   "below_minimum_test": false,
+   "status_now_prevalence": 0.07728494703769684,
+   "onset_sust_prevalence": 0.033834775909781456
+  },
+  {
+   "dataset": "R3",
+   "min_sust_onset_participants": 33,
+   "min_cross_onset_participants": 39,
+   "below_minimum_test": false,
+   "status_now_prevalence": 0.06424731202423573,
+   "onset_sust_prevalence": 0.032863165251910686
+  },
+  {
+   "dataset": "S-EFF",
+   "min_sust_onset_participants": 33,
+   "min_cross_onset_participants": 40,
+   "below_minimum_test": false,
+   "status_now_prevalence": 0.16513440757989883,
+   "onset_sust_prevalence": 0.051560758923490844
+  },
+  {
+   "dataset": "S-AR",
+   "min_sust_onset_participants": 28,
+   "min_cross_onset_participants": 32,
+   "below_minimum_test": false,
+   "status_now_prevalence": 0.06112903170287609,
+   "onset_sust_prevalence": 0.02963854931294918
+  },
+  {
+   "dataset": "S-MISS",
+   "min_sust_onset_participants": 26,
+   "min_cross_onset_participants": 35,
+   "below_minimum_test": false,
+   "status_now_prevalence": 0.06344086118042469,
+   "onset_sust_prevalence": 0.03120957330490152
+  },
+  {
+   "dataset": "S-HET",
+   "min_sust_onset_participants": 33,
+   "min_cross_onset_participants": 41,
+   "below_minimum_test": false,
+   "status_now_prevalence": 0.08895161375403404,
+   "onset_sust_prevalence": 0.039435277692973614
+  },
+  {
+   "dataset": "S-NOISE",
+   "min_sust_onset_participants": 26,
+   "min_cross_onset_participants": 35,
+   "below_minimum_test": false,
+   "status_now_prevalence": 0.06344086118042469,
+   "onset_sust_prevalence": 0.03120957330490152
+  }
+ ],
+ "replication": {
+  "C1": {
+   "per_dataset": {
+    "v1": "supported",
+    "R1": "not supported",
+    "R2": "mixed",
+    "R3": "supported",
+    "S-EFF": "not supported",
+    "S-AR": "not supported",
+    "S-MISS": "mixed",
+    "S-HET": "not supported",
+    "S-NOISE": "not supported"
+   },
+   "primary_R1_R3": "not supported",
+   "sensitivity_v1_R1_R3": "mixed"
+  },
+  "C1_noGBT": {
+   "per_dataset": {
+    "v1": "supported",
+    "R1": "mixed",
+    "R2": "supported",
+    "R3": "supported",
+    "S-EFF": "mixed",
+    "S-AR": "supported",
+    "S-MISS": "supported",
+    "S-HET": "mixed",
+    "S-NOISE": "mixed"
+   },
+   "primary_R1_R3": "mixed",
+   "sensitivity_v1_R1_R3": "mixed"
+  },
+  "C2": {
+   "per_dataset": {
+    "v1": "mixed",
+    "R1": "supported",
+    "R2": "mixed",
+    "R3": "supported",
+    "S-EFF": "supported",
+    "S-AR": "supported",
+    "S-MISS": "supported",
+    "S-HET": "supported",
+    "S-NOISE": "supported"
+   },
+   "primary_R1_R3": "mixed",
+   "sensitivity_v1_R1_R3": "mixed"
+  },
+  "C3": {
+   "per_dataset": {
+    "v1": "supported",
+    "R1": "mixed",
+    "R2": "supported",
+    "R3": "supported",
+    "S-EFF": "supported",
+    "S-AR": "supported",
+    "S-MISS": "supported",
+    "S-HET": "mixed",
+    "S-NOISE": "mixed"
+   },
+   "primary_R1_R3": "mixed",
+   "sensitivity_v1_R1_R3": "mixed"
+  },
+  "C4": {
+   "per_dataset": {
+    "v1": "supported",
+    "R1": "supported",
+    "R2": "supported",
+    "R3": "supported",
+    "S-EFF": "supported",
+    "S-AR": "supported",
+    "S-MISS": "supported",
+    "S-HET": "supported",
+    "S-NOISE": "supported"
+   },
+   "primary_R1_R3": "supported",
+   "sensitivity_v1_R1_R3": "supported"
+  },
+  "C5": {
+   "per_dataset": {
+    "v1": "supported",
+    "R1": "not supported",
+    "R2": "supported",
+    "R3": "supported",
+    "S-EFF": "mixed",
+    "S-AR": "supported",
+    "S-MISS": "not supported",
+    "S-HET": "mixed",
+    "S-NOISE": "supported"
+   },
+   "primary_R1_R3": "mixed",
+   "sensitivity_v1_R1_R3": "mixed"
+  }
+ },
+ "kendall_w": {
+  "primary_R1-R3": {
+   "sev_now": 0.9746031746031746,
+   "sev_fc": 0.9111111111111111,
+   "status_now": 0.5936507936507937,
+   "status_fc": 0.7777777777777778,
+   "onset_sust": 0.8222222222222222,
+   "onset_cross": 0.6952380952380952
+  },
+  "sensitivity_v1+R1-R3": {
+   "sev_now": 0.95,
+   "sev_fc": 0.9,
+   "status_now": 0.5928571428571429,
+   "status_fc": 0.625,
+   "onset_sust": 0.6571428571428571,
+   "onset_cross": 0.5714285714285714
+  }
+ },
+ "shift": {
+  "primary_R1-R3": {
+   "rq": {
+    "RQ3_S-EFF_KAN_gain": {
+     "label": "inconclusive",
+     "n_plus": 0,
+     "n_minus": 3,
+     "n_inconclusive": 3,
+     "n_suggestive": 1,
+     "n": 10,
+     "qualified_exploratory": true
+    },
+    "RQ4a_S-AR_lag": {
+     "label": "mixed",
+     "H_max": 0.4444444444444444,
+     "rep_H_max_max": 0.4166666666666667,
+     "sign_acc": 1.0,
+     "qualified_exploratory": false
+    },
+    "RQ4b_S-EFF_lag": {
+     "label": "not supported",
+     "H_max": 0.4166666666666667,
+     "rep_H_max_max": 0.4166666666666667,
+     "sign_acc": 1.0,
+     "qualified_exploratory": true
+    },
+    "RQ5_S-MISS_aug_severity": {
+     "label": "mixed",
+     "rel_change_pct": -0.1166488425015852,
+     "better_n": 2,
+     "magnitude_label": "shift-sensitive",
+     "magnitude_direction": "augmentation helps less",
+     "C5_label_S_MISS": "not supported"
+    },
+    "RQ6a_S-HET_M1": {
+     "label": "not supported",
+     "n_plus": 0,
+     "n_minus": 0,
+     "n_inconclusive": 2,
+     "n_suggestive": 1,
+     "n": 6
+    }
+   },
+   "label_counts": {
+    "S-AR": {
+     "inconclusive (scale-dependent)": 1,
+     "shift-sensitive": 4,
+     "suggestive": 12,
+     "within replication noise": 19
+    },
+    "S-EFF": {
+     "inconclusive (scale-dependent)": 6,
+     "shift-sensitive": 13,
+     "suggestive": 3,
+     "within replication noise": 14
+    },
+    "S-HET": {
+     "inconclusive (scale-dependent)": 6,
+     "shift-sensitive": 5,
+     "suggestive": 7,
+     "within replication noise": 18
+    },
+    "S-MISS": {
+     "inconclusive (scale-dependent)": 1,
+     "shift-sensitive": 5,
+     "suggestive": 6,
+     "within replication noise": 24
+    },
+    "S-NOISE": {
+     "inconclusive (scale-dependent)": 1,
+     "shift-sensitive": 4,
+     "suggestive": 11,
+     "within replication noise": 20
+    }
+   },
+   "rank_shifted": [
+    [
+     "S-EFF",
+     "sev_now"
+    ],
+    [
+     "S-AR",
+     "sev_now"
+    ],
+    [
+     "S-MISS",
+     "status_fc"
+    ],
+    [
+     "S-AR",
+     "onset_sust"
+    ],
+    [
+     "S-MISS",
+     "onset_sust"
+    ],
+    [
+     "S-HET",
+     "onset_sust"
+    ],
+    [
+     "S-NOISE",
+     "onset_sust"
+    ],
+    [
+     "S-HET",
+     "onset_cross"
+    ]
+   ]
+  },
+  "sensitivity_v1+R1-R3": {
+   "rq": {
+    "RQ3_S-EFF_KAN_gain": {
+     "label": "inconclusive",
+     "n_plus": 0,
+     "n_minus": 2,
+     "n_inconclusive": 4,
+     "n_suggestive": 1,
+     "n": 10,
+     "qualified_exploratory": true
+    },
+    "RQ4a_S-AR_lag": {
+     "label": "mixed",
+     "H_max": 0.4444444444444444,
+     "rep_H_max_max": 0.4166666666666667,
+     "sign_acc": 1.0,
+     "qualified_exploratory": false
+    },
+    "RQ4b_S-EFF_lag": {
+     "label": "not supported",
+     "H_max": 0.4166666666666667,
+     "rep_H_max_max": 0.4166666666666667,
+     "sign_acc": 1.0,
+     "qualified_exploratory": true
+    },
+    "RQ5_S-MISS_aug_severity": {
+     "label": "mixed",
+     "rel_change_pct": -0.1166488425015852,
+     "better_n": 2,
+     "magnitude_label": "shift-sensitive",
+     "magnitude_direction": "augmentation helps less",
+     "C5_label_S_MISS": "not supported"
+    },
+    "RQ6a_S-HET_M1": {
+     "label": "not supported",
+     "n_plus": 0,
+     "n_minus": 0,
+     "n_inconclusive": 2,
+     "n_suggestive": 0,
+     "n": 6
+    }
+   },
+   "label_counts": {
+    "S-AR": {
+     "inconclusive (scale-dependent)": 2,
+     "shift-sensitive": 4,
+     "suggestive": 10,
+     "within replication noise": 20
+    },
+    "S-EFF": {
+     "inconclusive (scale-dependent)": 6,
+     "shift-sensitive": 12,
+     "suggestive": 3,
+     "within replication noise": 15
+    },
+    "S-HET": {
+     "inconclusive (scale-dependent)": 7,
+     "shift-sensitive": 2,
+     "suggestive": 5,
+     "within replication noise": 22
+    },
+    "S-MISS": {
+     "inconclusive (scale-dependent)": 0,
+     "shift-sensitive": 3,
+     "suggestive": 4,
+     "within replication noise": 29
+    },
+    "S-NOISE": {
+     "inconclusive (scale-dependent)": 1,
+     "shift-sensitive": 3,
+     "suggestive": 11,
+     "within replication noise": 21
+    }
+   },
+   "rank_shifted": [
+    [
+     "S-EFF",
+     "sev_now"
+    ],
+    [
+     "S-AR",
+     "sev_now"
+    ],
+    [
+     "S-AR",
+     "onset_sust"
+    ]
+   ]
+  }
+ },
+ "robustness_across_shifts": {
+  "C1": {
+   "per_shift": {
+    "S-EFF": "not supported",
+    "S-AR": "not supported",
+    "S-MISS": "mixed",
+    "S-HET": "not supported",
+    "S-NOISE": "not supported"
+   },
+   "n_supported": 0,
+   "of": 5,
+   "label": "not supported",
+   "excl_S_EFF": {
+    "n_supported": 0,
+    "of": 4,
+    "label": "not supported"
+   }
+  },
+  "C1_noGBT": {
+   "per_shift": {
+    "S-EFF": "mixed",
+    "S-AR": "supported",
+    "S-MISS": "supported",
+    "S-HET": "mixed",
+    "S-NOISE": "mixed"
+   },
+   "n_supported": 2,
+   "of": 5,
+   "label": "not supported",
+   "excl_S_EFF": {
+    "n_supported": 2,
+    "of": 4,
+    "label": "mixed"
+   }
+  },
+  "C2": {
+   "per_shift": {
+    "S-EFF": "supported",
+    "S-AR": "supported",
+    "S-MISS": "supported",
+    "S-HET": "supported",
+    "S-NOISE": "supported"
+   },
+   "n_supported": 5,
+   "of": 5,
+   "label": "supported",
+   "excl_S_EFF": {
+    "n_supported": 4,
+    "of": 4,
+    "label": "supported"
+   }
+  },
+  "C3": {
+   "per_shift": {
+    "S-EFF": "supported",
+    "S-AR": "supported",
+    "S-MISS": "supported",
+    "S-HET": "mixed",
+    "S-NOISE": "mixed"
+   },
+   "n_supported": 3,
+   "of": 5,
+   "label": "mixed",
+   "excl_S_EFF": {
+    "n_supported": 2,
+    "of": 4,
+    "label": "mixed"
+   }
+  },
+  "C4": {
+   "per_shift": {
+    "S-EFF": "supported",
+    "S-AR": "supported",
+    "S-MISS": "supported",
+    "S-HET": "supported",
+    "S-NOISE": "supported"
+   },
+   "n_supported": 5,
+   "of": 5,
+   "label": "supported",
+   "excl_S_EFF": {
+    "n_supported": 4,
+    "of": 4,
+    "label": "supported"
+   }
+  },
+  "C5": {
+   "per_shift": {
+    "S-EFF": "mixed",
+    "S-AR": "supported",
+    "S-MISS": "not supported",
+    "S-HET": "mixed",
+    "S-NOISE": "supported"
+   },
+   "n_supported": 2,
+   "of": 5,
+   "label": "not supported",
+   "excl_S_EFF": {
+    "n_supported": 2,
+    "of": 4,
+    "label": "mixed"
+   }
+  }
+ },
+ "cal_vs_test_paired_agreement": {
+  "shifts": {
+   "n": 180,
+   "sign_agreement": 0.7222222222222222,
+   "n_cal_consistent": 128,
+   "cal_consistent_also_consistent_on_test": 0.5859375
+  },
+  "v1+R1-R3": {
+   "n": 144,
+   "sign_agreement": 0.8263888888888888,
+   "n_cal_consistent": 102,
+   "cal_consistent_also_consistent_on_test": 0.7450980392156863
+  },
+  "all": {
+   "n": 324,
+   "sign_agreement": 0.7685185185185185,
+   "n_cal_consistent": 230,
+   "cal_consistent_also_consistent_on_test": 0.6565217391304348
+  }
+ },
+ "cal_rq_labels_v1_included_yardstick": {
+  "RQ3_S-EFF_KAN_gain": "inconclusive",
+  "RQ4a_S-AR_lag": "not supported",
+  "RQ4b_S-EFF_lag": "not supported",
+  "RQ5_S-MISS_aug_severity": "mixed",
+  "RQ6a_S-HET_M1": "not supported"
+ }
+}

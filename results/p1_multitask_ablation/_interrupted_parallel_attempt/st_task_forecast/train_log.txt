@@ -1,0 +1,66 @@
+  gru seed0 ep1 train 0.6021 cal 0.6011
+  gru seed0 ep2 train 0.5344 cal 0.5902
+  gru seed0 ep3 train 0.5285 cal 0.5974
+  gru seed0 ep4 train 0.5177 cal 0.5936
+  gru seed0 ep5 train 0.5078 cal 0.5897
+  gru seed0 ep6 train 0.4895 cal 0.6036
+  gru seed0 ep7 train 0.4757 cal 0.6209
+  gru seed0 ep8 train 0.4622 cal 0.6464
+  gru seed0 ep9 train 0.4393 cal 0.6581
+st_task sev_dep_h7 seed0: wall 251s cpu 191s params 10369 best_epoch 5 epochs_run 9
+  gru seed1 ep1 train 0.6104 cal 0.5981
+  gru seed1 ep2 train 0.5297 cal 0.5909
+  gru seed1 ep3 train 0.5269 cal 0.5931
+  gru seed1 ep4 train 0.5115 cal 0.5904
+  gru seed1 ep5 train 0.4976 cal 0.5996
+  gru seed1 ep6 train 0.4911 cal 0.6047
+  gru seed1 ep7 train 0.4699 cal 0.6225
+  gru seed1 ep8 train 0.4622 cal 0.6203
+st_task sev_dep_h7 seed1: wall 185s cpu 173s params 10369 best_epoch 4 epochs_run 8
+  gru seed2 ep1 train 0.6037 cal 0.5915
+  gru seed2 ep2 train 0.5273 cal 0.5866
+  gru seed2 ep3 train 0.5249 cal 0.5929
+  gru seed2 ep4 train 0.5129 cal 0.5933
+  gru seed2 ep5 train 0.5037 cal 0.5975
+  gru seed2 ep6 train 0.4901 cal 0.6061
+st_task sev_dep_h7 seed2: wall 214s cpu 123s params 10369 best_epoch 2 epochs_run 6
+  gru seed3 ep1 train 0.5996 cal 0.5992
+  gru seed3 ep2 train 0.5350 cal 0.5975
+  gru seed3 ep3 train 0.5191 cal 0.5900
+  gru seed3 ep4 train 0.5187 cal 0.5926
+  gru seed3 ep5 train 0.5053 cal 0.5943
+  gru seed3 ep6 train 0.4904 cal 0.6092
+  gru seed3 ep7 train 0.4824 cal 0.6154
+st_task sev_dep_h7 seed3: wall 212s cpu 139s params 10369 best_epoch 3 epochs_run 7
+  gru seed4 ep1 train 0.6059 cal 0.6045
+  gru seed4 ep2 train 0.5374 cal 0.5959
+  gru seed4 ep3 train 0.5254 cal 0.5953
+  gru seed4 ep4 train 0.5124 cal 0.6016
+  gru seed4 ep5 train 0.4942 cal 0.6097
+  gru seed4 ep6 train 0.4799 cal 0.6299
+  gru seed4 ep7 train 0.4632 cal 0.6564
+st_task sev_dep_h7 seed4: wall 250s cpu 135s params 10369 best_epoch 3 epochs_run 7
+  gru seed0 ep1 train 0.6670 cal 0.6792
+  gru seed0 ep2 train 0.6094 cal 0.6766
+  gru seed0 ep3 train 0.5874 cal 0.6781
+  gru seed0 ep4 train 0.5924 cal 0.6733
+  gru seed0 ep5 train 0.5797 cal 0.6778
+  gru seed0 ep6 train 0.5645 cal 0.6890
+  gru seed0 ep7 train 0.5415 cal 0.7093
+  gru seed0 ep8 train 0.5236 cal 0.7434
+st_task sev_dep_h14 seed0: wall 177s cpu 160s params 10369 best_epoch 4 epochs_run 8
+  gru seed1 ep1 train 0.6777 cal 0.6854
+  gru seed1 ep2 train 0.6071 cal 0.6684
+  gru seed1 ep3 train 0.6021 cal 0.6787
+  gru seed1 ep4 train 0.5902 cal 0.6734
+  gru seed1 ep5 train 0.5694 cal 0.6793
+  gru seed1 ep6 train 0.5610 cal 0.7035
+st_task sev_dep_h14 seed1: wall 318s cpu 103s params 10369 best_epoch 2 epochs_run 6
+  gru seed2 ep1 train 0.6635 cal 0.6822
+  gru seed2 ep2 train 0.5984 cal 0.6677
+  gru seed2 ep3 train 0.5949 cal 0.6637
+  gru seed2 ep4 train 0.5838 cal 0.6752
+  gru seed2 ep5 train 0.5769 cal 0.6751
+  gru seed2 ep6 train 0.5535 cal 0.6905
+  gru seed2 ep7 train 0.5362 cal 0.7132
+st_task sev_dep_h14 seed2: wall 193s cpu 118s params 10369 best_epoch 3 epochs_run 7

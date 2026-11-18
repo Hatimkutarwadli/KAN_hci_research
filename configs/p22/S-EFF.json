@@ -1,0 +1,15 @@
+{
+ "SYNTHETIC": true,
+ "id": "S-EFF",
+ "family": "shift",
+ "seed": 3101,
+ "overrides": {
+  "eff_sv_dep": 0.12,
+  "eff_steps_dep": -0.1,
+  "eff_steps_anx": -0.06,
+  "eff_hrv_anx": -0.1
+ },
+ "rho_scale": 1.0,
+ "crn_partner": "R1",
+ "purpose": "Planted effect strength: the four planted feature->outcome effects x2 (lags and eff_stress_direct unchanged). RQ3/RQ4/RQ6. Same seed streams as R1 (3101-3103): common random numbers. Frozen thresholds (approved)."
+}

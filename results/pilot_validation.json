@@ -1,0 +1,445 @@
+{
+  "SYNTHETIC": true,
+  "dataset_dir": "data/pilot",
+  "dims": {
+    "participants": 200,
+    "days_per_participant_min": 120,
+    "days_per_participant_max": 120,
+    "rows": 24000,
+    "pids_contiguous": true,
+    "days_contiguous_sorted": true,
+    "n_obs_columns": 12,
+    "n_target_columns": 14
+  },
+  "missingness": {
+    "whole_day_missing": 0.15516666666666667,
+    "per_feature_nan": {
+      "steps": 0.15516666666666667,
+      "calories": 0.15516666666666667,
+      "sleep_duration": 0.15516666666666667,
+      "sleep_efficiency": 0.15516666666666667,
+      "sleep_variability": 0.15516666666666667,
+      "resting_hr": 0.15516666666666667,
+      "hrv": 0.189375,
+      "circadian_regularity": 0.15516666666666667
+    },
+    "per_person_missing_min_median_max": [
+      0.0,
+      0.125,
+      0.5083333333333333
+    ],
+    "by_age_group": {
+      "0": 0.148,
+      "1": 0.163,
+      "2": 0.152
+    },
+    "mean_gap_run_length": 2.3933161953727504
+  },
+  "prevalence_person_day": {
+    "dep": 0.07970833333333334,
+    "anx": 0.07158333333333333
+  },
+  "participants_positive_at_day0": {
+    "dep": 13,
+    "anx": 9
+  },
+  "participants_with_first_onset": {
+    "dep": 68,
+    "anx": 80
+  },
+  "prevalence_by_group": {
+    "sex": {
+      "status_dep": {
+        "F": 0.092,
+        "M": 0.055
+      },
+      "status_anx": {
+        "F": 0.086,
+        "M": 0.042
+      }
+    },
+    "age_group": {
+      "status_dep": {
+        "0": 0.063,
+        "1": 0.096,
+        "2": 0.075
+      },
+      "status_anx": {
+        "0": 0.063,
+        "1": 0.081,
+        "2": 0.062
+      }
+    }
+  },
+  "split_participants": {
+    "train": 120,
+    "cal": 40,
+    "test": 40
+  },
+  "onset_counts": {
+    "dep_h7": {
+      "cal": {
+        "positive_origins": 51,
+        "eligible_origins": 2533,
+        "positive_participants": 8
+      },
+      "test": {
+        "positive_origins": 68,
+        "eligible_origins": 2281,
+        "positive_participants": 10
+      },
+      "train": {
+        "positive_origins": 173,
+        "eligible_origins": 7007,
+        "positive_participants": 26
+      }
+    },
+    "dep_h14": {
+      "cal": {
+        "positive_origins": 96,
+        "eligible_origins": 2349,
+        "positive_participants": 8
+      },
+      "test": {
+        "positive_origins": 125,
+        "eligible_origins": 2127,
+        "positive_participants": 10
+      },
+      "train": {
+        "positive_origins": 316,
+        "eligible_origins": 6503,
+        "positive_participants": 26
+      }
+    },
+    "dep_h21": {
+      "cal": {
+        "positive_origins": 124,
+        "eligible_origins": 2160,
+        "positive_participants": 8
+      },
+      "test": {
+        "positive_origins": 166,
+        "eligible_origins": 1971,
+        "positive_participants": 10
+      },
+      "train": {
+        "positive_origins": 425,
+        "eligible_origins": 5990,
+        "positive_participants": 26
+      }
+    },
+    "anx_h7": {
+      "cal": {
+        "positive_origins": 69,
+        "eligible_origins": 2331,
+        "positive_participants": 11
+      },
+      "test": {
+        "positive_origins": 70,
+        "eligible_origins": 2149,
+        "positive_participants": 10
+      },
+      "train": {
+        "positive_origins": 239,
+        "eligible_origins": 7459,
+        "positive_participants": 36
+      }
+    },
+    "anx_h14": {
+      "cal": {
+        "positive_origins": 132,
+        "eligible_origins": 2170,
+        "positive_participants": 11
+      },
+      "test": {
+        "positive_origins": 126,
+        "eligible_origins": 2005,
+        "positive_participants": 10
+      },
+      "train": {
+        "positive_origins": 444,
+        "eligible_origins": 6962,
+        "positive_participants": 36
+      }
+    },
+    "anx_h21": {
+      "cal": {
+        "positive_origins": 194,
+        "eligible_origins": 2009,
+        "positive_participants": 11
+      },
+      "test": {
+        "positive_origins": 161,
+        "eligible_origins": 1853,
+        "positive_participants": 10
+      },
+      "train": {
+        "positive_origins": 599,
+        "eligible_origins": 6447,
+        "positive_participants": 36
+      }
+    }
+  },
+  "right_censoring_and_risk_set_checks_pass": true,
+  "onset_labels_match_onset_day": true,
+  "autocorrelation_mean_over_participants": {
+    "z_dep_true": {
+      "lag1": 0.9548393011377414,
+      "lag7": 0.6550577199328338
+    },
+    "severity_dep_observed": {
+      "lag1": 0.7946128142582402,
+      "lag7": 0.5532325529118686
+    },
+    "steps_observed": {
+      "lag1": 0.6216541136650351,
+      "lag7": 0.1932088786254769
+    },
+    "sleep_variability_observed": {
+      "lag1": 0.7103789561185078,
+      "lag7": 0.2357006195532003
+    },
+    "hrv_observed": {
+      "lag1": 0.5983427675023372,
+      "lag7": 0.08872981939601003
+    },
+    "resting_hr_observed": {
+      "lag1": 0.7019285297923946,
+      "lag7": 0.2226320251737004
+    }
+  },
+  "autocorrelation_shuffled_control_lag1_z_dep": -0.008191253333826224,
+  "icc_between_person_share": {
+    "z_dep": 0.5268464205636596,
+    "severity_dep": 0.4906351139522389,
+    "steps": 0.33643752033944274,
+    "sleep_variability": 0.32838481149152643,
+    "hrv": 0.3577082695182531,
+    "resting_hr": 0.3537019694446645
+  },
+  "sanity_true_latent_regression": {
+    "note": "regress z(t+1)-z(t) on lagged g(true feature); planted: sv->dep +0.06, steps->dep -0.05 (per tanh(0.7u)), steps->anx -0.03, hrv->anx -0.05 (x person sensitivity ~1.05); resting_hr/calories have no direct effect",
+    "dep": {
+      "z_dep": {
+        "coef": -0.0564,
+        "t": -28.6
+      },
+      "g_sv": {
+        "coef": 0.0632,
+        "t": 19.1
+      },
+      "g_st_dep": {
+        "coef": -0.057,
+        "t": -14.0
+      },
+      "g_rhr": {
+        "coef": 0.0005,
+        "t": 0.2
+      },
+      "g_cal": {
+        "coef": 0.0031,
+        "t": 1.1
+      },
+      "stress": {
+        "coef": 0.0315,
+        "t": 16.5
+      }
+    },
+    "anx": {
+      "z_anx": {
+        "coef": -0.0577,
+        "t": -24.5
+      },
+      "g_st_dep": {
+        "coef": -0.0408,
+        "t": -9.8
+      },
+      "g_hrv": {
+        "coef": -0.0504,
+        "t": -13.2
+      },
+      "g_rhr": {
+        "coef": -0.0003,
+        "t": -0.1
+      },
+      "g_cal": {
+        "coef": -0.0013,
+        "t": -0.4
+      },
+      "stress": {
+        "coef": 0.0336,
+        "t": 20.4
+      }
+    }
+  },
+  "sanity_observed_data_regression": {
+    "note": "person-demeaned, participant-clustered SE, standardized features at t -> severity(t+h); expect sv +, steps -, hrv -; resting_hr/calories spurious (non-causal)",
+    "sv->dep (h=3)": {
+      "naive": {
+        "steps": {
+          "coef": -0.259,
+          "t": -13.1
+        },
+        "calories": {
+          "coef": -0.014,
+          "t": -0.8
+        },
+        "sleep_variability": {
+          "coef": 0.415,
+          "t": 21.3
+        },
+        "resting_hr": {
+          "coef": 0.156,
+          "t": 7.5
+        },
+        "hrv": {
+          "coef": -0.136,
+          "t": -7.2
+        }
+      },
+      "adjusted_stress_proxy": {
+        "steps": {
+          "coef": -0.241,
+          "t": -12.3
+        },
+        "calories": {
+          "coef": -0.015,
+          "t": -0.8
+        },
+        "sleep_variability": {
+          "coef": 0.359,
+          "t": 17.8
+        },
+        "resting_hr": {
+          "coef": 0.086,
+          "t": 4.1
+        },
+        "hrv": {
+          "coef": -0.114,
+          "t": -6.1
+        },
+        "stress_proxy": {
+          "coef": 0.195,
+          "t": 11.0
+        }
+      }
+    },
+    "steps->dep (h=2)": {
+      "naive": {
+        "steps": {
+          "coef": -0.182,
+          "t": -10.4
+        },
+        "calories": {
+          "coef": -0.033,
+          "t": -2.1
+        },
+        "sleep_variability": {
+          "coef": 0.287,
+          "t": 17.7
+        },
+        "resting_hr": {
+          "coef": 0.125,
+          "t": 6.9
+        },
+        "hrv": {
+          "coef": -0.1,
+          "t": -6.2
+        }
+      },
+      "adjusted_stress_proxy": {
+        "steps": {
+          "coef": -0.168,
+          "t": -9.7
+        },
+        "calories": {
+          "coef": -0.034,
+          "t": -2.1
+        },
+        "sleep_variability": {
+          "coef": 0.246,
+          "t": 15.1
+        },
+        "resting_hr": {
+          "coef": 0.075,
+          "t": 4.0
+        },
+        "hrv": {
+          "coef": -0.084,
+          "t": -5.2
+        },
+        "stress_proxy": {
+          "coef": 0.142,
+          "t": 9.0
+        }
+      }
+    },
+    "hrv->anx (h=1)": {
+      "naive": {
+        "steps": {
+          "coef": -0.114,
+          "t": -8.3
+        },
+        "calories": {
+          "coef": 0.012,
+          "t": 0.9
+        },
+        "sleep_variability": {
+          "coef": 0.089,
+          "t": 6.3
+        },
+        "resting_hr": {
+          "coef": 0.085,
+          "t": 5.9
+        },
+        "hrv": {
+          "coef": -0.181,
+          "t": -13.8
+        }
+      },
+      "adjusted_stress_proxy": {
+        "steps": {
+          "coef": -0.103,
+          "t": -7.5
+        },
+        "calories": {
+          "coef": 0.012,
+          "t": 0.9
+        },
+        "sleep_variability": {
+          "coef": 0.058,
+          "t": 4.0
+        },
+        "resting_hr": {
+          "coef": 0.047,
+          "t": 3.1
+        },
+        "hrv": {
+          "coef": -0.169,
+          "t": -13.1
+        },
+        "stress_proxy": {
+          "coef": 0.107,
+          "t": 8.3
+        }
+      }
+    }
+  },
+  "leakage": {
+    "input_columns": [
+      "calories",
+      "circadian_regularity",
+      "hrv",
+      "missing_day",
+      "resting_hr",
+      "sleep_duration",
+      "sleep_efficiency",
+      "sleep_variability",
+      "steps",
+      "stress_proxy"
+    ],
+    "input_target_or_truth_overlap": [],
+    "stress_proxy_is_analysis_only": true,
+    "max_abs_corr_feature_vs_onset_dep_h14": 0.19788293338805055
+  }
+}

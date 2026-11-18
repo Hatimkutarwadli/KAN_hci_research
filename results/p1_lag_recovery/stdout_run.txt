@@ -1,0 +1,34 @@
+estimated within-person AR(1): {'steps': 0.63, 'calories': 0.62, 'sleep_duration': 0.51, 'sleep_efficiency': 0.42, 'sleep_variability': 0.73, 'resting_hr': 0.73, 'hrv': 0.62, 'circadian_regularity': 0.58}
+gru trained 0 19s IG completeness err 0.0034804160241037607
+gru trained 1 23s IG completeness err 0.010580253787338734
+gru trained 2 23s IG completeness err 0.011255660094320774
+gru trained 3 75s IG completeness err 0.005828883498907089
+gru trained 4 28s IG completeness err 0.00556655740365386
+mlp_m1 trained 0 82s IG completeness err 0.013514197431504726
+mlp_m1 trained 1 17s IG completeness err 0.005942787509411573
+mlp_m1 trained 2 15s IG completeness err 0.003015979891642928
+mlp_m1 trained 3 18s IG completeness err 0.011188394390046597
+mlp_m1 trained 4 47s IG completeness err 0.008508962579071522
+kangru trained 0 220s IG completeness err 0.0003727405855897814
+kangru trained 1 133s IG completeness err 0.0006190079147927463
+kangru trained 2 132s IG completeness err 0.0004222280695103109
+kangru trained 3 141s IG completeness err 0.00047137614456005394
+kangru trained 4 123s IG completeness err 0.0005897194496355951
+m1 trained 0 226s IG completeness err 0.09938394278287888
+m1 trained 1 227s IG completeness err 0.10552451759576797
+m1 trained 2 219s IG completeness err 0.16013218462467194
+m1 trained 3 221s IG completeness err 0.13220417499542236
+m1 trained 4 234s IG completeness err 0.26576319336891174
+gru untrained 0 4s IG completeness err nan
+gru untrained 1 4s IG completeness err nan
+gru untrained 2 3s IG completeness err nan
+mlp_m1 untrained 0 7s IG completeness err nan
+mlp_m1 untrained 1 8s IG completeness err nan
+mlp_m1 untrained 2 8s IG completeness err nan
+kangru untrained 0 75s IG completeness err nan
+kangru untrained 1 72s IG completeness err nan
+kangru untrained 2 74s IG completeness err nan
+m1 untrained 0 116s IG completeness err nan
+m1 untrained 1 129s IG completeness err nan
+m1 untrained 2 108s IG completeness err nan
+done

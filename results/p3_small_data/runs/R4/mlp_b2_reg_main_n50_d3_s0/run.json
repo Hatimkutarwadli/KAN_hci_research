@@ -1,0 +1,104 @@
+{
+ "SYNTHETIC": true,
+ "test_split_loaded": false,
+ "ds": "R4",
+ "model": "mlp_b2_reg",
+ "ts": "main",
+ "n": 50,
+ "draw": 3,
+ "seed": 0,
+ "variant": "primary",
+ "id": "mlp_b2_reg_main_n50_d3_s0",
+ "cost": 0.11666666666666667,
+ "wall_s": 16.640729500097223,
+ "cpu_s": 52.734375,
+ "finite": true,
+ "n_params": 29327,
+ "partial_rerun": false,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.5478534791161938,
+   "cal_loss": 0.4168482720851898
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.3531452421475482,
+   "cal_loss": 0.3265538513660431
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.2715781831164514,
+   "cal_loss": 0.28128647804260254
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.22451532538860075,
+   "cal_loss": 0.26177334785461426
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.19351059952089864,
+   "cal_loss": 0.2520553171634674
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.18516686701005505,
+   "cal_loss": 0.24905067682266235
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.17207349565721328,
+   "cal_loss": 0.25049909949302673
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.15996990185271026,
+   "cal_loss": 0.25251859426498413
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.16098197359551666,
+   "cal_loss": 0.2583485245704651
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.15388876977787222,
+   "cal_loss": 0.2451746016740799
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.14429717045317414,
+   "cal_loss": 0.24798794090747833
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.1381839856505394,
+   "cal_loss": 0.2585456371307373
+  },
+  {
+   "epoch": 13,
+   "train_loss": 0.13510824584512302,
+   "cal_loss": 0.26529085636138916
+  },
+  {
+   "epoch": 14,
+   "train_loss": 0.13242551146015044,
+   "cal_loss": 0.25119030475616455
+  }
+ ],
+ "best_epoch": 10,
+ "epochs_run": 14,
+ "hparams": {
+  "epochs": 25,
+  "patience": 4,
+  "batch_size": 256,
+  "lr": 0.002,
+  "weight_decay": 0.001,
+  "epoch_frac": 0.5,
+  "model_kwargs": {
+   "dropout": 0.3
+  }
+ },
+ "finished": "2026-11-18T00:21:20.394777"
+}

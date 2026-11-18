@@ -1,0 +1,30 @@
+{
+ "B1_nonfinite": false,
+ "B2_models_failing": {},
+ "B3_best_epoch_le1": [],
+ "projection": {
+  "main_jobs": 544,
+  "main_cpu_h": 91.45266989087303,
+  "pilot_cpu_s": 9660.796875,
+  "pilot_elapsed_s": 1091,
+  "cpu_per_elapsed_pilot": 8.85499255270394,
+  "cpu_per_elapsed_p22_phaseB": 9.3,
+  "main_elapsed_h_at_pilot_efficiency": 10.327808786575122,
+  "main_elapsed_h_at_p22_efficiency": 9.833620418373442,
+  "by_model_cpu_h": {
+   "gbt_forecast": 3.7472061011904763,
+   "gbt_main": 5.538721478174605,
+   "gru_forecast": 2.1669556051587313,
+   "gru_main": 2.1747085813492055,
+   "kan_reg_main": 15.497124255952375,
+   "m1_all": 57.068308531746055,
+   "mlp_b2_reg_main": 1.6257725694444445,
+   "mlp_m1_all": 3.633872767857144
+  },
+  "sens_cpu_h": {
+   "S2": 0.35951760912698405,
+   "S3": 1.2304408482142857,
+   "S1": 8.588838665674608
+  }
+ }
+}

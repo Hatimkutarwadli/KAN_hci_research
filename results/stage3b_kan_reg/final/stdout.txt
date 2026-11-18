@@ -1,0 +1,40 @@
+  kan seed0 ep1 train 0.2915 cal 0.2302
+  kan seed0 ep2 train 0.2165 cal 0.2295
+  kan seed0 ep3 train 0.2083 cal 0.2271
+  kan seed0 ep4 train 0.2026 cal 0.2309
+  kan seed0 ep5 train 0.1922 cal 0.2342
+  kan seed0 ep6 train 0.1844 cal 0.2382
+  kan seed0 ep7 train 0.1785 cal 0.2391
+kan_reg seed0: wall 176s cpu 676s
+  kan seed1 ep1 train 0.2990 cal 0.2307
+  kan seed1 ep2 train 0.2200 cal 0.2254
+  kan seed1 ep3 train 0.2135 cal 0.2277
+  kan seed1 ep4 train 0.2012 cal 0.2443
+  kan seed1 ep5 train 0.1904 cal 0.2337
+  kan seed1 ep6 train 0.1838 cal 0.2378
+kan_reg seed1: wall 164s cpu 632s
+  kan seed2 ep1 train 0.2981 cal 0.2318
+  kan seed2 ep2 train 0.2173 cal 0.2255
+  kan seed2 ep3 train 0.2113 cal 0.2253
+  kan seed2 ep4 train 0.2051 cal 0.2360
+  kan seed2 ep5 train 0.1922 cal 0.2323
+  kan seed2 ep6 train 0.1869 cal 0.2328
+  kan seed2 ep7 train 0.1777 cal 0.2364
+kan_reg seed2: wall 193s cpu 742s
+  kan seed3 ep1 train 0.2908 cal 0.2298
+  kan seed3 ep2 train 0.2228 cal 0.2292
+  kan seed3 ep3 train 0.2098 cal 0.2268
+  kan seed3 ep4 train 0.2021 cal 0.2312
+  kan seed3 ep5 train 0.1923 cal 0.2326
+  kan seed3 ep6 train 0.1841 cal 0.2374
+  kan seed3 ep7 train 0.1758 cal 0.2358
+kan_reg seed3: wall 190s cpu 726s
+  kan seed4 ep1 train 0.2925 cal 0.2331
+  kan seed4 ep2 train 0.2190 cal 0.2260
+  kan seed4 ep3 train 0.2112 cal 0.2273
+  kan seed4 ep4 train 0.2034 cal 0.2359
+  kan seed4 ep5 train 0.1914 cal 0.2294
+  kan seed4 ep6 train 0.1881 cal 0.2315
+kan_reg seed4: wall 171s cpu 649s
+done -> results/stage3b_kan_reg/final
+exit 0

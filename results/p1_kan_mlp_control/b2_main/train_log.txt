@@ -1,0 +1,107 @@
+  mlp_b2 seed0 ep1 train 0.2593 cal 0.2254
+  mlp_b2 seed0 ep2 train 0.1906 cal 0.2401
+  mlp_b2 seed0 ep3 train 0.1645 cal 0.2588
+  mlp_b2 seed0 ep4 train 0.1421 cal 0.2748
+  mlp_b2 seed0 ep5 train 0.1274 cal 0.2844
+mlp_b2 seed0: wall 18s cpu 58s params 29327 trainable 29327 best_epoch 1 epochs_run 5
+  mlp_b2 seed1 ep1 train 0.2653 cal 0.2272
+  mlp_b2 seed1 ep2 train 0.1949 cal 0.2329
+  mlp_b2 seed1 ep3 train 0.1747 cal 0.2508
+  mlp_b2 seed1 ep4 train 0.1498 cal 0.2754
+  mlp_b2 seed1 ep5 train 0.1316 cal 0.2757
+mlp_b2 seed1: wall 19s cpu 75s params 29327 trainable 29327 best_epoch 1 epochs_run 5
+  mlp_b2 seed2 ep1 train 0.2651 cal 0.2266
+  mlp_b2 seed2 ep2 train 0.1931 cal 0.2271
+  mlp_b2 seed2 ep3 train 0.1727 cal 0.2380
+  mlp_b2 seed2 ep4 train 0.1543 cal 0.2596
+  mlp_b2 seed2 ep5 train 0.1379 cal 0.2646
+mlp_b2 seed2: wall 16s cpu 61s params 29327 trainable 29327 best_epoch 1 epochs_run 5
+  mlp_b2 seed3 ep1 train 0.2513 cal 0.2250
+  mlp_b2 seed3 ep2 train 0.1914 cal 0.2459
+  mlp_b2 seed3 ep3 train 0.1614 cal 0.2636
+  mlp_b2 seed3 ep4 train 0.1389 cal 0.2802
+  mlp_b2 seed3 ep5 train 0.1254 cal 0.2983
+mlp_b2 seed3: wall 15s cpu 59s params 29327 trainable 29327 best_epoch 1 epochs_run 5
+  mlp_b2 seed4 ep1 train 0.2540 cal 0.2328
+  mlp_b2 seed4 ep2 train 0.1969 cal 0.2332
+  mlp_b2 seed4 ep3 train 0.1713 cal 0.2483
+  mlp_b2 seed4 ep4 train 0.1463 cal 0.2723
+  mlp_b2 seed4 ep5 train 0.1298 cal 0.2802
+mlp_b2 seed4: wall 17s cpu 67s params 29327 trainable 29327 best_epoch 1 epochs_run 5
+  kan_nospline seed0 ep1 train 0.2894 cal 0.2309
+  kan_nospline seed0 ep2 train 0.2044 cal 0.2314
+  kan_nospline seed0 ep3 train 0.1955 cal 0.2326
+  kan_nospline seed0 ep4 train 0.1878 cal 0.2403
+  kan_nospline seed0 ep5 train 0.1752 cal 0.2540
+kan_nospline seed0: wall 155s cpu 581s params 29336 trainable 3560 best_epoch 1 epochs_run 5
+  kan_nospline seed1 ep1 train 0.2888 cal 0.2330
+  kan_nospline seed1 ep2 train 0.2063 cal 0.2297
+  kan_nospline seed1 ep3 train 0.2005 cal 0.2278
+  kan_nospline seed1 ep4 train 0.1890 cal 0.2394
+  kan_nospline seed1 ep5 train 0.1774 cal 0.2417
+  kan_nospline seed1 ep6 train 0.1714 cal 0.2570
+  kan_nospline seed1 ep7 train 0.1648 cal 0.2631
+kan_nospline seed1: wall 151s cpu 588s params 29336 trainable 3560 best_epoch 3 epochs_run 7
+  kan_nospline seed2 ep1 train 0.2863 cal 0.2323
+  kan_nospline seed2 ep2 train 0.2024 cal 0.2273
+  kan_nospline seed2 ep3 train 0.1940 cal 0.2341
+  kan_nospline seed2 ep4 train 0.1850 cal 0.2379
+  kan_nospline seed2 ep5 train 0.1725 cal 0.2530
+  kan_nospline seed2 ep6 train 0.1646 cal 0.2609
+kan_nospline seed2: wall 125s cpu 490s params 29336 trainable 3560 best_epoch 2 epochs_run 6
+  kan_nospline seed3 ep1 train 0.2830 cal 0.2296
+  kan_nospline seed3 ep2 train 0.2092 cal 0.2258
+  kan_nospline seed3 ep3 train 0.1945 cal 0.2314
+  kan_nospline seed3 ep4 train 0.1833 cal 0.2393
+  kan_nospline seed3 ep5 train 0.1733 cal 0.2445
+  kan_nospline seed3 ep6 train 0.1679 cal 0.2469
+kan_nospline seed3: wall 120s cpu 474s params 29336 trainable 3560 best_epoch 2 epochs_run 6
+  kan_nospline seed4 ep1 train 0.2775 cal 0.2316
+  kan_nospline seed4 ep2 train 0.2068 cal 0.2275
+  kan_nospline seed4 ep3 train 0.1978 cal 0.2298
+  kan_nospline seed4 ep4 train 0.1882 cal 0.2372
+  kan_nospline seed4 ep5 train 0.1749 cal 0.2452
+  kan_nospline seed4 ep6 train 0.1694 cal 0.2536
+kan_nospline seed4: wall 118s cpu 467s params 29336 trainable 3560 best_epoch 2 epochs_run 6
+  mlp_b2 seed0 ep1 train 0.2829 cal 0.2266
+  mlp_b2 seed0 ep2 train 0.2153 cal 0.2268
+  mlp_b2 seed0 ep3 train 0.2122 cal 0.2265
+  mlp_b2 seed0 ep4 train 0.2109 cal 0.2259
+  mlp_b2 seed0 ep5 train 0.2065 cal 0.2239
+  mlp_b2 seed0 ep6 train 0.2066 cal 0.2254
+  mlp_b2 seed0 ep7 train 0.2025 cal 0.2275
+  mlp_b2 seed0 ep8 train 0.1993 cal 0.2282
+  mlp_b2 seed0 ep9 train 0.1985 cal 0.2299
+mlp_b2_reg seed0: wall 25s cpu 98s params 29327 trainable 29327 best_epoch 5 epochs_run 9
+  mlp_b2 seed1 ep1 train 0.2891 cal 0.2265
+  mlp_b2 seed1 ep2 train 0.2169 cal 0.2290
+  mlp_b2 seed1 ep3 train 0.2154 cal 0.2243
+  mlp_b2 seed1 ep4 train 0.2102 cal 0.2300
+  mlp_b2 seed1 ep5 train 0.2073 cal 0.2270
+  mlp_b2 seed1 ep6 train 0.2062 cal 0.2284
+  mlp_b2 seed1 ep7 train 0.2025 cal 0.2292
+mlp_b2_reg seed1: wall 19s cpu 73s params 29327 trainable 29327 best_epoch 3 epochs_run 7
+  mlp_b2 seed2 ep1 train 0.2909 cal 0.2268
+  mlp_b2 seed2 ep2 train 0.2142 cal 0.2230
+  mlp_b2 seed2 ep3 train 0.2123 cal 0.2266
+  mlp_b2 seed2 ep4 train 0.2132 cal 0.2283
+  mlp_b2 seed2 ep5 train 0.2079 cal 0.2254
+  mlp_b2 seed2 ep6 train 0.2047 cal 0.2256
+mlp_b2_reg seed2: wall 17s cpu 67s params 29327 trainable 29327 best_epoch 2 epochs_run 6
+  mlp_b2 seed3 ep1 train 0.2757 cal 0.2261
+  mlp_b2 seed3 ep2 train 0.2203 cal 0.2261
+  mlp_b2 seed3 ep3 train 0.2115 cal 0.2262
+  mlp_b2 seed3 ep4 train 0.2104 cal 0.2249
+  mlp_b2 seed3 ep5 train 0.2064 cal 0.2216
+  mlp_b2 seed3 ep6 train 0.2049 cal 0.2259
+  mlp_b2 seed3 ep7 train 0.2017 cal 0.2243
+  mlp_b2 seed3 ep8 train 0.1992 cal 0.2248
+  mlp_b2 seed3 ep9 train 0.1956 cal 0.2299
+mlp_b2_reg seed3: wall 24s cpu 94s params 29327 trainable 29327 best_epoch 5 epochs_run 9
+  mlp_b2 seed4 ep1 train 0.2818 cal 0.2287
+  mlp_b2 seed4 ep2 train 0.2199 cal 0.2238
+  mlp_b2 seed4 ep3 train 0.2146 cal 0.2253
+  mlp_b2 seed4 ep4 train 0.2109 cal 0.2242
+  mlp_b2 seed4 ep5 train 0.2056 cal 0.2281
+  mlp_b2 seed4 ep6 train 0.2090 cal 0.2282
+mlp_b2_reg seed4: wall 16s cpu 63s params 29327 trainable 29327 best_epoch 2 epochs_run 6

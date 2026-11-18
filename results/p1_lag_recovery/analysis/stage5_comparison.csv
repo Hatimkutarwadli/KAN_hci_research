@@ -1,0 +1,29 @@
+pair,source,peak,r_truth
+sleep_variability->dep,V1_adjusted_for_other_features,5,0.20354609675151233
+sleep_variability->dep,V2_plus_stress_proxy,5,0.19865762621119992
+sleep_variability->dep,E2_oracle_no_stress,3,0.9782744464855664
+sleep_variability->dep,gru,"[1, 1, 1, 1, 1]",-0.26770303031982456
+sleep_variability->dep,m1,"[1, 1, 4, 4, 3]",-0.33809000056020305
+sleep_variability->dep,mlp_m1,"[3, 1, 1, 3, 3]",-0.5465139476139602
+sleep_variability->dep,kangru,"[1, 1, 5, 5, 2]",-0.17224710652791067
+steps->dep,V1_adjusted_for_other_features,5,0.37679285512930805
+steps->dep,V2_plus_stress_proxy,5,0.4450678145496732
+steps->dep,E2_oracle_no_stress,2,0.9980858695335835
+steps->dep,gru,"[1, 1, 1, 3, 1]",0.02444203819172081
+steps->dep,m1,"[1, 1, 1, 1, 1]",-0.1286877458135468
+steps->dep,mlp_m1,"[1, 1, 3, 1, 1]",0.20400904901022418
+steps->dep,kangru,"[1, 1, 1, 4, 1]",-0.21097189554260606
+steps->anx,V1_adjusted_for_other_features,5,-0.60928027188891
+steps->anx,V2_plus_stress_proxy,5,-0.6252248135827471
+steps->anx,E2_oracle_no_stress,2,0.9593667294961641
+steps->anx,gru,"[1, 1, 1, 1, 1]",0.04790379220271138
+steps->anx,m1,"[1, 1, 1, 1, 1]",-0.07793727774854761
+steps->anx,mlp_m1,"[1, 1, 3, 1, 1]",0.2050425849329092
+steps->anx,kangru,"[1, 2, 1, 2, 4]",0.915402403081389
+hrv->anx,V1_adjusted_for_other_features,1,0.8379569502774041
+hrv->anx,V2_plus_stress_proxy,1,0.8518901046940764
+hrv->anx,E2_oracle_no_stress,1,0.9934456919270694
+hrv->anx,gru,"[2, 1, 2, 2, 1]",-0.4938300528035752
+hrv->anx,m1,"[1, 1, 1, 5, 1]",0.48158495708768206
+hrv->anx,mlp_m1,"[4, 1, 2, 1, 2]",0.3363098683202721
+hrv->anx,kangru,"[5, 3, 1, 5, 1]",0.69823190418837

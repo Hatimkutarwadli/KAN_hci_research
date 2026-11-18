@@ -1,0 +1,13 @@
+  m1 seed1 ep1 train 0.7555 cal 0.7169
+  m1 seed1 ep2 train 0.6781 cal 0.6302
+  m1 seed1 ep3 train 0.5793 cal 0.5322
+  m1 seed1 ep4 train 0.4930 cal 0.4486
+  m1 seed1 ep5 train 0.4215 cal 0.4033
+  m1 seed1 ep6 train 0.3723 cal 0.3775
+  m1 seed1 ep7 train 0.3378 cal 0.3781
+  m1 seed1 ep8 train 0.3282 cal 0.3792
+  m1 seed1 ep9 train 0.3175 cal 0.3629
+  m1 seed1 ep10 train 0.3025 cal 0.3715
+  m1 seed1 ep11 train 0.2944 cal 0.3785
+  m1 seed1 ep12 train 0.2848 cal 0.3713
+  m1 seed1 ep13 train 0.2749 cal 0.3654

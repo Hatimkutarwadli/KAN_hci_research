@@ -1,0 +1,242 @@
+dataset                                             role  qualified_exploratory  below_minimum_test            C1                                        C1_beaten  C1_gru_rank1        C2  C2_nK  C2_nM        C3  C3_nm  C1_noGBT        C1_noGBT_beaten        C4            C5
+     v1 historical reference (test previously inspected)                  False               False     supported                                                              6     mixed      3      4 supported      0 supported                        supported     supported
+     R1                                  fresh replicate                  False               False not supported            onset_cross;onset_sust;sev_fc;sev_now             1 supported      0      6     mixed      1     mixed onset_cross;onset_sust supported not supported
+     R2                                  fresh replicate                  False               False         mixed                                        status_fc             4     mixed      3      3 supported      0 supported                        supported     supported
+     R3                                  fresh replicate                  False               False     supported                                                              3 supported      0      5 supported      0 supported                        supported     supported
+  S-EFF                                            shift                   True               False not supported onset_cross;onset_sust;sev_fc;sev_now;status_now             1 supported      0      9 supported      0     mixed onset_cross;onset_sust supported         mixed
+   S-AR                                            shift                  False               False not supported              sev_fc;sev_now;status_fc;status_now             1 supported      0      3 supported      0 supported                        supported     supported
+ S-MISS                                            shift                  False               False         mixed                              onset_cross;sev_now             3 supported      0      4 supported      0 supported                        supported not supported
+  S-HET                                            shift                  False               False not supported                        onset_sust;sev_fc;sev_now             2 supported      1      0     mixed      1     mixed             onset_sust supported         mixed
+S-NOISE                                            shift                  False               False not supported            onset_cross;onset_sust;sev_fc;sev_now             1 supported      0      3     mixed      1     mixed onset_cross;onset_sust supported     supported
+{
+ "replication": {
+  "C1": {
+   "per_dataset": {
+    "v1": "supported",
+    "R1": "not supported",
+    "R2": "mixed",
+    "R3": "supported",
+    "S-EFF": "not supported",
+    "S-AR": "not supported",
+    "S-MISS": "mixed",
+    "S-HET": "not supported",
+    "S-NOISE": "not supported"
+   },
+   "primary_R1_R3": "not supported",
+   "sensitivity_v1_R1_R3": "mixed"
+  },
+  "C1_noGBT": {
+   "per_dataset": {
+    "v1": "supported",
+    "R1": "mixed",
+    "R2": "supported",
+    "R3": "supported",
+    "S-EFF": "mixed",
+    "S-AR": "supported",
+    "S-MISS": "supported",
+    "S-HET": "mixed",
+    "S-NOISE": "mixed"
+   },
+   "primary_R1_R3": "mixed",
+   "sensitivity_v1_R1_R3": "mixed"
+  },
+  "C2": {
+   "per_dataset": {
+    "v1": "mixed",
+    "R1": "supported",
+    "R2": "mixed",
+    "R3": "supported",
+    "S-EFF": "supported",
+    "S-AR": "supported",
+    "S-MISS": "supported",
+    "S-HET": "supported",
+    "S-NOISE": "supported"
+   },
+   "primary_R1_R3": "mixed",
+   "sensitivity_v1_R1_R3": "mixed"
+  },
+  "C3": {
+   "per_dataset": {
+    "v1": "supported",
+    "R1": "mixed",
+    "R2": "supported",
+    "R3": "supported",
+    "S-EFF": "supported",
+    "S-AR": "supported",
+    "S-MISS": "supported",
+    "S-HET": "mixed",
+    "S-NOISE": "mixed"
+   },
+   "primary_R1_R3": "mixed",
+   "sensitivity_v1_R1_R3": "mixed"
+  },
+  "C4": {
+   "per_dataset": {
+    "v1": "supported",
+    "R1": "supported",
+    "R2": "supported",
+    "R3": "supported",
+    "S-EFF": "supported",
+    "S-AR": "supported",
+    "S-MISS": "supported",
+    "S-HET": "supported",
+    "S-NOISE": "supported"
+   },
+   "primary_R1_R3": "supported",
+   "sensitivity_v1_R1_R3": "supported"
+  },
+  "C5": {
+   "per_dataset": {
+    "v1": "supported",
+    "R1": "not supported",
+    "R2": "supported",
+    "R3": "supported",
+    "S-EFF": "mixed",
+    "S-AR": "supported",
+    "S-MISS": "not supported",
+    "S-HET": "mixed",
+    "S-NOISE": "supported"
+   },
+   "primary_R1_R3": "mixed",
+   "sensitivity_v1_R1_R3": "mixed"
+  }
+ },
+ "robustness_across_shifts": {
+  "C1": {
+   "per_shift": {
+    "S-EFF": "not supported",
+    "S-AR": "not supported",
+    "S-MISS": "mixed",
+    "S-HET": "not supported",
+    "S-NOISE": "not supported"
+   },
+   "n_supported": 0,
+   "of": 5,
+   "label": "not supported",
+   "excl_S_EFF": {
+    "n_supported": 0,
+    "of": 4,
+    "label": "not supported"
+   }
+  },
+  "C1_noGBT": {
+   "per_shift": {
+    "S-EFF": "mixed",
+    "S-AR": "supported",
+    "S-MISS": "supported",
+    "S-HET": "mixed",
+    "S-NOISE": "mixed"
+   },
+   "n_supported": 2,
+   "of": 5,
+   "label": "not supported",
+   "excl_S_EFF": {
+    "n_supported": 2,
+    "of": 4,
+    "label": "mixed"
+   }
+  },
+  "C2": {
+   "per_shift": {
+    "S-EFF": "supported",
+    "S-AR": "supported",
+    "S-MISS": "supported",
+    "S-HET": "supported",
+    "S-NOISE": "supported"
+   },
+   "n_supported": 5,
+   "of": 5,
+   "label": "supported",
+   "excl_S_EFF": {
+    "n_supported": 4,
+    "of": 4,
+    "label": "supported"
+   }
+  },
+  "C3": {
+   "per_shift": {
+    "S-EFF": "supported",
+    "S-AR": "supported",
+    "S-MISS": "supported",
+    "S-HET": "mixed",
+    "S-NOISE": "mixed"
+   },
+   "n_supported": 3,
+   "of": 5,
+   "label": "mixed",
+   "excl_S_EFF": {
+    "n_supported": 2,
+    "of": 4,
+    "label": "mixed"
+   }
+  },
+  "C4": {
+   "per_shift": {
+    "S-EFF": "supported",
+    "S-AR": "supported",
+    "S-MISS": "supported",
+    "S-HET": "supported",
+    "S-NOISE": "supported"
+   },
+   "n_supported": 5,
+   "of": 5,
+   "label": "supported",
+   "excl_S_EFF": {
+    "n_supported": 4,
+    "of": 4,
+    "label": "supported"
+   }
+  },
+  "C5": {
+   "per_shift": {
+    "S-EFF": "mixed",
+    "S-AR": "supported",
+    "S-MISS": "not supported",
+    "S-HET": "mixed",
+    "S-NOISE": "supported"
+   },
+   "n_supported": 2,
+   "of": 5,
+   "label": "not supported",
+   "excl_S_EFF": {
+    "n_supported": 2,
+    "of": 4,
+    "label": "mixed"
+   }
+  }
+ },
+ "cal_vs_test_paired_agreement": {
+  "shifts": {
+   "n": 180,
+   "sign_agreement": 0.7222222222222222,
+   "n_cal_consistent": 128,
+   "cal_consistent_also_consistent_on_test": 0.5859375
+  },
+  "v1+R1-R3": {
+   "n": 144,
+   "sign_agreement": 0.8263888888888888,
+   "n_cal_consistent": 102,
+   "cal_consistent_also_consistent_on_test": 0.7450980392156863
+  },
+  "all": {
+   "n": 324,
+   "sign_agreement": 0.7685185185185185,
+   "n_cal_consistent": 230,
+   "cal_consistent_also_consistent_on_test": 0.6565217391304348
+  }
+ }
+}
+primary_R1-R3 {"RQ3_S-EFF_KAN_gain": "inconclusive", "RQ4a_S-AR_lag": "mixed", "RQ4b_S-EFF_lag": "not supported", "RQ5_S-MISS_aug_severity": "mixed", "RQ6a_S-HET_M1": "not supported"} [['S-EFF', 'sev_now'], ['S-AR', 'sev_now'], ['S-MISS', 'status_fc'], ['S-AR', 'onset_sust'], ['S-MISS', 'onset_sust'], ['S-HET', 'onset_sust'], ['S-NOISE', 'onset_sust'], ['S-HET', 'onset_cross']]
+         inconclusive (scale-dependent)  shift-sensitive  suggestive  within replication noise
+S-AR                                  1                4          12                        19
+S-EFF                                 6               13           3                        14
+S-HET                                 6                5           7                        18
+S-MISS                                1                5           6                        24
+S-NOISE                               1                4          11                        20
+sensitivity_v1+R1-R3 {"RQ3_S-EFF_KAN_gain": "inconclusive", "RQ4a_S-AR_lag": "mixed", "RQ4b_S-EFF_lag": "not supported", "RQ5_S-MISS_aug_severity": "mixed", "RQ6a_S-HET_M1": "not supported"} [['S-EFF', 'sev_now'], ['S-AR', 'sev_now'], ['S-AR', 'onset_sust']]
+         inconclusive (scale-dependent)  shift-sensitive  suggestive  within replication noise
+S-AR                                  2                4          10                        20
+S-EFF                                 6               12           3                        15
+S-HET                                 7                2           5                        22
+S-MISS                                0                3           4                        29
+S-NOISE                               1                3          11                        21

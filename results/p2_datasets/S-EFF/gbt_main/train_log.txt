@@ -1,0 +1,16 @@
+  gbt sev_dep_t0: {'depth': 3, 'n_iter': 200, 'cal_score': -3.0662485659751075, 'metric': '-RMSE'}
+  gbt sev_anx_t0: {'depth': 3, 'n_iter': 140, 'cal_score': -2.9900878035504186, 'metric': '-RMSE'}
+  gbt status_dep_t0: {'depth': 3, 'n_iter': 140, 'cal_score': 0.6785716434647985, 'metric': 'AP'}
+  gbt status_anx_t0: {'depth': 3, 'n_iter': 180, 'cal_score': 0.7331943155140928, 'metric': 'AP'}
+  gbt onset_sust_dep_h7: {'depth': 3, 'n_iter': 40, 'cal_score': 0.23183853017078734, 'metric': 'AP'}
+  gbt onset_sust_dep_h14: {'depth': 3, 'n_iter': 160, 'cal_score': 0.32661550250830973, 'metric': 'AP'}
+  gbt onset_sust_dep_h21: {'depth': 3, 'n_iter': 40, 'cal_score': 0.33808051693116614, 'metric': 'AP'}
+  gbt onset_sust_anx_h7: {'depth': 6, 'n_iter': 200, 'cal_score': 0.12045620921970726, 'metric': 'AP'}
+  gbt onset_sust_anx_h14: {'depth': 3, 'n_iter': 80, 'cal_score': 0.15223769250898816, 'metric': 'AP'}
+  gbt onset_sust_anx_h21: {'depth': 3, 'n_iter': 20, 'cal_score': 0.17164699331519628, 'metric': 'AP'}
+  gbt onset_cross_dep_h7: {'depth': 3, 'n_iter': 200, 'cal_score': 0.2765773520261401, 'metric': 'AP'}
+  gbt onset_cross_dep_h14: {'depth': 6, 'n_iter': 200, 'cal_score': 0.317131919897664, 'metric': 'AP'}
+  gbt onset_cross_dep_h21: {'depth': 6, 'n_iter': 120, 'cal_score': 0.31806312696653805, 'metric': 'AP'}
+  gbt onset_cross_anx_h7: {'depth': 3, 'n_iter': 200, 'cal_score': 0.17451471644428035, 'metric': 'AP'}
+  gbt onset_cross_anx_h14: {'depth': 3, 'n_iter': 80, 'cal_score': 0.21583388508298776, 'metric': 'AP'}
+  gbt onset_cross_anx_h21: {'depth': 3, 'n_iter': 140, 'cal_score': 0.24184810678227966, 'metric': 'AP'}

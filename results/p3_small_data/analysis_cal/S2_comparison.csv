@@ -1,0 +1,41 @@
+variant,n,A,B,family,primary_mean_diff,primary_verdict,primary_better,sens_mean_diff,sens_verdict,sens_better
+S2,50,kan_reg,gru,sev_now,0.05357062816619873,consistent,B,0.05848531723022461,consistent,B
+S2,50,m1,gru,sev_now,0.21063709259033203,consistent,B,0.2155517816543579,consistent,B
+S2,50,mlp_b2_reg,gru,sev_now,0.05080277919769287,consistent,B,0.05571746826171875,consistent,B
+S2,50,gbt,gru,sev_now,0.09629378318786622,not distinguishable,,0.10120847225189208,not distinguishable,
+S2,50,m1,gru,sev_fc,0.1270088990529378,consistent,B,0.1251477400461833,consistent,B
+S2,50,gbt,gru,sev_fc,0.10920778910319004,consistent,B,0.10734663009643555,consistent,B
+S2,50,kan_reg,gru,status_now,0.014010140960640183,not distinguishable,,0.02053799203266695,not distinguishable,
+S2,50,m1,gru,status_now,-0.08280204185769444,consistent,B,-0.07627419078566768,consistent,B
+S2,50,mlp_b2_reg,gru,status_now,0.0029922297974199984,not distinguishable,,0.009520080869446768,not distinguishable,
+S2,50,gbt,gru,status_now,-0.048938348464343584,not distinguishable,,-0.042410497392316816,not distinguishable,
+S2,50,m1,gru,status_fc,-0.06926720546878666,consistent,B,-0.06058113647107244,consistent,B
+S2,50,gbt,gru,status_fc,-0.06403404045548744,consistent,B,-0.05534797145777322,consistent,B
+S2,50,kan_reg,gru,onset_sust,-0.011210955820616162,not distinguishable,,-0.00959403448524999,not distinguishable,
+S2,50,m1,gru,onset_sust,-0.020442272850917174,consistent,B,-0.018825351515551005,consistent,B
+S2,50,mlp_b2_reg,gru,onset_sust,-0.018102549152025728,consistent,B,-0.016485627816659555,not distinguishable,
+S2,50,gbt,gru,onset_sust,-0.035946835640040066,consistent,B,-0.0343299143046739,consistent,B
+S2,50,kan_reg,gru,onset_cross,-0.016649654280377568,consistent,B,-0.016950276336385704,not distinguishable,
+S2,50,m1,gru,onset_cross,-0.026703445402282998,consistent,B,-0.027004067458291137,consistent,B
+S2,50,mlp_b2_reg,gru,onset_cross,-0.020551716320435925,not distinguishable,,-0.02085233837644406,not distinguishable,
+S2,50,gbt,gru,onset_cross,-0.02915710147287841,consistent,B,-0.029457723528886547,consistent,B
+S2,100,kan_reg,gru,sev_now,0.06520881652832031,consistent,B,0.058330631256103514,consistent,B
+S2,100,m1,gru,sev_now,0.1790102243423462,consistent,B,0.1721320390701294,consistent,B
+S2,100,mlp_b2_reg,gru,sev_now,0.05414896011352539,consistent,B,0.047270774841308594,consistent,B
+S2,100,gbt,gru,sev_now,0.08827402591705322,consistent,B,0.08139584064483643,consistent,B
+S2,100,m1,gru,sev_fc,0.12567537625630693,consistent,B,0.12796355088551836,consistent,B
+S2,100,gbt,gru,sev_fc,0.07718929449717198,consistent,B,0.0794774691263834,consistent,B
+S2,100,kan_reg,gru,status_now,0.006982739873150834,not distinguishable,,0.006656972639501424,not distinguishable,
+S2,100,m1,gru,status_now,-0.09449573595067565,consistent,B,-0.09482150318432506,consistent,B
+S2,100,mlp_b2_reg,gru,status_now,0.01668692849484541,not distinguishable,,0.016361161261196,not distinguishable,
+S2,100,gbt,gru,status_now,-0.05894029637643441,not distinguishable,,-0.05926606361008382,not distinguishable,
+S2,100,m1,gru,status_fc,-0.06322712471432997,not distinguishable,,-0.0517565664565582,not distinguishable,
+S2,100,gbt,gru,status_fc,-0.051984436510540424,consistent,B,-0.040513878252768656,consistent,B
+S2,100,kan_reg,gru,onset_sust,-0.02135400961995965,consistent,B,-0.021222742667256756,consistent,B
+S2,100,m1,gru,onset_sust,-0.028672258816297556,not distinguishable,,-0.028540991863594666,not distinguishable,
+S2,100,mlp_b2_reg,gru,onset_sust,-0.019657761862460592,not distinguishable,,-0.019526494909757698,not distinguishable,
+S2,100,gbt,gru,onset_sust,-0.0359729959552144,consistent,B,-0.035841729002511515,consistent,B
+S2,100,kan_reg,gru,onset_cross,-0.03559211179636641,consistent,B,-0.03361379659488153,consistent,B
+S2,100,m1,gru,onset_cross,-0.04222276038244265,not distinguishable,,-0.04024444518095777,not distinguishable,
+S2,100,mlp_b2_reg,gru,onset_cross,-0.027461537394189234,consistent,B,-0.025483222192704352,consistent,B
+S2,100,gbt,gru,onset_cross,-0.04211055682190967,consistent,B,-0.040132241620424794,consistent,B

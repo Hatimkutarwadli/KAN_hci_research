@@ -1,0 +1,17 @@
+head,channel,pearson_r
+sev_dep_t0,steps,-0.5318495604132497
+sev_dep_t0,calories,-0.39310318618167855
+sev_dep_t0,sleep_duration,-0.08467601670526892
+sev_dep_t0,sleep_efficiency,-0.036181756579767056
+sev_dep_t0,sleep_variability,0.4856225236696186
+sev_dep_t0,resting_hr,0.33829577735828475
+sev_dep_t0,hrv,-0.3493021654727461
+sev_dep_t0,circadian_regularity,-0.15922691899307595
+sev_anx_t0,steps,-0.33337379508266496
+sev_anx_t0,calories,-0.27369819355658764
+sev_anx_t0,sleep_duration,-0.08571437664393108
+sev_anx_t0,sleep_efficiency,0.021475633886304246
+sev_anx_t0,sleep_variability,0.38071738252554527
+sev_anx_t0,resting_hr,0.2814106253618534
+sev_anx_t0,hrv,-0.47230833328799005
+sev_anx_t0,circadian_regularity,-0.12332242511749313

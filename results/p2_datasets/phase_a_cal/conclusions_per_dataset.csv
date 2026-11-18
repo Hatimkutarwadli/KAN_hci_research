@@ -1,0 +1,5 @@
+dataset,C1,C1_families_where_gru_beaten,C1_gru_rank1_families,C2,C2_kan_consistently_better,C2_mlp_consistently_better,C3,C3_m1_consistently_better,C4,C5
+v1,mixed,status_fc;status_now,4,supported,0,9,supported,0,supported,supported
+R1,supported,,6,supported,0,6,supported,0,supported,not supported
+R2,mixed,status_now,4,supported,1,0,supported,0,supported,supported
+R3,mixed,status_now,4,supported,0,3,supported,0,supported,supported

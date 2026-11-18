@@ -1,0 +1,103 @@
+{
+ "_rule": "see decide_v2.py docstring; calibration data only; risk guard not used for disqualification",
+ "forecast severity": {
+  "clean_ok": {
+   "R0O0T1": true,
+   "R0O2T1": true,
+   "R0O3T1": true
+  },
+  "panel_vs_ref": {
+   "R0O0T1": null,
+   "R0O2T1": {
+    "mean": -0.359,
+    "n_better": 5
+   },
+   "R0O3T1": {
+    "mean": -0.416,
+    "n_better": 5
+   }
+  },
+  "part": "forecast",
+  "selected": "R0O2T1 or R0O3T1 (not separable; both beat R0O0T1)"
+ },
+ "forecast status": {
+  "clean_ok": {
+   "R0O0T1": true,
+   "R0O2T1": true,
+   "R0O3T1": true
+  },
+  "panel_vs_ref": {
+   "R0O0T1": null,
+   "R0O2T1": {
+    "mean": -2.015,
+    "n_better": 5
+   },
+   "R0O3T1": {
+    "mean": -3.879,
+    "n_better": 5
+   }
+  },
+  "part": "forecast",
+  "selected": "R0O3T1"
+ },
+ "onset": {
+  "clean_ok": {
+   "R0O0T1": true,
+   "R0O2T1": true,
+   "R0O3T1": true
+  },
+  "panel_vs_ref": {
+   "R0O0T1": null,
+   "R0O2T1": {
+    "mean": -0.281,
+    "n_better": 3
+   },
+   "R0O3T1": {
+    "mean": -0.021,
+    "n_better": 2
+   }
+  },
+  "part": "main",
+  "selected": "R0O0T1"
+ },
+ "severity (nowcast)": {
+  "clean_ok": {
+   "R0O0T1": true,
+   "R0O2T1": true,
+   "R0O3T1": true
+  },
+  "panel_vs_ref": {
+   "R0O0T1": null,
+   "R0O2T1": {
+    "mean": -0.29,
+    "n_better": 5
+   },
+   "R0O3T1": {
+    "mean": -0.169,
+    "n_better": 5
+   }
+  },
+  "part": "main",
+  "selected": "R0O2T1"
+ },
+ "status (nowcast)": {
+  "clean_ok": {
+   "R0O0T1": true,
+   "R0O2T1": true,
+   "R0O3T1": true
+  },
+  "panel_vs_ref": {
+   "R0O0T1": null,
+   "R0O2T1": {
+    "mean": -2.217,
+    "n_better": 5
+   },
+   "R0O3T1": {
+    "mean": -4.664,
+    "n_better": 5
+   }
+  },
+  "part": "main",
+  "selected": "R0O3T1"
+ }
+}

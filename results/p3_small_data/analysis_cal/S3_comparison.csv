@@ -1,0 +1,13 @@
+variant,n,A,B,family,primary_mean_diff,primary_verdict,primary_better,sens_mean_diff,sens_verdict,sens_better
+S3,100,kan_reg,gru,sev_now,0.06520881652832031,consistent,B,0.07793893814086914,consistent,B
+S3,100,kan_reg,mlp_b2_reg,sev_now,0.011059856414794922,consistent,B,0.015301203727722168,not distinguishable,
+S3,100,mlp_b2_reg,gru,sev_now,0.05414896011352539,consistent,B,0.06263773441314698,consistent,B
+S3,100,kan_reg,gru,status_now,0.006982739873150834,not distinguishable,,0.005247902288409901,not distinguishable,
+S3,100,kan_reg,mlp_b2_reg,status_now,-0.009704188621694577,not distinguishable,,-0.008506579586762753,not distinguishable,
+S3,100,mlp_b2_reg,gru,status_now,0.01668692849484541,not distinguishable,,0.013754481875172652,not distinguishable,
+S3,100,kan_reg,gru,onset_sust,-0.02135400961995965,consistent,B,-0.022834184726445196,consistent,B
+S3,100,kan_reg,mlp_b2_reg,onset_sust,-0.0016962477574990558,not distinguishable,,-0.0026686895119663627,not distinguishable,
+S3,100,mlp_b2_reg,gru,onset_sust,-0.019657761862460592,not distinguishable,,-0.020165495214478833,not distinguishable,
+S3,100,kan_reg,gru,onset_cross,-0.03559211179636641,consistent,B,-0.03600233532246148,consistent,B
+S3,100,kan_reg,mlp_b2_reg,onset_cross,-0.008130574402177177,not distinguishable,,-0.007871435717311456,not distinguishable,
+S3,100,mlp_b2_reg,gru,onset_cross,-0.027461537394189234,consistent,B,-0.02813089960515002,consistent,B

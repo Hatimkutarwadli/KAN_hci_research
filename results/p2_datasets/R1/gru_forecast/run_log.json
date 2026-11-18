@@ -1,0 +1,199 @@
+{
+ "SYNTHETIC": true,
+ "dataset": "R1",
+ "test_split_loaded": false,
+ "heads": [
+  "sev_dep_h7",
+  "sev_dep_h14",
+  "sev_dep_h21",
+  "sev_anx_h7",
+  "sev_anx_h14",
+  "sev_anx_h21",
+  "status_dep_h7",
+  "status_dep_h14",
+  "status_dep_h21",
+  "status_anx_h7",
+  "status_anx_h14",
+  "status_anx_h21"
+ ],
+ "runs": [
+  {
+   "model": "gru",
+   "taskset": "forecast",
+   "seed": 0,
+   "wall_s": 44.17259699990973,
+   "cpu_s": 158.125,
+   "n_params": 10732,
+   "best_cal_loss": 0.4602780342102051,
+   "best_epoch": 5,
+   "epochs_run": 9,
+   "hparams": {
+    "epochs": 25,
+    "patience": 4,
+    "batch_size": 256,
+    "lr": 0.002,
+    "weight_decay": 1e-05,
+    "epoch_frac": 0.5,
+    "model_kwargs": {}
+   },
+   "history": [
+    {
+     "epoch": 1,
+     "train_loss": 0.5322142039105884,
+     "cal_loss": 0.4700274169445038
+    },
+    {
+     "epoch": 2,
+     "train_loss": 0.43552412042908345,
+     "cal_loss": 0.46254611015319824
+    },
+    {
+     "epoch": 3,
+     "train_loss": 0.4333966633923165,
+     "cal_loss": 0.4605657756328583
+    },
+    {
+     "epoch": 4,
+     "train_loss": 0.42619809721533114,
+     "cal_loss": 0.46158817410469055
+    },
+    {
+     "epoch": 5,
+     "train_loss": 0.4210994578988749,
+     "cal_loss": 0.4602780342102051
+    },
+    {
+     "epoch": 6,
+     "train_loss": 0.4158643902459025,
+     "cal_loss": 0.466759592294693
+    },
+    {
+     "epoch": 7,
+     "train_loss": 0.4144864257475809,
+     "cal_loss": 0.4748900830745697
+    },
+    {
+     "epoch": 8,
+     "train_loss": 0.4010337143431428,
+     "cal_loss": 0.4826039969921112
+    },
+    {
+     "epoch": 9,
+     "train_loss": 0.3922364369942723,
+     "cal_loss": 0.4822733700275421
+    }
+   ]
+  },
+  {
+   "model": "gru",
+   "taskset": "forecast",
+   "seed": 1,
+   "wall_s": 29.01732679991983,
+   "cpu_s": 107.09375,
+   "n_params": 10732,
+   "best_cal_loss": 0.46253684163093567,
+   "best_epoch": 2,
+   "epochs_run": 6,
+   "hparams": {
+    "epochs": 25,
+    "patience": 4,
+    "batch_size": 256,
+    "lr": 0.002,
+    "weight_decay": 1e-05,
+    "epoch_frac": 0.5,
+    "model_kwargs": {}
+   },
+   "history": [
+    {
+     "epoch": 1,
+     "train_loss": 0.5369548221514644,
+     "cal_loss": 0.47009265422821045
+    },
+    {
+     "epoch": 2,
+     "train_loss": 0.43110024155254434,
+     "cal_loss": 0.46253684163093567
+    },
+    {
+     "epoch": 3,
+     "train_loss": 0.4273394152041404,
+     "cal_loss": 0.465240478515625
+    },
+    {
+     "epoch": 4,
+     "train_loss": 0.4226851506899762,
+     "cal_loss": 0.46721526980400085
+    },
+    {
+     "epoch": 5,
+     "train_loss": 0.4235010944856965,
+     "cal_loss": 0.46509137749671936
+    },
+    {
+     "epoch": 6,
+     "train_loss": 0.4154895589984019,
+     "cal_loss": 0.4660654067993164
+    }
+   ]
+  },
+  {
+   "model": "gru",
+   "taskset": "forecast",
+   "seed": 2,
+   "wall_s": 39.77165619994048,
+   "cpu_s": 128.8125,
+   "n_params": 10732,
+   "best_cal_loss": 0.46088889241218567,
+   "best_epoch": 3,
+   "epochs_run": 7,
+   "hparams": {
+    "epochs": 25,
+    "patience": 4,
+    "batch_size": 256,
+    "lr": 0.002,
+    "weight_decay": 1e-05,
+    "epoch_frac": 0.5,
+    "model_kwargs": {}
+   },
+   "history": [
+    {
+     "epoch": 1,
+     "train_loss": 0.5171444065639195,
+     "cal_loss": 0.467281311750412
+    },
+    {
+     "epoch": 2,
+     "train_loss": 0.43452599226787525,
+     "cal_loss": 0.4769512414932251
+    },
+    {
+     "epoch": 3,
+     "train_loss": 0.4321895352700278,
+     "cal_loss": 0.46088889241218567
+    },
+    {
+     "epoch": 4,
+     "train_loss": 0.43049265545328885,
+     "cal_loss": 0.46845734119415283
+    },
+    {
+     "epoch": 5,
+     "train_loss": 0.42029375527067425,
+     "cal_loss": 0.46455642580986023
+    },
+    {
+     "epoch": 6,
+     "train_loss": 0.4151414614809029,
+     "cal_loss": 0.46527791023254395
+    },
+    {
+     "epoch": 7,
+     "train_loss": 0.4128506811203495,
+     "cal_loss": 0.47301551699638367
+    }
+   ]
+  }
+ ],
+ "torch_threads": 4,
+ "torch": "2.15.0+cpu"
+}

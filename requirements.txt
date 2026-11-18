@@ -1,0 +1,10 @@
+# Versions used for the project (Python 3.11.9, CPU only)
+numpy==1.26.4
+pandas==3.0.2
+torch==2.15.0
+scikit-learn==1.9.0
+scipy==1.17.1
+matplotlib==3.10.8
+joblib==1.5.3
+threadpoolctl
+pillow==12.2.0

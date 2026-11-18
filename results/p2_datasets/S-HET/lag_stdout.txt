@@ -1,0 +1,9 @@
+S-HET gru 0
+S-HET gru 1
+S-HET gru 2
+S-HET m1 0
+S-HET m1 1
+S-HET m1 2
+S-HET mlp_m1 0
+S-HET mlp_m1 1
+S-HET mlp_m1 2

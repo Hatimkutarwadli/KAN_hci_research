@@ -1,0 +1,10 @@
+dataset,label,onset_mean,onset_sd,onset_better_n,onset_verdict,onset_consistent_improve,severity_mean,severity_sd,severity_better_n,severity_verdict,severity_consistent_improve,status_mean,status_sd,status_better_n,status_verdict,status_consistent_improve
+v1,supported,-0.14447075067282403,0.9267621103010126,2,not distinguishable,False,-1.7244121894108961,0.4632294599056581,3,consistent,True,0.1338814592183187,0.409463291999902,1,not distinguishable,False
+R1,not supported,-4.939574664579023,5.071783099021736,3,leaning,False,-0.9074994440663661,0.9758115290010303,2,not distinguishable,False,-2.8769067321271873,1.273222189800165,3,consistent,True
+R2,supported,-0.03755104667563116,1.3695943057239353,2,not distinguishable,False,-1.687230577834077,0.35369205583327,3,consistent,True,0.9449432304623658,2.2678730109198915,1,not distinguishable,False
+R3,supported,-0.41452694236761584,0.5227247615694224,2,not distinguishable,False,-0.8152708814785998,0.2852803922528264,3,consistent,True,0.21562623590768978,1.409986717958658,1,not distinguishable,False
+S-EFF,mixed,-1.9609148196060866,1.02785871603671,3,consistent,True,-1.3712848256815,0.18973688563803398,3,consistent,True,-0.1558393287764651,0.5403478509854025,2,not distinguishable,False
+S-AR,supported,-3.418970828228867,3.7662303121272274,3,leaning,False,-1.908036029943723,0.6372627680734574,3,consistent,True,-1.376315918727702,2.203223861602681,2,not distinguishable,False
+S-MISS,mixed,-1.388093471874453,1.9532929113268631,2,not distinguishable,False,-0.22244063928745264,0.6610406700067002,2,not distinguishable,False,-2.6638852431921194,4.509756038699104,2,not distinguishable,False
+S-HET,supported,-3.0286035319353677,5.275530642515154,2,not distinguishable,False,-1.265896467374195,0.4777645188902926,3,consistent,True,1.646020295688572,2.2519573858746376,1,not distinguishable,False
+S-NOISE,supported,-0.47790439048772865,4.174221298988684,2,not distinguishable,False,-2.000652296742715,0.2651522683712157,3,consistent,True,-0.8489759863053257,2.8436025679864776,2,not distinguishable,False

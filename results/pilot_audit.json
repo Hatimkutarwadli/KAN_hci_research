@@ -1,0 +1,444 @@
+{
+  "SYNTHETIC": true,
+  "dataset_dir": "data/pilot",
+  "pilot_prevalence_and_episodes": {
+    "dep": {
+      "daily_prevalence": 0.07970833333333334,
+      "participants_with_any_positive_day": 0.405,
+      "participants_positive_day0": 0.065,
+      "n_episodes_total": 245,
+      "episodes_per_participant_among_ever_positive": 3.0246913580246915,
+      "episode_length_pctiles_10_25_50_75_90_max_ALL": [
+        1.0,
+        1.0,
+        3.0,
+        10.0,
+        18.599999999999994,
+        92.0
+      ],
+      "episode_length_pctiles_10_25_50_75_90_max_UNCENSORED": [
+        1.0,
+        1.0,
+        2.5,
+        8.0,
+        17.0,
+        70.0
+      ],
+      "n_uncensored_episodes": 220,
+      "participants_positive_ge_50pct_of_days": 8,
+      "participants_positive_ge_90pct_of_days": 1,
+      "participants_positive_ge_95pct_of_days": 1,
+      "share_of_all_positive_days_from_participants_pos_ge_50pct": 0.3476215368531103,
+      "positive_days_in_participants_with_ge_2_episodes_share": 0.9027705175117616
+    },
+    "anx": {
+      "daily_prevalence": 0.07158333333333333,
+      "participants_with_any_positive_day": 0.445,
+      "participants_positive_day0": 0.045,
+      "n_episodes_total": 248,
+      "episodes_per_participant_among_ever_positive": 2.7865168539325844,
+      "episode_length_pctiles_10_25_50_75_90_max_ALL": [
+        1.0,
+        1.0,
+        3.0,
+        7.0,
+        15.0,
+        120.0
+      ],
+      "episode_length_pctiles_10_25_50_75_90_max_UNCENSORED": [
+        1.0,
+        1.0,
+        2.0,
+        6.0,
+        12.5,
+        66.0
+      ],
+      "n_uncensored_episodes": 226,
+      "participants_positive_ge_50pct_of_days": 6,
+      "participants_positive_ge_90pct_of_days": 2,
+      "participants_positive_ge_95pct_of_days": 2,
+      "share_of_all_positive_days_from_participants_pos_ge_50pct": 0.3032596041909197,
+      "positive_days_in_participants_with_ge_2_episodes_share": 0.8154831199068685
+    }
+  },
+  "why_persistent_positive_participants": {
+    "dep": {
+      "sd_of_person_mean_z": 0.9171708743644165,
+      "sd_of_person_baseline_m": 0.5027073728482945,
+      "mean_within_person_sd_z": 0.8213025587566264,
+      "threshold": 2.45,
+      "corr_person_mean_z_vs_fraction_positive": 0.73503784325715,
+      "persistent_participants(>=50% positive)": {
+        "n": 8,
+        "mean_of_person_mean_z": 2.7707483379025453,
+        "mean_baseline_m": 0.7150557221312533,
+        "all_have_person_mean_z_above_threshold": true
+      },
+      "participants_whose_mean_z_exceeds_threshold": 8,
+      "R2_person_mean_z_on_baseline_m_alone": 0.3688034229323161
+    },
+    "anx": {
+      "sd_of_person_mean_z": 0.8529171197094613,
+      "sd_of_person_baseline_m": 0.521139712338201,
+      "mean_within_person_sd_z": 0.7354001694111186,
+      "threshold": 2.05,
+      "corr_person_mean_z_vs_fraction_positive": 0.7271218036395666,
+      "persistent_participants(>=50% positive)": {
+        "n": 6,
+        "mean_of_person_mean_z": 2.576459447180694,
+        "mean_baseline_m": 0.7371517534634071,
+        "all_have_person_mean_z_above_threshold": true
+      },
+      "participants_whose_mean_z_exceeds_threshold": 6,
+      "R2_person_mean_z_on_baseline_m_alone": 0.4174105076056032
+    },
+    "dep_equilibrium_shift_from_effects": {
+      "sd_of_(effects/a)": 0.49243213355746457,
+      "mean": 0.15991657786331298,
+      "corr_with_baseline_m": 0.0479277913341953,
+      "sd_of_m": 0.5039688738853427,
+      "note": "person mean z ~= m + effects/a + drift episodes; both m (sd 0.5) and feature-baseline-driven effects/a vary between people, so some people sit above the threshold on average"
+    }
+  },
+  "candidate_adjustments_N200_same_seed": {
+    "A_current(m_sd=.5,base_sd=.6)": {
+      "thr_dep": 2.49,
+      "thr_anx": 2.02,
+      "dep": {
+        "prevalence": 0.075,
+        "ever_positive": 0.395,
+        "pos_ge_50pct": 8,
+        "pos_ge_90pct": 1,
+        "median_len_uncensored": 3.0,
+        "p90_len_uncensored": 17.0,
+        "n_uncensored_episodes": 202,
+        "participants_with_first_onset": 68,
+        "onset_participants_by_split": {
+          "train": 41,
+          "cal": 12,
+          "test": 15
+        }
+      },
+      "anx": {
+        "prevalence": 0.075,
+        "ever_positive": 0.46,
+        "pos_ge_50pct": 6,
+        "pos_ge_90pct": 2,
+        "median_len_uncensored": 2.0,
+        "p90_len_uncensored": 13.0,
+        "n_uncensored_episodes": 240,
+        "participants_with_first_onset": 82,
+        "onset_participants_by_split": {
+          "train": 49,
+          "cal": 16,
+          "test": 17
+        }
+      }
+    },
+    "B(m_sd=.35,base_sd=.4)": {
+      "thr_dep": 2.32,
+      "thr_anx": 1.9,
+      "dep": {
+        "prevalence": 0.075,
+        "ever_positive": 0.455,
+        "pos_ge_50pct": 7,
+        "pos_ge_90pct": 0,
+        "median_len_uncensored": 2.0,
+        "p90_len_uncensored": 19.200000000000017,
+        "n_uncensored_episodes": 229,
+        "participants_with_first_onset": 80,
+        "onset_participants_by_split": {
+          "train": 49,
+          "cal": 13,
+          "test": 18
+        }
+      },
+      "anx": {
+        "prevalence": 0.075,
+        "ever_positive": 0.48,
+        "pos_ge_50pct": 5,
+        "pos_ge_90pct": 1,
+        "median_len_uncensored": 2.0,
+        "p90_len_uncensored": 14.599999999999994,
+        "n_uncensored_episodes": 235,
+        "participants_with_first_onset": 86,
+        "onset_participants_by_split": {
+          "train": 54,
+          "cal": 16,
+          "test": 16
+        }
+      }
+    },
+    "C(m_sd=.35,base_sd=.4,a=.12)": {
+      "thr_dep": 1.64,
+      "thr_anx": 1.29,
+      "dep": {
+        "prevalence": 0.075,
+        "ever_positive": 0.58,
+        "pos_ge_50pct": 3,
+        "pos_ge_90pct": 0,
+        "median_len_uncensored": 2.0,
+        "p90_len_uncensored": 12.0,
+        "n_uncensored_episodes": 333,
+        "participants_with_first_onset": 104,
+        "onset_participants_by_split": {
+          "train": 62,
+          "cal": 18,
+          "test": 24
+        }
+      },
+      "anx": {
+        "prevalence": 0.075,
+        "ever_positive": 0.61,
+        "pos_ge_50pct": 5,
+        "pos_ge_90pct": 0,
+        "median_len_uncensored": 2.0,
+        "p90_len_uncensored": 11.0,
+        "n_uncensored_episodes": 336,
+        "participants_with_first_onset": 110,
+        "onset_participants_by_split": {
+          "train": 68,
+          "cal": 21,
+          "test": 21
+        }
+      }
+    }
+  },
+  "candidate_adjustments_N1000_seed99": {
+    "A_current": {
+      "thr_dep": 2.35,
+      "thr_anx": 2.0,
+      "dep": {
+        "prevalence": 0.075,
+        "ever_positive": 0.418,
+        "pos_ge_50pct": 30,
+        "pos_ge_90pct": 1,
+        "median_len_uncensored": 3.0,
+        "p90_len_uncensored": 17.0,
+        "n_uncensored_episodes": 1103,
+        "participants_with_first_onset": 339,
+        "onset_participants_by_split": {
+          "train": 213,
+          "cal": 69,
+          "test": 57
+        }
+      },
+      "anx": {
+        "prevalence": 0.075,
+        "ever_positive": 0.41,
+        "pos_ge_50pct": 35,
+        "pos_ge_90pct": 1,
+        "median_len_uncensored": 2.0,
+        "p90_len_uncensored": 17.0,
+        "n_uncensored_episodes": 1106,
+        "participants_with_first_onset": 346,
+        "onset_participants_by_split": {
+          "train": 221,
+          "cal": 69,
+          "test": 56
+        }
+      }
+    },
+    "B(m_sd=.35,base_sd=.4)": {
+      "thr_dep": 2.21,
+      "thr_anx": 1.87,
+      "dep": {
+        "prevalence": 0.075,
+        "ever_positive": 0.462,
+        "pos_ge_50pct": 19,
+        "pos_ge_90pct": 1,
+        "median_len_uncensored": 3.0,
+        "p90_len_uncensored": 17.0,
+        "n_uncensored_episodes": 1140,
+        "participants_with_first_onset": 389,
+        "onset_participants_by_split": {
+          "train": 248,
+          "cal": 78,
+          "test": 63
+        }
+      },
+      "anx": {
+        "prevalence": 0.075,
+        "ever_positive": 0.46,
+        "pos_ge_50pct": 30,
+        "pos_ge_90pct": 0,
+        "median_len_uncensored": 3.0,
+        "p90_len_uncensored": 16.0,
+        "n_uncensored_episodes": 1173,
+        "participants_with_first_onset": 402,
+        "onset_participants_by_split": {
+          "train": 255,
+          "cal": 79,
+          "test": 68
+        }
+      }
+    }
+  },
+  "lag_recovery_all_lags_1to5_jointly": {
+    "note": "planted lags: sleep_variability->dep L=3; steps->dep and anx L=2; hrv->anx L=1. Coef at other lags should be ~0.",
+    "dep": {
+      "g_sleep_variability_L1": {
+        "coef": 0.0061,
+        "t": 1.3
+      },
+      "g_sleep_variability_L2": {
+        "coef": -0.0065,
+        "t": -1.1
+      },
+      "g_sleep_variability_L3": {
+        "coef": 0.0728,
+        "t": 11.9
+      },
+      "g_sleep_variability_L4": {
+        "coef": -0.0097,
+        "t": -1.6
+      },
+      "g_sleep_variability_L5": {
+        "coef": 0.0016,
+        "t": 0.4
+      },
+      "g_steps_L1": {
+        "coef": -0.0028,
+        "t": -0.6
+      },
+      "g_steps_L2": {
+        "coef": -0.0498,
+        "t": -8.4
+      },
+      "g_steps_L3": {
+        "coef": -0.0039,
+        "t": -0.7
+      },
+      "g_steps_L4": {
+        "coef": -0.0036,
+        "t": -0.6
+      },
+      "g_steps_L5": {
+        "coef": 0.0086,
+        "t": 1.9
+      }
+    },
+    "anx": {
+      "g_steps_L1": {
+        "coef": 0.0009,
+        "t": 0.2
+      },
+      "g_steps_L2": {
+        "coef": -0.0355,
+        "t": -6.2
+      },
+      "g_steps_L3": {
+        "coef": -0.0053,
+        "t": -1.0
+      },
+      "g_steps_L4": {
+        "coef": 0.0091,
+        "t": 1.5
+      },
+      "g_steps_L5": {
+        "coef": -0.0016,
+        "t": -0.4
+      },
+      "g_hrv_L1": {
+        "coef": -0.0534,
+        "t": -10.7
+      },
+      "g_hrv_L2": {
+        "coef": 0.0021,
+        "t": 0.4
+      },
+      "g_hrv_L3": {
+        "coef": -0.0018,
+        "t": -0.3
+      },
+      "g_hrv_L4": {
+        "coef": -0.0036,
+        "t": -0.7
+      },
+      "g_hrv_L5": {
+        "coef": 0.005,
+        "t": 1.1
+      }
+    }
+  },
+  "ablation_same_seed": {
+    "sleep_variability->dep OFF": {
+      "mean_abs_change_z_dep": 0.388,
+      "mean_abs_change_z_anx": 0.151,
+      "mean_signed_change_z_dep": -0.055,
+      "mean_signed_change_z_anx": -0.024
+    },
+    "steps->dep OFF": {
+      "mean_abs_change_z_dep": 0.248,
+      "mean_abs_change_z_anx": 0.098,
+      "mean_signed_change_z_dep": -0.082,
+      "mean_signed_change_z_anx": -0.034
+    },
+    "steps->anx OFF": {
+      "mean_abs_change_z_dep": 0.059,
+      "mean_abs_change_z_anx": 0.159,
+      "mean_signed_change_z_dep": -0.019,
+      "mean_signed_change_z_anx": -0.048
+    },
+    "hrv->anx OFF": {
+      "mean_abs_change_z_dep": 0.095,
+      "mean_abs_change_z_anx": 0.258,
+      "mean_signed_change_z_dep": -0.018,
+      "mean_signed_change_z_anx": -0.05
+    },
+    "stress direct path OFF": {
+      "mean_abs_change_z_dep": 0.348,
+      "mean_abs_change_z_anx": 0.352,
+      "mean_signed_change_z_dep": -0.088,
+      "mean_signed_change_z_anx": -0.09
+    },
+    "dep<->anx coupling OFF": {
+      "mean_abs_change_z_dep": 0.3,
+      "mean_abs_change_z_anx": 0.344,
+      "mean_signed_change_z_dep": -0.156,
+      "mean_signed_change_z_anx": -0.193
+    },
+    "reverse state->steps OFF": {
+      "mean_abs_change_z_dep": 0.069,
+      "mean_abs_change_z_anx": 0.056,
+      "mean_signed_change_z_dep": -0.044,
+      "mean_signed_change_z_anx": -0.036
+    },
+    "reverse state->hrv OFF": {
+      "mean_abs_change_z_dep": 0.012,
+      "mean_abs_change_z_anx": 0.034,
+      "mean_signed_change_z_dep": -0.005,
+      "mean_signed_change_z_anx": -0.015
+    }
+  },
+  "correlation_vs_cause_true_values": {
+    "sleep_variability -> z_dep(t+3)": {
+      "raw_within_corr": 0.313,
+      "partial_corr_given_true_stress(+steps for calories)": 0.116
+    },
+    "steps -> z_dep(t+2)": {
+      "raw_within_corr": -0.272,
+      "partial_corr_given_true_stress(+steps for calories)": -0.189
+    },
+    "hrv -> z_anx(t+1)": {
+      "raw_within_corr": -0.252,
+      "partial_corr_given_true_stress(+steps for calories)": -0.175
+    },
+    "resting_hr -> z_dep(t+3)": {
+      "raw_within_corr": 0.252,
+      "partial_corr_given_true_stress(+steps for calories)": -0.003
+    },
+    "calories -> z_dep(t+2)": {
+      "raw_within_corr": -0.155,
+      "partial_corr_given_true_stress(+steps for calories)": 0.003
+    },
+    "sleep_duration -> z_dep(t+3)": {
+      "raw_within_corr": -0.088,
+      "partial_corr_given_true_stress(+steps for calories)": 0.001
+    },
+    "circadian_regularity -> z_dep(t+3)": {
+      "raw_within_corr": -0.112,
+      "partial_corr_given_true_stress(+steps for calories)": -0.047
+    }
+  }
+}

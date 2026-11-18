@@ -1,0 +1,10 @@
+{
+ "SYNTHETIC": true,
+ "lock_sha256": "e53fa546a51426030fd54831f42f0f15897a7071ecb19d0f85cea158b01e90a7",
+ "lock_n_files": 1735,
+ "start": "2026-11-18T01:26:48.449636",
+ "scope": "416 primary jobs; R4 and R5 test splits; inference only",
+ "end": "2026-11-18T01:41:51.140709",
+ "n_jobs": 416,
+ "all_finite": true
+}

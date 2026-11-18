@@ -1,0 +1,104 @@
+{
+ "SYNTHETIC": true,
+ "test_split_loaded": false,
+ "ds": "R4",
+ "model": "kan_reg",
+ "ts": "main",
+ "n": 50,
+ "draw": 3,
+ "seed": 1,
+ "variant": "primary",
+ "id": "kan_reg_main_n50_d3_s1",
+ "cost": 0.8333333333333334,
+ "wall_s": 179.79353450005874,
+ "cpu_s": 590.9375,
+ "finite": true,
+ "n_params": 29336,
+ "partial_rerun": false,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.6050366560618082,
+   "cal_loss": 0.4431840479373932
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.38867525375017553,
+   "cal_loss": 0.3480520248413086
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.29645011448731984,
+   "cal_loss": 0.2939335107803345
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.244867339429035,
+   "cal_loss": 0.26801538467407227
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.21836230767670498,
+   "cal_loss": 0.2593671977519989
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.205641832505503,
+   "cal_loss": 0.2542058825492859
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.18872148797076235,
+   "cal_loss": 0.25195232033729553
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.17799427470212342,
+   "cal_loss": 0.25034087896347046
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.171467202068657,
+   "cal_loss": 0.2510460317134857
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.17363065040880635,
+   "cal_loss": 0.24869389832019806
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.16217043524788272,
+   "cal_loss": 0.2544463276863098
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.1578487015155054,
+   "cal_loss": 0.2526066303253174
+  },
+  {
+   "epoch": 13,
+   "train_loss": 0.16053155819254536,
+   "cal_loss": 0.25145432353019714
+  },
+  {
+   "epoch": 14,
+   "train_loss": 0.14654234655441775,
+   "cal_loss": 0.25553613901138306
+  }
+ ],
+ "best_epoch": 10,
+ "epochs_run": 14,
+ "hparams": {
+  "epochs": 25,
+  "patience": 4,
+  "batch_size": 256,
+  "lr": 0.002,
+  "weight_decay": 0.001,
+  "epoch_frac": 0.5,
+  "model_kwargs": {
+   "dropout": 0.3
+  }
+ },
+ "finished": "2026-11-17T23:38:55.165768"
+}

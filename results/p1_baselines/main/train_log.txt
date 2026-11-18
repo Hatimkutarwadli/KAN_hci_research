@@ -1,0 +1,83 @@
+  transformer seed0 ep1 train 0.3083 cal 0.2212
+  transformer seed0 ep2 train 0.2012 cal 0.2211
+  transformer seed0 ep3 train 0.1979 cal 0.2220
+  transformer seed0 ep4 train 0.1972 cal 0.2201
+  transformer seed0 ep5 train 0.1924 cal 0.2233
+  transformer seed0 ep6 train 0.1922 cal 0.2218
+  transformer seed0 ep7 train 0.1883 cal 0.2248
+  transformer seed0 ep8 train 0.1870 cal 0.2255
+transformer seed0: wall 118s cpu 402s params 11512 best_epoch 4 epochs_run 8
+  transformer seed1 ep1 train 0.2844 cal 0.2221
+  transformer seed1 ep2 train 0.2033 cal 0.2197
+  transformer seed1 ep3 train 0.2033 cal 0.2178
+  transformer seed1 ep4 train 0.1985 cal 0.2191
+  transformer seed1 ep5 train 0.1954 cal 0.2204
+  transformer seed1 ep6 train 0.1956 cal 0.2212
+  transformer seed1 ep7 train 0.1930 cal 0.2259
+transformer seed1: wall 89s cpu 328s params 11512 best_epoch 3 epochs_run 7
+  transformer seed2 ep1 train 0.2707 cal 0.2208
+  transformer seed2 ep2 train 0.1991 cal 0.2185
+  transformer seed2 ep3 train 0.1996 cal 0.2210
+  transformer seed2 ep4 train 0.2009 cal 0.2204
+  transformer seed2 ep5 train 0.1962 cal 0.2218
+  transformer seed2 ep6 train 0.1931 cal 0.2266
+transformer seed2: wall 74s cpu 279s params 11512 best_epoch 2 epochs_run 6
+  transformer seed3 ep1 train 0.2909 cal 0.2206
+  transformer seed3 ep2 train 0.2056 cal 0.2190
+  transformer seed3 ep3 train 0.1974 cal 0.2189
+  transformer seed3 ep4 train 0.1959 cal 0.2213
+  transformer seed3 ep5 train 0.1939 cal 0.2181
+  transformer seed3 ep6 train 0.1926 cal 0.2188
+  transformer seed3 ep7 train 0.1887 cal 0.2244
+  transformer seed3 ep8 train 0.1866 cal 0.2253
+  transformer seed3 ep9 train 0.1819 cal 0.2278
+transformer seed3: wall 106s cpu 394s params 11512 best_epoch 5 epochs_run 9
+  transformer seed4 ep1 train 0.2835 cal 0.2270
+  transformer seed4 ep2 train 0.2043 cal 0.2192
+  transformer seed4 ep3 train 0.2003 cal 0.2187
+  transformer seed4 ep4 train 0.1980 cal 0.2223
+  transformer seed4 ep5 train 0.1943 cal 0.2210
+  transformer seed4 ep6 train 0.1957 cal 0.2222
+  transformer seed4 ep7 train 0.1902 cal 0.2215
+transformer seed4: wall 127s cpu 320s params 11512 best_epoch 3 epochs_run 7
+  cnnlstm seed0 ep1 train 0.3142 cal 0.2237
+  cnnlstm seed0 ep2 train 0.2037 cal 0.2217
+  cnnlstm seed0 ep3 train 0.1990 cal 0.2220
+  cnnlstm seed0 ep4 train 0.1987 cal 0.2201
+  cnnlstm seed0 ep5 train 0.1943 cal 0.2215
+  cnnlstm seed0 ep6 train 0.1954 cal 0.2238
+  cnnlstm seed0 ep7 train 0.1915 cal 0.2233
+  cnnlstm seed0 ep8 train 0.1919 cal 0.2266
+cnnlstm seed0: wall 75s cpu 252s params 10912 best_epoch 4 epochs_run 8
+  cnnlstm seed1 ep1 train 0.3021 cal 0.2224
+  cnnlstm seed1 ep2 train 0.2054 cal 0.2218
+  cnnlstm seed1 ep3 train 0.2060 cal 0.2195
+  cnnlstm seed1 ep4 train 0.2013 cal 0.2204
+  cnnlstm seed1 ep5 train 0.1972 cal 0.2208
+  cnnlstm seed1 ep6 train 0.1971 cal 0.2197
+  cnnlstm seed1 ep7 train 0.1946 cal 0.2207
+cnnlstm seed1: wall 72s cpu 222s params 10912 best_epoch 3 epochs_run 7
+  cnnlstm seed2 ep1 train 0.3241 cal 0.2236
+  cnnlstm seed2 ep2 train 0.2015 cal 0.2207
+  cnnlstm seed2 ep3 train 0.2011 cal 0.2228
+  cnnlstm seed2 ep4 train 0.2019 cal 0.2203
+  cnnlstm seed2 ep5 train 0.1972 cal 0.2211
+  cnnlstm seed2 ep6 train 0.1943 cal 0.2210
+  cnnlstm seed2 ep7 train 0.1914 cal 0.2248
+  cnnlstm seed2 ep8 train 0.1934 cal 0.2226
+cnnlstm seed2: wall 74s cpu 251s params 10912 best_epoch 4 epochs_run 8
+  cnnlstm seed3 ep1 train 0.3145 cal 0.2240
+  cnnlstm seed3 ep2 train 0.2073 cal 0.2198
+  cnnlstm seed3 ep3 train 0.1990 cal 0.2201
+  cnnlstm seed3 ep4 train 0.1971 cal 0.2210
+  cnnlstm seed3 ep5 train 0.1948 cal 0.2209
+  cnnlstm seed3 ep6 train 0.1940 cal 0.2214
+cnnlstm seed3: wall 49s cpu 171s params 10912 best_epoch 2 epochs_run 6
+  cnnlstm seed4 ep1 train 0.3029 cal 0.2272
+  cnnlstm seed4 ep2 train 0.2058 cal 0.2229
+  cnnlstm seed4 ep3 train 0.2033 cal 0.2190
+  cnnlstm seed4 ep4 train 0.1992 cal 0.2203
+  cnnlstm seed4 ep5 train 0.1945 cal 0.2218
+  cnnlstm seed4 ep6 train 0.1965 cal 0.2209
+  cnnlstm seed4 ep7 train 0.1919 cal 0.2215
+cnnlstm seed4: wall 74s cpu 249s params 10912 best_epoch 3 epochs_run 7

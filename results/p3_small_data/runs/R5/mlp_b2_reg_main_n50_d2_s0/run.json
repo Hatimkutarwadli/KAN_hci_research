@@ -1,0 +1,104 @@
+{
+ "SYNTHETIC": true,
+ "test_split_loaded": false,
+ "ds": "R5",
+ "model": "mlp_b2_reg",
+ "ts": "main",
+ "n": 50,
+ "draw": 2,
+ "seed": 0,
+ "variant": "primary",
+ "id": "mlp_b2_reg_main_n50_d2_s0",
+ "cost": 0.11666666666666667,
+ "wall_s": 16.622991299955174,
+ "cpu_s": 51.140625,
+ "finite": true,
+ "n_params": 29327,
+ "partial_rerun": false,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.5584438775559908,
+   "cal_loss": 0.3955235779285431
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.3784497421787631,
+   "cal_loss": 0.30936992168426514
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.29758154899843275,
+   "cal_loss": 0.2628060281276703
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.25404658750821185,
+   "cal_loss": 0.24389034509658813
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.234577265631768,
+   "cal_loss": 0.2313724160194397
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.22767781781893903,
+   "cal_loss": 0.22600489854812622
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.20666921023399598,
+   "cal_loss": 0.22787357866764069
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.2159071914290869,
+   "cal_loss": 0.23362766206264496
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.19640096508687543,
+   "cal_loss": 0.22460977733135223
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.19713286167190922,
+   "cal_loss": 0.22445154190063477
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.1789529848675574,
+   "cal_loss": 0.23291020095348358
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.18419683245561455,
+   "cal_loss": 0.2322612702846527
+  },
+  {
+   "epoch": 13,
+   "train_loss": 0.1690535480809468,
+   "cal_loss": 0.24169638752937317
+  },
+  {
+   "epoch": 14,
+   "train_loss": 0.1657004726061257,
+   "cal_loss": 0.23596762120723724
+  }
+ ],
+ "best_epoch": 10,
+ "epochs_run": 14,
+ "hparams": {
+  "epochs": 25,
+  "patience": 4,
+  "batch_size": 256,
+  "lr": 0.002,
+  "weight_decay": 0.001,
+  "epoch_frac": 0.5,
+  "model_kwargs": {
+   "dropout": 0.3
+  }
+ },
+ "finished": "2026-11-18T00:21:54.504878"
+}

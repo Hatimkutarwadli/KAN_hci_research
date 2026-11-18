@@ -1,0 +1,12 @@
+  grud seed3 ep1 train 0.5240 cal 0.4839
+  diag {"epoch": 1}
+  grud seed3 ep2 train 0.4297 cal 0.4787
+  diag {"epoch": 2}
+  grud seed3 ep3 train 0.4177 cal 0.4816
+  diag {"epoch": 3}
+  grud seed3 ep4 train 0.4175 cal 0.4847
+  diag {"epoch": 4}
+  grud seed3 ep5 train 0.4135 cal 0.4826
+  diag {"epoch": 5}
+  grud seed3 ep6 train 0.4083 cal 0.4896
+  diag {"epoch": 6}

@@ -1,0 +1,134 @@
+{
+ "SYNTHETIC": true,
+ "test_split_loaded": false,
+ "ds": "R4",
+ "model": "mlp_m1",
+ "ts": "all",
+ "n": 50,
+ "draw": 3,
+ "seed": 1,
+ "variant": "primary",
+ "id": "mlp_m1_all_n50_d3_s1",
+ "cost": 0.4166666666666667,
+ "wall_s": 33.7514485999709,
+ "cpu_s": 106.84375,
+ "finite": true,
+ "n_params": 20997,
+ "partial_rerun": false,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.7283374319537993,
+   "cal_loss": 0.7223795652389526
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.6042198656194954,
+   "cal_loss": 0.5831905007362366
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.44481123125681316,
+   "cal_loss": 0.47244885563850403
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.3409434529530105,
+   "cal_loss": 0.4196913242340088
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.2990419466008422,
+   "cal_loss": 0.44041678309440613
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.29794221136518706,
+   "cal_loss": 0.42823681235313416
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.28162417672013723,
+   "cal_loss": 0.4256351590156555
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.2741333210276019,
+   "cal_loss": 0.40870195627212524
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.2720610957889147,
+   "cal_loss": 0.42270734906196594
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.2690061744438705,
+   "cal_loss": 0.4056757092475891
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.26716648159488554,
+   "cal_loss": 0.4073927402496338
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.2641100678072181,
+   "cal_loss": 0.42626041173934937
+  },
+  {
+   "epoch": 13,
+   "train_loss": 0.26821979713055394,
+   "cal_loss": 0.44056573510169983
+  },
+  {
+   "epoch": 14,
+   "train_loss": 0.26997277322635854,
+   "cal_loss": 0.4537176489830017
+  }
+ ],
+ "best_epoch": 10,
+ "epochs_run": 14,
+ "hparams": {
+  "epochs": 25,
+  "patience": 4,
+  "batch_size": 256,
+  "lr": 0.002,
+  "weight_decay": 0.001,
+  "epoch_frac": 0.5,
+  "model_kwargs": {
+   "dropout": 0.3,
+   "heads": [
+    "sev_dep_t0",
+    "sev_dep_h7",
+    "sev_dep_h14",
+    "sev_dep_h21",
+    "sev_anx_t0",
+    "sev_anx_h7",
+    "sev_anx_h14",
+    "sev_anx_h21",
+    "status_dep_t0",
+    "status_dep_h7",
+    "status_dep_h14",
+    "status_dep_h21",
+    "status_anx_t0",
+    "status_anx_h7",
+    "status_anx_h14",
+    "status_anx_h21",
+    "onset_sust_dep_h7",
+    "onset_sust_dep_h14",
+    "onset_sust_dep_h21",
+    "onset_sust_anx_h7",
+    "onset_sust_anx_h14",
+    "onset_sust_anx_h21",
+    "onset_cross_dep_h7",
+    "onset_cross_dep_h14",
+    "onset_cross_dep_h21",
+    "onset_cross_anx_h7",
+    "onset_cross_anx_h14",
+    "onset_cross_anx_h21"
+   ]
+  }
+ },
+ "finished": "2026-11-18T00:04:10.815415"
+}

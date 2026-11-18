@@ -1,0 +1,201 @@
+{
+ "SYNTHETIC": true,
+ "split": "cal",
+ "test_sealed": true,
+ "integrity": {
+  "expected": 416,
+  "present": 416,
+  "missing": [],
+  "unexpected": [],
+  "all_finite": true,
+  "partial_reruns": [
+   "m1_all_n600_d0_s0",
+   "m1_all_n600_d0_s1",
+   "m1_all_n600_d0_s2"
+  ],
+  "subsets_identical_across_models": true
+ },
+ "B3_flags": [],
+ "RQ1a_n50": {
+  "label": "not supported",
+  "n": 50,
+  "n_reproducible_KAN": 0,
+  "n_reproducible_MLP": 0,
+  "n_KAN_one_dataset_only": 1,
+  "KAN_consistent_per_dataset": {
+   "R4": 0,
+   "R5": 1
+  },
+  "primary_only": {
+   "reproducible_KAN": 0,
+   "reproducible_MLP": 0
+  }
+ },
+ "RQ1b_n50": {
+  "label": "not supported",
+  "n": 50,
+  "per_model": {
+   "kan_reg": {
+    "rep_adv": 0,
+    "rep_loss": 0,
+    "one_ds_adv": 1
+   },
+   "m1": {
+    "rep_adv": 0,
+    "rep_loss": 3,
+    "one_ds_adv": 0
+   }
+  },
+  "supported_by": []
+ },
+ "RQ1a_n100": {
+  "label": "mixed",
+  "n": 100,
+  "n_reproducible_KAN": 0,
+  "n_reproducible_MLP": 0,
+  "n_KAN_one_dataset_only": 2,
+  "KAN_consistent_per_dataset": {
+   "R4": 0,
+   "R5": 2
+  },
+  "primary_only": {
+   "reproducible_KAN": 0,
+   "reproducible_MLP": 0
+  }
+ },
+ "RQ1b_n100": {
+  "label": "not supported",
+  "n": 100,
+  "per_model": {
+   "kan_reg": {
+    "rep_adv": 0,
+    "rep_loss": 0,
+    "one_ds_adv": 0
+   },
+   "m1": {
+    "rep_adv": 0,
+    "rep_loss": 4,
+    "one_ds_adv": 0
+   }
+  },
+  "supported_by": []
+ },
+ "secondary_counts": {
+  "200": {
+   "RQ1a_counts": {
+    "n": 200,
+    "n_reproducible_KAN": 0,
+    "n_reproducible_MLP": 1,
+    "n_KAN_one_dataset_only": 1,
+    "KAN_consistent_per_dataset": {
+     "R4": 0,
+     "R5": 1
+    },
+    "primary_only": {
+     "reproducible_KAN": 0,
+     "reproducible_MLP": 0
+    }
+   },
+   "RQ1b_counts": {
+    "n": 200,
+    "per_model": {
+     "kan_reg": {
+      "rep_adv": 0,
+      "rep_loss": 1,
+      "one_ds_adv": 1
+     },
+     "m1": {
+      "rep_adv": 0,
+      "rep_loss": 4,
+      "one_ds_adv": 0
+     }
+    },
+    "supported_by": []
+   }
+  },
+  "400": {
+   "RQ1a_counts": {
+    "n": 400,
+    "n_reproducible_KAN": 0,
+    "n_reproducible_MLP": 0,
+    "n_KAN_one_dataset_only": 1,
+    "KAN_consistent_per_dataset": {
+     "R4": 0,
+     "R5": 1
+    },
+    "primary_only": {
+     "reproducible_KAN": 0,
+     "reproducible_MLP": 0
+    }
+   },
+   "RQ1b_counts": {
+    "n": 400,
+    "per_model": {
+     "kan_reg": {
+      "rep_adv": 0,
+      "rep_loss": 1,
+      "one_ds_adv": 0
+     },
+     "m1": {
+      "rep_adv": 0,
+      "rep_loss": 4,
+      "one_ds_adv": 0
+     }
+    },
+    "supported_by": []
+   }
+  },
+  "600": {
+   "RQ1a_counts": {
+    "n": 600,
+    "n_reproducible_KAN": 0,
+    "n_reproducible_MLP": 1,
+    "n_KAN_one_dataset_only": 0,
+    "KAN_consistent_per_dataset": {
+     "R4": 0,
+     "R5": 0
+    },
+    "primary_only": {
+     "reproducible_KAN": 0,
+     "reproducible_MLP": 1
+    }
+   },
+   "RQ1b_counts": {
+    "n": 600,
+    "per_model": {
+     "kan_reg": {
+      "rep_adv": 0,
+      "rep_loss": 1,
+      "one_ds_adv": 1
+     },
+     "m1": {
+      "rep_adv": 0,
+      "rep_loss": 4,
+      "one_ds_adv": 0
+     }
+    },
+    "supported_by": []
+   }
+  }
+ },
+ "sensitivities": {
+  "S2": {
+   "jobs": 20,
+   "all_finite": true,
+   "n_comparisons": 40,
+   "better_label_changed": 2
+  },
+  "S3": {
+   "jobs": 15,
+   "all_finite": true,
+   "n_comparisons": 12,
+   "better_label_changed": 1
+  },
+  "S1": {
+   "jobs": 72,
+   "all_finite": true,
+   "n_comparisons": 60,
+   "better_label_changed": 13
+  }
+ }
+}

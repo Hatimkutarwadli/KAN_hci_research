@@ -1,0 +1,7 @@
+{
+ "SYNTHETIC": true,
+ "training_run": false,
+ "test_split_read": false,
+ "in_memory_simulations_only": true,
+ "runtime_s": 188.65595316886902
+}

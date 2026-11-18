@@ -1,0 +1,5 @@
+{
+ "n_cells": 300,
+ "max_abs_dev_pct_points": 0.0049751778747812656,
+ "note": "point estimates (row 0) vs the cells printed in results/stage9_v2/analysis/final_test_report.md (2 decimals)"
+}

@@ -1,0 +1,199 @@
+{
+ "SYNTHETIC": true,
+ "dataset": "S-EFF",
+ "test_split_loaded": false,
+ "heads": [
+  "sev_dep_t0",
+  "sev_anx_t0",
+  "status_dep_t0",
+  "status_anx_t0",
+  "onset_sust_dep_h7",
+  "onset_sust_dep_h14",
+  "onset_sust_dep_h21",
+  "onset_sust_anx_h7",
+  "onset_sust_anx_h14",
+  "onset_sust_anx_h21",
+  "onset_cross_dep_h7",
+  "onset_cross_dep_h14",
+  "onset_cross_dep_h21",
+  "onset_cross_anx_h7",
+  "onset_cross_anx_h14",
+  "onset_cross_anx_h21"
+ ],
+ "runs": [
+  {
+   "model": "mlp_b2_reg",
+   "taskset": "main",
+   "seed": 0,
+   "wall_s": 34.87586419994477,
+   "cpu_s": 83.046875,
+   "n_params": 29327,
+   "best_cal_loss": 0.20268073678016663,
+   "best_epoch": 2,
+   "epochs_run": 6,
+   "hparams": {
+    "epochs": 25,
+    "patience": 4,
+    "batch_size": 256,
+    "lr": 0.002,
+    "weight_decay": 0.001,
+    "epoch_frac": 0.5,
+    "model_kwargs": {
+     "dropout": 0.3
+    }
+   },
+   "history": [
+    {
+     "epoch": 1,
+     "train_loss": 0.30420511424327834,
+     "cal_loss": 0.20737618207931519
+    },
+    {
+     "epoch": 2,
+     "train_loss": 0.23318668172778195,
+     "cal_loss": 0.20268073678016663
+    },
+    {
+     "epoch": 3,
+     "train_loss": 0.232155516493705,
+     "cal_loss": 0.20621098577976227
+    },
+    {
+     "epoch": 4,
+     "train_loss": 0.22352565811312755,
+     "cal_loss": 0.2038474678993225
+    },
+    {
+     "epoch": 5,
+     "train_loss": 0.2195765120624214,
+     "cal_loss": 0.20633481442928314
+    },
+    {
+     "epoch": 6,
+     "train_loss": 0.2160728397057475,
+     "cal_loss": 0.20363934338092804
+    }
+   ]
+  },
+  {
+   "model": "mlp_b2_reg",
+   "taskset": "main",
+   "seed": 1,
+   "wall_s": 34.00607590004802,
+   "cpu_s": 88.40625,
+   "n_params": 29327,
+   "best_cal_loss": 0.2031845897436142,
+   "best_epoch": 3,
+   "epochs_run": 7,
+   "hparams": {
+    "epochs": 25,
+    "patience": 4,
+    "batch_size": 256,
+    "lr": 0.002,
+    "weight_decay": 0.001,
+    "epoch_frac": 0.5,
+    "model_kwargs": {
+     "dropout": 0.3
+    }
+   },
+   "history": [
+    {
+     "epoch": 1,
+     "train_loss": 0.3107489217652215,
+     "cal_loss": 0.20812910795211792
+    },
+    {
+     "epoch": 2,
+     "train_loss": 0.23611353715047187,
+     "cal_loss": 0.2032627910375595
+    },
+    {
+     "epoch": 3,
+     "train_loss": 0.22742501063158863,
+     "cal_loss": 0.2031845897436142
+    },
+    {
+     "epoch": 4,
+     "train_loss": 0.22265618646871232,
+     "cal_loss": 0.214025616645813
+    },
+    {
+     "epoch": 5,
+     "train_loss": 0.2252948192199926,
+     "cal_loss": 0.2055027335882187
+    },
+    {
+     "epoch": 6,
+     "train_loss": 0.219477252808523,
+     "cal_loss": 0.20673725008964539
+    },
+    {
+     "epoch": 7,
+     "train_loss": 0.2112809329690899,
+     "cal_loss": 0.20975255966186523
+    }
+   ]
+  },
+  {
+   "model": "mlp_b2_reg",
+   "taskset": "main",
+   "seed": 2,
+   "wall_s": 37.76192409999203,
+   "cpu_s": 95.8125,
+   "n_params": 29327,
+   "best_cal_loss": 0.20066401362419128,
+   "best_epoch": 3,
+   "epochs_run": 7,
+   "hparams": {
+    "epochs": 25,
+    "patience": 4,
+    "batch_size": 256,
+    "lr": 0.002,
+    "weight_decay": 0.001,
+    "epoch_frac": 0.5,
+    "model_kwargs": {
+     "dropout": 0.3
+    }
+   },
+   "history": [
+    {
+     "epoch": 1,
+     "train_loss": 0.31319848243908216,
+     "cal_loss": 0.20513802766799927
+    },
+    {
+     "epoch": 2,
+     "train_loss": 0.23610813746956513,
+     "cal_loss": 0.20698899030685425
+    },
+    {
+     "epoch": 3,
+     "train_loss": 0.2305910306164868,
+     "cal_loss": 0.20066401362419128
+    },
+    {
+     "epoch": 4,
+     "train_loss": 0.22605487843140906,
+     "cal_loss": 0.20332461595535278
+    },
+    {
+     "epoch": 5,
+     "train_loss": 0.21915675468555915,
+     "cal_loss": 0.2044784426689148
+    },
+    {
+     "epoch": 6,
+     "train_loss": 0.21618582127342087,
+     "cal_loss": 0.20535653829574585
+    },
+    {
+     "epoch": 7,
+     "train_loss": 0.2090215994700736,
+     "cal_loss": 0.21463416516780853
+    }
+   ]
+  }
+ ],
+ "torch_threads": 4,
+ "torch": "2.15.0+cpu"
+}

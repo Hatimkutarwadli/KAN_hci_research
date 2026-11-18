@@ -1,0 +1,117 @@
+  gbt sev_dep_h7: {'depth': 3, 'n_iter': 140, 'cal_score': -2.9959821332452927, 'metric': '-RMSE'}
+  gbt sev_dep_h14: {'depth': 3, 'n_iter': 160, 'cal_score': -3.1983926218850165, 'metric': '-RMSE'}
+  gbt sev_dep_h21: {'depth': 3, 'n_iter': 160, 'cal_score': -3.4164507544173492, 'metric': '-RMSE'}
+  gbt sev_anx_h7: {'depth': 3, 'n_iter': 100, 'cal_score': -3.0071654594029567, 'metric': '-RMSE'}
+  gbt sev_anx_h14: {'depth': 3, 'n_iter': 100, 'cal_score': -3.1274254117612132, 'metric': '-RMSE'}
+  gbt sev_anx_h21: {'depth': 3, 'n_iter': 80, 'cal_score': -3.2655794139294874, 'metric': '-RMSE'}
+  gbt status_dep_h7: {'depth': 6, 'n_iter': 60, 'cal_score': 0.3790561907921332, 'metric': 'AP'}
+  gbt status_dep_h14: {'depth': 6, 'n_iter': 20, 'cal_score': 0.3545616355322638, 'metric': 'AP'}
+  gbt status_dep_h21: {'depth': 3, 'n_iter': 200, 'cal_score': 0.29342858027790203, 'metric': 'AP'}
+  gbt status_anx_h7: {'depth': 6, 'n_iter': 200, 'cal_score': 0.17697058012977368, 'metric': 'AP'}
+  gbt status_anx_h14: {'depth': 3, 'n_iter': 80, 'cal_score': 0.16427802234525962, 'metric': 'AP'}
+  gbt status_anx_h21: {'depth': 3, 'n_iter': 100, 'cal_score': 0.15561773855708355, 'metric': 'AP'}
+gbt seed0: wall 123s cpu 454s
+  gru seed0 ep1 train 0.5199 cal 0.4853
+  gru seed0 ep2 train 0.4248 cal 0.4820
+  gru seed0 ep3 train 0.4179 cal 0.4855
+  gru seed0 ep4 train 0.4176 cal 0.4785
+  gru seed0 ep5 train 0.4122 cal 0.4838
+  gru seed0 ep6 train 0.4081 cal 0.4893
+  gru seed0 ep7 train 0.4030 cal 0.4925
+  gru seed0 ep8 train 0.3999 cal 0.4927
+gru seed0: wall 42s cpu 150s
+  gru seed1 ep1 train 0.5300 cal 0.4818
+  gru seed1 ep2 train 0.4241 cal 0.4854
+  gru seed1 ep3 train 0.4209 cal 0.4814
+  gru seed1 ep4 train 0.4168 cal 0.4856
+  gru seed1 ep5 train 0.4102 cal 0.4877
+  gru seed1 ep6 train 0.4050 cal 0.4894
+  gru seed1 ep7 train 0.3986 cal 0.4959
+gru seed1: wall 34s cpu 130s
+  gru seed2 ep1 train 0.5157 cal 0.4811
+  gru seed2 ep2 train 0.4203 cal 0.4768
+  gru seed2 ep3 train 0.4168 cal 0.4826
+  gru seed2 ep4 train 0.4139 cal 0.4811
+  gru seed2 ep5 train 0.4119 cal 0.4871
+  gru seed2 ep6 train 0.4043 cal 0.4879
+gru seed2: wall 31s cpu 115s
+  gru seed3 ep1 train 0.5185 cal 0.4832
+  gru seed3 ep2 train 0.4282 cal 0.4776
+  gru seed3 ep3 train 0.4165 cal 0.4821
+  gru seed3 ep4 train 0.4168 cal 0.4831
+  gru seed3 ep5 train 0.4133 cal 0.4849
+  gru seed3 ep6 train 0.4081 cal 0.4885
+gru seed3: wall 32s cpu 116s
+  gru seed4 ep1 train 0.5176 cal 0.4855
+  gru seed4 ep2 train 0.4251 cal 0.4813
+  gru seed4 ep3 train 0.4163 cal 0.4842
+  gru seed4 ep4 train 0.4112 cal 0.4859
+  gru seed4 ep5 train 0.4070 cal 0.4910
+  gru seed4 ep6 train 0.4035 cal 0.4944
+gru seed4: wall 32s cpu 119s
+  kan seed0 ep1 train 0.4790 cal 0.5124
+  kan seed0 ep2 train 0.4047 cal 0.5419
+  kan seed0 ep3 train 0.3452 cal 0.5876
+  kan seed0 ep4 train 0.3050 cal 0.6200
+  kan seed0 ep5 train 0.2755 cal 0.6322
+kan seed0: wall 148s cpu 567s
+  kan seed1 ep1 train 0.5075 cal 0.5109
+  kan seed1 ep2 train 0.4076 cal 0.5296
+  kan seed1 ep3 train 0.3467 cal 0.5673
+  kan seed1 ep4 train 0.3025 cal 0.5979
+  kan seed1 ep5 train 0.2794 cal 0.6041
+kan seed1: wall 148s cpu 567s
+  kan seed2 ep1 train 0.4987 cal 0.5053
+  kan seed2 ep2 train 0.4153 cal 0.5142
+  kan seed2 ep3 train 0.3552 cal 0.5438
+  kan seed2 ep4 train 0.3032 cal 0.5914
+  kan seed2 ep5 train 0.2762 cal 0.6032
+kan seed2: wall 145s cpu 556s
+  kan seed3 ep1 train 0.4997 cal 0.5261
+  kan seed3 ep2 train 0.4280 cal 0.5209
+  kan seed3 ep3 train 0.3676 cal 0.5559
+  kan seed3 ep4 train 0.3118 cal 0.5868
+  kan seed3 ep5 train 0.2819 cal 0.5975
+  kan seed3 ep6 train 0.2616 cal 0.6380
+kan seed3: wall 168s cpu 643s
+  kan seed4 ep1 train 0.4943 cal 0.5113
+  kan seed4 ep2 train 0.4210 cal 0.5123
+  kan seed4 ep3 train 0.3568 cal 0.5745
+  kan seed4 ep4 train 0.3077 cal 0.6122
+  kan seed4 ep5 train 0.2763 cal 0.6245
+kan seed4: wall 103s cpu 407s
+  kan seed0 ep1 train 0.5347 cal 0.5068
+  kan seed0 ep2 train 0.4557 cal 0.5073
+  kan seed0 ep3 train 0.4284 cal 0.5237
+  kan seed0 ep4 train 0.4021 cal 0.5296
+  kan seed0 ep5 train 0.3809 cal 0.5296
+kan_reg seed0: wall 98s cpu 385s
+  kan seed1 ep1 train 0.5653 cal 0.5070
+  kan seed1 ep2 train 0.4551 cal 0.5050
+  kan seed1 ep3 train 0.4351 cal 0.5036
+  kan seed1 ep4 train 0.4054 cal 0.5200
+  kan seed1 ep5 train 0.3835 cal 0.5210
+  kan seed1 ep6 train 0.3781 cal 0.5317
+  kan seed1 ep7 train 0.3612 cal 0.5391
+kan_reg seed1: wall 125s cpu 494s
+  kan seed2 ep1 train 0.5546 cal 0.5064
+  kan seed2 ep2 train 0.4545 cal 0.5115
+  kan seed2 ep3 train 0.4336 cal 0.5103
+  kan seed2 ep4 train 0.4114 cal 0.5194
+  kan seed2 ep5 train 0.3913 cal 0.5241
+kan_reg seed2: wall 98s cpu 384s
+  kan seed3 ep1 train 0.5525 cal 0.5139
+  kan seed3 ep2 train 0.4668 cal 0.5176
+  kan seed3 ep3 train 0.4350 cal 0.5211
+  kan seed3 ep4 train 0.4171 cal 0.5194
+  kan seed3 ep5 train 0.3891 cal 0.5255
+kan_reg seed3: wall 97s cpu 381s
+  kan seed4 ep1 train 0.5521 cal 0.5118
+  kan seed4 ep2 train 0.4631 cal 0.5033
+  kan seed4 ep3 train 0.4344 cal 0.5121
+  kan seed4 ep4 train 0.4109 cal 0.5127
+  kan seed4 ep5 train 0.3871 cal 0.5271
+  kan seed4 ep6 train 0.3739 cal 0.5374
+kan_reg seed4: wall 113s cpu 443s
+done -> results/stage3c_forecast
+exit 0

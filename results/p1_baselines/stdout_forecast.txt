@@ -1,0 +1,82 @@
+E:\HCI LAB\researchproject\synthetic-dataset-research\src\baselines.py:187: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\autograd\generated\python_variable_methods.cpp:821.)
+  run += float(loss) * len(yb)
+  transformer seed0 ep1 train 0.5092 cal 0.4841
+  transformer seed0 ep2 train 0.4272 cal 0.4830
+  transformer seed0 ep3 train 0.4204 cal 0.4860
+  transformer seed0 ep4 train 0.4186 cal 0.4833
+  transformer seed0 ep5 train 0.4120 cal 0.4843
+  transformer seed0 ep6 train 0.4061 cal 0.4908
+transformer seed0: wall 108s cpu 340s params 11380 best_epoch 2 epochs_run 6
+  transformer seed1 ep1 train 0.4934 cal 0.4828
+  transformer seed1 ep2 train 0.4236 cal 0.4796
+  transformer seed1 ep3 train 0.4218 cal 0.4823
+  transformer seed1 ep4 train 0.4195 cal 0.4860
+  transformer seed1 ep5 train 0.4151 cal 0.4901
+  transformer seed1 ep6 train 0.4094 cal 0.4899
+transformer seed1: wall 95s cpu 327s params 11380 best_epoch 2 epochs_run 6
+  transformer seed2 ep1 train 0.4897 cal 0.4831
+  transformer seed2 ep2 train 0.4241 cal 0.4841
+  transformer seed2 ep3 train 0.4207 cal 0.4879
+  transformer seed2 ep4 train 0.4175 cal 0.4826
+  transformer seed2 ep5 train 0.4144 cal 0.4896
+  transformer seed2 ep6 train 0.4074 cal 0.4942
+  transformer seed2 ep7 train 0.3986 cal 0.4949
+  transformer seed2 ep8 train 0.3941 cal 0.4975
+transformer seed2: wall 282s cpu 345s params 11380 best_epoch 4 epochs_run 8
+  transformer seed3 ep1 train 0.4924 cal 0.4912
+  transformer seed3 ep2 train 0.4294 cal 0.4835
+  transformer seed3 ep3 train 0.4156 cal 0.4848
+  transformer seed3 ep4 train 0.4153 cal 0.4894
+  transformer seed3 ep5 train 0.4101 cal 0.4883
+  transformer seed3 ep6 train 0.4040 cal 0.4911
+transformer seed3: wall 117s cpu 288s params 11380 best_epoch 2 epochs_run 6
+  transformer seed4 ep1 train 0.5045 cal 0.4913
+  transformer seed4 ep2 train 0.4301 cal 0.4843
+  transformer seed4 ep3 train 0.4188 cal 0.4861
+  transformer seed4 ep4 train 0.4139 cal 0.4919
+  transformer seed4 ep5 train 0.4095 cal 0.4899
+  transformer seed4 ep6 train 0.4051 cal 0.4962
+transformer seed4: wall 248s cpu 259s params 11380 best_epoch 2 epochs_run 6
+  cnnlstm seed0 ep1 train 0.5236 cal 0.4943
+  cnnlstm seed0 ep2 train 0.4324 cal 0.4862
+  cnnlstm seed0 ep3 train 0.4215 cal 0.4915
+  cnnlstm seed0 ep4 train 0.4174 cal 0.4831
+  cnnlstm seed0 ep5 train 0.4090 cal 0.4872
+  cnnlstm seed0 ep6 train 0.4048 cal 0.4992
+  cnnlstm seed0 ep7 train 0.4008 cal 0.4978
+  cnnlstm seed0 ep8 train 0.3980 cal 0.5005
+cnnlstm seed0: wall 115s cpu 222s params 10780 best_epoch 4 epochs_run 8
+  cnnlstm seed1 ep1 train 0.5324 cal 0.4904
+  cnnlstm seed1 ep2 train 0.4339 cal 0.4866
+  cnnlstm seed1 ep3 train 0.4290 cal 0.4803
+  cnnlstm seed1 ep4 train 0.4225 cal 0.4827
+  cnnlstm seed1 ep5 train 0.4165 cal 0.4880
+  cnnlstm seed1 ep6 train 0.4126 cal 0.4845
+  cnnlstm seed1 ep7 train 0.4084 cal 0.4874
+cnnlstm seed1: wall 131s cpu 191s params 10780 best_epoch 3 epochs_run 7
+  cnnlstm seed2 ep1 train 0.5362 cal 0.4937
+  cnnlstm seed2 ep2 train 0.4336 cal 0.4891
+  cnnlstm seed2 ep3 train 0.4255 cal 0.4844
+  cnnlstm seed2 ep4 train 0.4189 cal 0.4875
+  cnnlstm seed2 ep5 train 0.4160 cal 0.4899
+  cnnlstm seed2 ep6 train 0.4096 cal 0.4936
+  cnnlstm seed2 ep7 train 0.4029 cal 0.4961
+cnnlstm seed2: wall 153s cpu 189s params 10780 best_epoch 3 epochs_run 7
+  cnnlstm seed3 ep1 train 0.5385 cal 0.4951
+  cnnlstm seed3 ep2 train 0.4395 cal 0.4869
+  cnnlstm seed3 ep3 train 0.4235 cal 0.4885
+  cnnlstm seed3 ep4 train 0.4201 cal 0.4918
+  cnnlstm seed3 ep5 train 0.4147 cal 0.4959
+  cnnlstm seed3 ep6 train 0.4098 cal 0.4936
+cnnlstm seed3: wall 183s cpu 138s params 10780 best_epoch 2 epochs_run 6
+  cnnlstm seed4 ep1 train 0.5191 cal 0.4930
+  cnnlstm seed4 ep2 train 0.4362 cal 0.4883
+  cnnlstm seed4 ep3 train 0.4248 cal 0.4862
+  cnnlstm seed4 ep4 train 0.4182 cal 0.4856
+  cnnlstm seed4 ep5 train 0.4124 cal 0.4926
+  cnnlstm seed4 ep6 train 0.4089 cal 0.4932
+  cnnlstm seed4 ep7 train 0.4070 cal 0.4947
+  cnnlstm seed4 ep8 train 0.4017 cal 0.4979
+cnnlstm seed4: wall 268s cpu 174s params 10780 best_epoch 4 epochs_run 8
+done -> results/p1_baselines/forecast

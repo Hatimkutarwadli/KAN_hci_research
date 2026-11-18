@@ -1,0 +1,52 @@
+  m1 seed0 ep1 train 0.4400 cal 0.3530
+  m1 seed0 ep2 train 0.3344 cal 0.3462
+  m1 seed0 ep3 train 0.3270 cal 0.3482
+  m1 seed0 ep4 train 0.3253 cal 0.3441
+  m1 seed0 ep5 train 0.3174 cal 0.3503
+  m1 seed0 ep6 train 0.3182 cal 0.3431
+  m1 seed0 ep7 train 0.3159 cal 0.3499
+  m1 seed0 ep8 train 0.3143 cal 0.3490
+  m1 seed0 ep9 train 0.3129 cal 0.3478
+  m1 seed0 ep10 train 0.3092 cal 0.3467
+m1 seed0: wall 875s cpu 3346s
+  m1 seed1 ep1 train 0.4566 cal 0.3618
+  m1 seed1 ep2 train 0.3291 cal 0.3579
+  m1 seed1 ep3 train 0.3281 cal 0.3530
+  m1 seed1 ep4 train 0.3232 cal 0.3716
+  m1 seed1 ep5 train 0.3205 cal 0.3756
+  m1 seed1 ep6 train 0.3209 cal 0.3649
+  m1 seed1 ep7 train 0.3182 cal 0.3670
+m1 seed1: wall 641s cpu 2444s
+  m1 seed2 ep1 train 0.4559 cal 0.3590
+  m1 seed2 ep2 train 0.3304 cal 0.3503
+  m1 seed2 ep3 train 0.3236 cal 0.3543
+  m1 seed2 ep4 train 0.3258 cal 0.3528
+  m1 seed2 ep5 train 0.3204 cal 0.3476
+  m1 seed2 ep6 train 0.3188 cal 0.3573
+  m1 seed2 ep7 train 0.3140 cal 0.3471
+  m1 seed2 ep8 train 0.3141 cal 0.3582
+  m1 seed2 ep9 train 0.3124 cal 0.3555
+  m1 seed2 ep10 train 0.3091 cal 0.3540
+  m1 seed2 ep11 train 0.3093 cal 0.3538
+m1 seed2: wall 699s cpu 2734s
+  m1 seed3 ep1 train 0.4441 cal 0.3533
+  m1 seed3 ep2 train 0.3398 cal 0.3553
+  m1 seed3 ep3 train 0.3252 cal 0.3514
+  m1 seed3 ep4 train 0.3261 cal 0.3512
+  m1 seed3 ep5 train 0.3229 cal 0.3450
+  m1 seed3 ep6 train 0.3188 cal 0.3465
+  m1 seed3 ep7 train 0.3198 cal 0.3492
+  m1 seed3 ep8 train 0.3145 cal 0.3500
+  m1 seed3 ep9 train 0.3149 cal 0.3516
+m1 seed3: wall 525s cpu 2067s
+  m1 seed4 ep1 train 0.4613 cal 0.3603
+  m1 seed4 ep2 train 0.3345 cal 0.3522
+  m1 seed4 ep3 train 0.3238 cal 0.3632
+  m1 seed4 ep4 train 0.3210 cal 0.3491
+  m1 seed4 ep5 train 0.3171 cal 0.3489
+  m1 seed4 ep6 train 0.3184 cal 0.3466
+  m1 seed4 ep7 train 0.3149 cal 0.3467
+  m1 seed4 ep8 train 0.3130 cal 0.3570
+  m1 seed4 ep9 train 0.3136 cal 0.3579
+  m1 seed4 ep10 train 0.3112 cal 0.3588
+m1 seed4: wall 576s cpu 2268s

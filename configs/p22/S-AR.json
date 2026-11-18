@@ -1,0 +1,10 @@
+{
+ "SYNTHETIC": true,
+ "id": "S-AR",
+ "family": "shift",
+ "seed": 3101,
+ "overrides": {},
+ "rho_scale": 0.5,
+ "crn_partner": "R1",
+ "purpose": "Wearable AR(1) persistence RHO x0.5 (0.25-0.43); AR noise scaled by sqrt(1-rho^2) so feature variance kept. RQ4. Same seed streams as R1 (3101-3103): common random numbers. Frozen thresholds (approved)."
+}

@@ -1,0 +1,114 @@
+{
+ "SYNTHETIC": true,
+ "test_split_loaded": false,
+ "ds": "R5",
+ "model": "kan_reg",
+ "ts": "main",
+ "n": 50,
+ "draw": 0,
+ "seed": 0,
+ "variant": "primary",
+ "id": "kan_reg_main_n50_d0_s0",
+ "cost": 0.8333333333333334,
+ "wall_s": 184.6878136000596,
+ "cpu_s": 652.59375,
+ "finite": true,
+ "n_params": 29336,
+ "partial_rerun": false,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.596040495262351,
+   "cal_loss": 0.40912961959838867
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.4012146113252127,
+   "cal_loss": 0.3131965398788452
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.32557570852259154,
+   "cal_loss": 0.25990673899650574
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.28405089547557216,
+   "cal_loss": 0.23596446216106415
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.24876298255817864,
+   "cal_loss": 0.22726859152317047
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.2505101316462281,
+   "cal_loss": 0.22077299654483795
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.23373294785458554,
+   "cal_loss": 0.21788384020328522
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.22871184375337375,
+   "cal_loss": 0.21615198254585266
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.21402957445831708,
+   "cal_loss": 0.21669065952301025
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.20137099539079975,
+   "cal_loss": 0.2170746922492981
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.19395467385169,
+   "cal_loss": 0.21665407717227936
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.18324746663211494,
+   "cal_loss": 0.21282541751861572
+  },
+  {
+   "epoch": 13,
+   "train_loss": 0.17687333490899815,
+   "cal_loss": 0.24187064170837402
+  },
+  {
+   "epoch": 14,
+   "train_loss": 0.18178618056158866,
+   "cal_loss": 0.2131742238998413
+  },
+  {
+   "epoch": 15,
+   "train_loss": 0.15744111936899924,
+   "cal_loss": 0.219035804271698
+  },
+  {
+   "epoch": 16,
+   "train_loss": 0.1557482393582662,
+   "cal_loss": 0.21836140751838684
+  }
+ ],
+ "best_epoch": 12,
+ "epochs_run": 16,
+ "hparams": {
+  "epochs": 25,
+  "patience": 4,
+  "batch_size": 256,
+  "lr": 0.002,
+  "weight_decay": 0.001,
+  "epoch_frac": 0.5,
+  "model_kwargs": {
+   "dropout": 0.3
+  }
+ },
+ "finished": "2026-11-17T23:44:12.222017"
+}

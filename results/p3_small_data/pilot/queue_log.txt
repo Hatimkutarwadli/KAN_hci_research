@@ -1,0 +1,18 @@
+2026-11-17T18:12:52.952714 start set=pilot jobs=16 workers=3
+2026-11-17T18:16:51.474766 [1/16] {"id": "kan_reg_main_n400_d0_s0", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 632.046875, "wall_s": 207.07520379999187} elapsed=239s
+2026-11-17T18:18:24.223828 [2/16] {"id": "mlp_m1_all_n400_d0_s0", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 251.96875, "wall_s": 92.740639799973} elapsed=331s
+2026-11-17T18:22:53.802589 [3/16] {"id": "gbt_main_n400_d0_s0", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 776.234375, "wall_s": 269.5656103999354} elapsed=601s
+2026-11-17T18:25:04.127083 [4/16] {"id": "m1_all_n50_d0_s0", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 2321.140625, "wall_s": 699.5535537999822} elapsed=731s
+2026-11-17T18:26:00.138431 [5/16] {"id": "gbt_forecast_n400_d0_s0", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 546.421875, "wall_s": 186.32080420001876} elapsed=787s
+2026-11-17T18:26:00.648552 [6/16] {"id": "gru_main_n400_d0_s0", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 160.453125, "wall_s": 56.51141070004087} elapsed=788s
+2026-11-17T18:26:32.684985 [7/16] {"id": "mlp_b2_reg_main_n400_d0_s0", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 108.03125, "wall_s": 32.029957100050524} elapsed=820s
+2026-11-17T18:26:54.867616 [8/16] {"id": "gru_forecast_n400_d0_s0", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 157.328125, "wall_s": 54.713523100013845} elapsed=842s
+2026-11-17T18:27:33.120376 [9/16] {"id": "mlp_m1_all_n50_d0_s0", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 106.421875, "wall_s": 38.240553400013596} elapsed=880s
+2026-11-17T18:29:49.672802 [10/16] {"id": "gbt_main_n50_d0_s0", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 363.265625, "wall_s": 136.54446460003965} elapsed=1017s
+2026-11-17T18:29:54.796276 [11/16] {"id": "m1_all_n400_d0_s0", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 3063.671875, "wall_s": 990.576633199933} elapsed=1022s
+2026-11-17T18:30:07.832822 [12/16] {"id": "kan_reg_main_n50_d0_s0", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 775.8125, "wall_s": 215.1322877999628} elapsed=1035s
+2026-11-17T18:30:13.913444 [13/16] {"id": "gru_main_n50_d0_s0", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 56.640625, "wall_s": 19.106629400048405} elapsed=1041s
+2026-11-17T18:30:26.596243 [14/16] {"id": "gru_forecast_n50_d0_s0", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 58.359375, "wall_s": 18.74483500001952} elapsed=1054s
+2026-11-17T18:30:28.874277 [15/16] {"id": "mlp_b2_reg_main_n50_d0_s0", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 51.046875, "wall_s": 14.951765300007537} elapsed=1056s
+2026-11-17T18:31:01.676367 [16/16] {"id": "gbt_forecast_n50_d0_s0", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 232.109375, "wall_s": 71.99456899997313} elapsed=1089s
+2026-11-17T18:31:03.715703 end set=pilot done=16 stop=False elapsed=1091s

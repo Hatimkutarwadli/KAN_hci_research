@@ -1,0 +1,23 @@
+{
+ "benchmarks_severity_points_per_u_per_day": {
+  "sleep_variability->dep": 0.10781853627618096,
+  "steps->dep": -0.07674840307546399,
+  "steps->anx": -0.04601789328785107,
+  "hrv->anx": -0.08210973298342501
+ },
+ "planted_lags": {
+  "sleep_variability->dep": 3,
+  "steps->dep": 2,
+  "steps->anx": 2,
+  "hrv->anx": 1
+ },
+ "reverse_path_benchmarks_u_per_severity_point": {
+  "dep->steps": -0.049999999999999996,
+  "anx->hrv": -0.03333333333333333
+ },
+ "coupling_benchmark": 0.03,
+ "stress_direct_benchmark_severity_points_per_stress_unit_lag1": 0.09,
+ "units": "feature: simulator nominal unit u; outcome: severity points (3 x latent)",
+ "stress_proxy_reliability_R2_with_true_stress": 0.627476467045511,
+ "stress_proxy_corr_with_true_stress": 0.7921341218793134
+}

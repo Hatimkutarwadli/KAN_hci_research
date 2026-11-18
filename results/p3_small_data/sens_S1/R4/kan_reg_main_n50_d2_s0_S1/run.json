@@ -1,0 +1,104 @@
+{
+ "SYNTHETIC": true,
+ "test_split_loaded": false,
+ "ds": "R4",
+ "model": "kan_reg",
+ "ts": "main",
+ "n": 50,
+ "draw": 2,
+ "seed": 0,
+ "variant": "S1",
+ "id": "kan_reg_main_n50_d2_s0_S1",
+ "cost": 0.8333333333333334,
+ "wall_s": 190.22942260000855,
+ "cpu_s": 586.21875,
+ "finite": true,
+ "n_params": 29336,
+ "partial_rerun": false,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.5921582733046624,
+   "cal_loss": 0.4247720241546631
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.3982061064756045,
+   "cal_loss": 0.3288379907608032
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.3181131564545375,
+   "cal_loss": 0.27507853507995605
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.28633569690489,
+   "cal_loss": 0.2520313560962677
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.26937105694124774,
+   "cal_loss": 0.2411174327135086
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.25113755068471355,
+   "cal_loss": 0.2361457645893097
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.24429421758139006,
+   "cal_loss": 0.23265597224235535
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.23354347459731564,
+   "cal_loss": 0.23174282908439636
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.22550362817061845,
+   "cal_loss": 0.23111505806446075
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.22028399916746283,
+   "cal_loss": 0.22939713299274445
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.21764529046191963,
+   "cal_loss": 0.23011188209056854
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.2069254869286732,
+   "cal_loss": 0.23418448865413666
+  },
+  {
+   "epoch": 13,
+   "train_loss": 0.19669402026361035,
+   "cal_loss": 0.23255696892738342
+  },
+  {
+   "epoch": 14,
+   "train_loss": 0.1905937772797,
+   "cal_loss": 0.2501164674758911
+  }
+ ],
+ "best_epoch": 10,
+ "epochs_run": 14,
+ "hparams": {
+  "epochs": 25,
+  "patience": 4,
+  "batch_size": 256,
+  "lr": 0.002,
+  "weight_decay": 0.001,
+  "epoch_frac": 0.5,
+  "model_kwargs": {
+   "dropout": 0.3
+  }
+ },
+ "finished": "2026-11-18T00:50:33.619149"
+}

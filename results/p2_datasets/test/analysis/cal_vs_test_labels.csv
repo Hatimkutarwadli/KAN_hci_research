@@ -1,0 +1,10 @@
+dataset,C1_cal,C1_noGBT_cal,C2_cal,C3_cal,C4_cal,C5_cal,C1_test,C1_noGBT_test,C2_test,C3_test,C4_test,C5_test
+v1,mixed,supported,supported,supported,supported,supported,supported,supported,mixed,supported,supported,supported
+R1,supported,supported,supported,supported,supported,not supported,not supported,mixed,supported,mixed,supported,not supported
+R2,mixed,mixed,supported,supported,supported,supported,mixed,supported,mixed,supported,supported,supported
+R3,mixed,supported,supported,supported,supported,supported,supported,supported,supported,supported,supported,supported
+S-EFF,mixed,supported,supported,supported,supported,mixed,not supported,mixed,supported,supported,supported,mixed
+S-AR,supported,supported,supported,supported,supported,supported,not supported,supported,supported,supported,supported,supported
+S-MISS,supported,supported,supported,supported,supported,mixed,mixed,supported,supported,supported,supported,not supported
+S-HET,supported,supported,supported,supported,supported,supported,not supported,mixed,supported,mixed,supported,mixed
+S-NOISE,supported,supported,supported,supported,supported,supported,not supported,mixed,supported,mixed,supported,supported

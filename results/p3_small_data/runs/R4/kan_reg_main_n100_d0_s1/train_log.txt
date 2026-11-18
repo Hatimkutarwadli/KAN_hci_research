@@ -1,0 +1,11 @@
+  kan seed1 ep1 train 0.5171 cal 0.3272
+  kan seed1 ep2 train 0.3139 cal 0.2477
+  kan seed1 ep3 train 0.2670 cal 0.2320
+  kan seed1 ep4 train 0.2488 cal 0.2252
+  kan seed1 ep5 train 0.2294 cal 0.2223
+  kan seed1 ep6 train 0.2231 cal 0.2194
+  kan seed1 ep7 train 0.2111 cal 0.2194
+  kan seed1 ep8 train 0.2042 cal 0.2248
+  kan seed1 ep9 train 0.1903 cal 0.2335
+  kan seed1 ep10 train 0.1808 cal 0.2263
+  kan seed1 ep11 train 0.1704 cal 0.2325

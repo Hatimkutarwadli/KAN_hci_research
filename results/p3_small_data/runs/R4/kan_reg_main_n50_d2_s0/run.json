@@ -1,0 +1,104 @@
+{
+ "SYNTHETIC": true,
+ "test_split_loaded": false,
+ "ds": "R4",
+ "model": "kan_reg",
+ "ts": "main",
+ "n": 50,
+ "draw": 2,
+ "seed": 0,
+ "variant": "primary",
+ "id": "kan_reg_main_n50_d2_s0",
+ "cost": 0.8333333333333334,
+ "wall_s": 194.73096840002108,
+ "cpu_s": 591.34375,
+ "finite": true,
+ "n_params": 29336,
+ "partial_rerun": false,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.5925737914090515,
+   "cal_loss": 0.42482542991638184
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.3982668182029519,
+   "cal_loss": 0.32862213253974915
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.3179181956603963,
+   "cal_loss": 0.27481287717819214
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.2861446677997548,
+   "cal_loss": 0.2518008053302765
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.26911081737087617,
+   "cal_loss": 0.24097543954849243
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.2507731116971662,
+   "cal_loss": 0.23611997067928314
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.24384636773858018,
+   "cal_loss": 0.2328082025051117
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.23314274248256478,
+   "cal_loss": 0.2319055050611496
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.22476315256088011,
+   "cal_loss": 0.2310740053653717
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.21946062603945374,
+   "cal_loss": 0.22969935834407806
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.21639811272262244,
+   "cal_loss": 0.2305249273777008
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.20581459894616116,
+   "cal_loss": 0.23460516333580017
+  },
+  {
+   "epoch": 13,
+   "train_loss": 0.19559570887396413,
+   "cal_loss": 0.2331273853778839
+  },
+  {
+   "epoch": 14,
+   "train_loss": 0.18859602361597042,
+   "cal_loss": 0.25266867876052856
+  }
+ ],
+ "best_epoch": 10,
+ "epochs_run": 14,
+ "hparams": {
+  "epochs": 25,
+  "patience": 4,
+  "batch_size": 256,
+  "lr": 0.002,
+  "weight_decay": 0.001,
+  "epoch_frac": 0.5,
+  "model_kwargs": {
+   "dropout": 0.3
+  }
+ },
+ "finished": "2026-11-17T23:35:55.355716"
+}

@@ -1,0 +1,67 @@
+{
+ "SYNTHETIC": true,
+ "test_split_loaded": false,
+ "ds": "R4",
+ "model": "gru",
+ "ts": "forecast",
+ "n": 200,
+ "draw": 2,
+ "seed": 0,
+ "variant": "primary",
+ "id": "gru_forecast_n200_d2_s0",
+ "cost": 0.7333333333333334,
+ "wall_s": 21.114323199959472,
+ "cpu_s": 54.9375,
+ "finite": true,
+ "n_params": 10732,
+ "partial_rerun": false,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.6790201541941653,
+   "cal_loss": 0.49693167209625244
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.41944221204327,
+   "cal_loss": 0.43859028816223145
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.39584433176184214,
+   "cal_loss": 0.42862963676452637
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.3770471461613973,
+   "cal_loss": 0.43526265025138855
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.37375692955909234,
+   "cal_loss": 0.42878642678260803
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.3725370285075198,
+   "cal_loss": 0.4336773455142975
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.3679430802791349,
+   "cal_loss": 0.4373103380203247
+  }
+ ],
+ "best_epoch": 3,
+ "epochs_run": 7,
+ "hparams": {
+  "epochs": 25,
+  "patience": 4,
+  "batch_size": 256,
+  "lr": 0.002,
+  "weight_decay": 1e-05,
+  "epoch_frac": 0.5,
+  "model_kwargs": {}
+ },
+ "finished": "2026-11-17T23:53:33.873449"
+}

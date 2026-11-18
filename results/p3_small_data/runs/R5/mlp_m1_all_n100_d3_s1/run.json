@@ -1,0 +1,119 @@
+{
+ "SYNTHETIC": true,
+ "test_split_loaded": false,
+ "ds": "R5",
+ "model": "mlp_m1",
+ "ts": "all",
+ "n": 100,
+ "draw": 3,
+ "seed": 1,
+ "variant": "primary",
+ "id": "mlp_m1_all_n100_d3_s1",
+ "cost": 0.8333333333333334,
+ "wall_s": 32.16319590003695,
+ "cpu_s": 115.125,
+ "finite": true,
+ "n_params": 20997,
+ "partial_rerun": false,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.6744743209500467,
+   "cal_loss": 0.5135214924812317
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.42915002687003023,
+   "cal_loss": 0.34557437896728516
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.3421211466609791,
+   "cal_loss": 0.3201768696308136
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.32507600331819186,
+   "cal_loss": 0.3173258900642395
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.3182175795878133,
+   "cal_loss": 0.32567906379699707
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.30836198003061355,
+   "cal_loss": 0.31825166940689087
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.31031166962397994,
+   "cal_loss": 0.31445878744125366
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.29718724039293104,
+   "cal_loss": 0.31827613711357117
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.29978853260958066,
+   "cal_loss": 0.31813642382621765
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.2884349661104141,
+   "cal_loss": 0.3252275586128235
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.28804171642949505,
+   "cal_loss": 0.3219746947288513
+  }
+ ],
+ "best_epoch": 7,
+ "epochs_run": 11,
+ "hparams": {
+  "epochs": 25,
+  "patience": 4,
+  "batch_size": 256,
+  "lr": 0.002,
+  "weight_decay": 0.001,
+  "epoch_frac": 0.5,
+  "model_kwargs": {
+   "dropout": 0.3,
+   "heads": [
+    "sev_dep_t0",
+    "sev_dep_h7",
+    "sev_dep_h14",
+    "sev_dep_h21",
+    "sev_anx_t0",
+    "sev_anx_h7",
+    "sev_anx_h14",
+    "sev_anx_h21",
+    "status_dep_t0",
+    "status_dep_h7",
+    "status_dep_h14",
+    "status_dep_h21",
+    "status_anx_t0",
+    "status_anx_h7",
+    "status_anx_h14",
+    "status_anx_h21",
+    "onset_sust_dep_h7",
+    "onset_sust_dep_h14",
+    "onset_sust_dep_h21",
+    "onset_sust_anx_h7",
+    "onset_sust_anx_h14",
+    "onset_sust_anx_h21",
+    "onset_cross_dep_h7",
+    "onset_cross_dep_h14",
+    "onset_cross_dep_h21",
+    "onset_cross_anx_h7",
+    "onset_cross_anx_h14",
+    "onset_cross_anx_h21"
+   ]
+  }
+ },
+ "finished": "2026-11-17T23:52:43.393619"
+}

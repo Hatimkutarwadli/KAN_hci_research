@@ -1,0 +1,11 @@
+n,A,B,family,primary,R4,R5,reproducible_KAN,reproducible_MLP,KAN_one_dataset_only
+50,kan_reg,mlp_b2_reg,sev_now,True,,,False,False,False
+50,kan_reg,mlp_b2_reg,status_now,True,,,False,False,False
+50,kan_reg,mlp_b2_reg,onset_sust,False,,,False,False,False
+50,kan_reg,mlp_b2_reg,onset_cross,False,,A,False,False,True
+50,m1,mlp_m1,sev_now,True,,,False,False,False
+50,m1,mlp_m1,sev_fc,True,,,False,False,False
+50,m1,mlp_m1,status_now,True,,,False,False,False
+50,m1,mlp_m1,status_fc,True,,,False,False,False
+50,m1,mlp_m1,onset_sust,False,,,False,False,False
+50,m1,mlp_m1,onset_cross,False,,,False,False,False

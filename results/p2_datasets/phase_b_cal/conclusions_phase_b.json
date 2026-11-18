@@ -1,0 +1,215 @@
+{
+ "SYNTHETIC": true,
+ "split": "cal",
+ "test_sealed": true,
+ "plan_sha256": "6769f0425a8c8255dba7b5a43b20bf3e4f1f75b811ba3209f7c5bd78ee1865fc",
+ "results": {
+  "RQ3_S-EFF_KAN_gain": {
+   "label": "inconclusive",
+   "n_plus": 0,
+   "n_minus": 2,
+   "n_inconclusive": 3,
+   "n_suggestive": 3,
+   "n": 10,
+   "gate_flagged": true
+  },
+  "RQ4a_S-AR_lag": {
+   "label": "not supported",
+   "H_max": 0.4166666666666667,
+   "rep_H_max_max": 0.4722222222222222,
+   "sign_acc": 1.0,
+   "gate_flagged": false
+  },
+  "RQ4b_S-EFF_lag": {
+   "label": "not supported",
+   "H_max": 0.3611111111111111,
+   "rep_H_max_max": 0.4722222222222222,
+   "sign_acc": 1.0,
+   "gate_flagged": true
+  },
+  "RQ5_S-MISS_aug_severity": {
+   "label": "mixed",
+   "rel_change_pct": -0.22244063928745264,
+   "better_n": 2,
+   "magnitude_label": "shift-sensitive",
+   "magnitude_direction": "augmentation helps less",
+   "C5_label_S_MISS": "mixed"
+  },
+  "RQ6a_S-HET_M1": {
+   "label": "not supported",
+   "n_plus": 0,
+   "n_minus": 1,
+   "n_inconclusive": 1,
+   "n_suggestive": 2,
+   "n": 6
+  },
+  "robustness_of_replication_conclusions": {
+   "C1": {
+    "per_shift": {
+     "S-EFF": "mixed",
+     "S-AR": "supported",
+     "S-MISS": "supported",
+     "S-HET": "supported",
+     "S-NOISE": "supported"
+    },
+    "n_supported": 4,
+    "of": 5,
+    "label": "mixed",
+    "sensitivity_excl_gate_flagged": {
+     "n_supported": 4,
+     "of": 4,
+     "label": "supported"
+    },
+    "replication": {
+     "per_dataset": {
+      "v1": "mixed",
+      "R1": "supported",
+      "R2": "mixed",
+      "R3": "mixed"
+     },
+     "overall": "not supported"
+    }
+   },
+   "C1_noGBT": {
+    "per_shift": {
+     "S-EFF": "supported",
+     "S-AR": "supported",
+     "S-MISS": "supported",
+     "S-HET": "supported",
+     "S-NOISE": "supported"
+    },
+    "n_supported": 5,
+    "of": 5,
+    "label": "supported",
+    "sensitivity_excl_gate_flagged": {
+     "n_supported": 4,
+     "of": 4,
+     "label": "supported"
+    },
+    "replication": {
+     "per_dataset": {
+      "v1": "supported",
+      "R1": "supported",
+      "R2": "mixed",
+      "R3": "supported"
+     },
+     "overall": "mixed"
+    }
+   },
+   "C2": {
+    "per_shift": {
+     "S-EFF": "supported",
+     "S-AR": "supported",
+     "S-MISS": "supported",
+     "S-HET": "supported",
+     "S-NOISE": "supported"
+    },
+    "n_supported": 5,
+    "of": 5,
+    "label": "supported",
+    "sensitivity_excl_gate_flagged": {
+     "n_supported": 4,
+     "of": 4,
+     "label": "supported"
+    },
+    "replication": {
+     "per_dataset": {
+      "v1": "supported",
+      "R1": "supported",
+      "R2": "supported",
+      "R3": "supported"
+     },
+     "overall": "supported"
+    }
+   },
+   "C3": {
+    "per_shift": {
+     "S-EFF": "supported",
+     "S-AR": "supported",
+     "S-MISS": "supported",
+     "S-HET": "supported",
+     "S-NOISE": "supported"
+    },
+    "n_supported": 5,
+    "of": 5,
+    "label": "supported",
+    "sensitivity_excl_gate_flagged": {
+     "n_supported": 4,
+     "of": 4,
+     "label": "supported"
+    },
+    "replication": {
+     "per_dataset": {
+      "v1": "supported",
+      "R1": "supported",
+      "R2": "supported",
+      "R3": "supported"
+     },
+     "overall": "supported"
+    }
+   },
+   "C4": {
+    "per_shift": {
+     "S-EFF": "supported",
+     "S-AR": "supported",
+     "S-MISS": "supported",
+     "S-HET": "supported",
+     "S-NOISE": "supported"
+    },
+    "n_supported": 5,
+    "of": 5,
+    "label": "supported",
+    "sensitivity_excl_gate_flagged": {
+     "n_supported": 4,
+     "of": 4,
+     "label": "supported"
+    },
+    "replication": {
+     "per_dataset": {
+      "v1": "supported",
+      "R1": "supported",
+      "R2": "supported",
+      "R3": "supported"
+     },
+     "overall": "supported"
+    }
+   },
+   "C5": {
+    "per_shift": {
+     "S-EFF": "mixed",
+     "S-AR": "supported",
+     "S-MISS": "mixed",
+     "S-HET": "supported",
+     "S-NOISE": "supported"
+    },
+    "n_supported": 3,
+    "of": 5,
+    "label": "mixed",
+    "sensitivity_excl_gate_flagged": {
+     "n_supported": 3,
+     "of": 4,
+     "label": "mixed"
+    },
+    "replication": {
+     "per_dataset": {
+      "v1": "supported",
+      "R1": "not supported",
+      "R2": "supported",
+      "R3": "supported"
+     },
+     "overall": "mixed"
+    }
+   }
+  },
+  "rank_shifted_families": [
+   [
+    "S-AR",
+    "status_fc"
+   ],
+   [
+    "S-EFF",
+    "onset_cross"
+   ]
+  ]
+ }
+}

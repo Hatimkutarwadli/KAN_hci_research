@@ -1,0 +1,10 @@
+{
+ "SYNTHETIC": true,
+ "id": "R4",
+ "family": "replication",
+ "seed": 3401,
+ "overrides": {},
+ "rho_scale": 1.0,
+ "crn_partner": null,
+ "purpose": "P3 small-data learning curves: fresh replicate of the frozen v1 configuration (streams 3401-3403); thresholds unchanged; test split sealed until P3 G3."
+}

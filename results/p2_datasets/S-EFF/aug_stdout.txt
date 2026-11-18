@@ -1,0 +1,11 @@
+S-EFF C0
+S-EFF S1_r40
+S-EFF S2_r40_L7
+S-EFF S3_k3
+S-EFF S3_k7
+S-EFF S3_k14
+S-EFF S4_activity_absent
+S-EFF S4_sleep_absent
+S-EFF S4_cardiac_absent
+S-EFF S5_rand40
+S-EFF S5_blk40

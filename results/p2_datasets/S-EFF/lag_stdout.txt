@@ -1,0 +1,9 @@
+S-EFF gru 0
+S-EFF gru 1
+S-EFF gru 2
+S-EFF m1 0
+S-EFF m1 1
+S-EFF m1 2
+S-EFF mlp_m1 0
+S-EFF mlp_m1 1
+S-EFF mlp_m1 2

@@ -1,0 +1,43 @@
+  gru R0O1T1 seed0 ep1 train 0.2939 cal 0.2219
+  gru R0O1T1 seed0 ep2 train 0.2033 cal 0.2203
+  gru R0O1T1 seed0 ep3 train 0.2003 cal 0.2227
+  gru R0O1T1 seed0 ep4 train 0.2009 cal 0.2179
+  gru R0O1T1 seed0 ep5 train 0.1972 cal 0.2190
+  gru R0O1T1 seed0 ep6 train 0.1981 cal 0.2187
+  gru R0O1T1 seed0 ep7 train 0.1944 cal 0.2205
+  gru R0O1T1 seed0 ep8 train 0.1944 cal 0.2215
+R0O1T1 seed0: wall 25s best_epoch 4 epochs_run 8
+  gru R0O1T1 seed1 ep1 train 0.3090 cal 0.2212
+  gru R0O1T1 seed1 ep2 train 0.2034 cal 0.2198
+  gru R0O1T1 seed1 ep3 train 0.2035 cal 0.2175
+  gru R0O1T1 seed1 ep4 train 0.1996 cal 0.2208
+  gru R0O1T1 seed1 ep5 train 0.1965 cal 0.2193
+  gru R0O1T1 seed1 ep6 train 0.1971 cal 0.2205
+  gru R0O1T1 seed1 ep7 train 0.1953 cal 0.2204
+R0O1T1 seed1: wall 21s best_epoch 3 epochs_run 7
+  gru R0O1T1 seed2 ep1 train 0.3105 cal 0.2203
+  gru R0O1T1 seed2 ep2 train 0.2004 cal 0.2189
+  gru R0O1T1 seed2 ep3 train 0.2010 cal 0.2208
+  gru R0O1T1 seed2 ep4 train 0.2028 cal 0.2180
+  gru R0O1T1 seed2 ep5 train 0.1993 cal 0.2185
+  gru R0O1T1 seed2 ep6 train 0.1967 cal 0.2182
+  gru R0O1T1 seed2 ep7 train 0.1938 cal 0.2208
+  gru R0O1T1 seed2 ep8 train 0.1951 cal 0.2195
+R0O1T1 seed2: wall 24s best_epoch 4 epochs_run 8
+  gru R0O1T1 seed3 ep1 train 0.3059 cal 0.2210
+  gru R0O1T1 seed3 ep2 train 0.2078 cal 0.2187
+  gru R0O1T1 seed3 ep3 train 0.2007 cal 0.2185
+  gru R0O1T1 seed3 ep4 train 0.1994 cal 0.2207
+  gru R0O1T1 seed3 ep5 train 0.1976 cal 0.2196
+  gru R0O1T1 seed3 ep6 train 0.1973 cal 0.2206
+  gru R0O1T1 seed3 ep7 train 0.1954 cal 0.2208
+R0O1T1 seed3: wall 22s best_epoch 3 epochs_run 7
+  gru R0O1T1 seed4 ep1 train 0.3037 cal 0.2235
+  gru R0O1T1 seed4 ep2 train 0.2042 cal 0.2189
+  gru R0O1T1 seed4 ep3 train 0.2020 cal 0.2189
+  gru R0O1T1 seed4 ep4 train 0.1994 cal 0.2187
+  gru R0O1T1 seed4 ep5 train 0.1953 cal 0.2211
+  gru R0O1T1 seed4 ep6 train 0.1973 cal 0.2197
+  gru R0O1T1 seed4 ep7 train 0.1925 cal 0.2212
+  gru R0O1T1 seed4 ep8 train 0.1905 cal 0.2226
+R0O1T1 seed4: wall 27s best_epoch 4 epochs_run 8

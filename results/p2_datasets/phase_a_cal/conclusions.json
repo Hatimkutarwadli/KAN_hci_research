@@ -1,0 +1,60 @@
+{
+ "SYNTHETIC": true,
+ "split": "cal",
+ "test_sealed": true,
+ "conclusions": {
+  "C1": {
+   "per_dataset": {
+    "v1": "mixed",
+    "R1": "supported",
+    "R2": "mixed",
+    "R3": "mixed"
+   },
+   "overall": "not supported"
+  },
+  "C2": {
+   "per_dataset": {
+    "v1": "supported",
+    "R1": "supported",
+    "R2": "supported",
+    "R3": "supported"
+   },
+   "overall": "supported"
+  },
+  "C3": {
+   "per_dataset": {
+    "v1": "supported",
+    "R1": "supported",
+    "R2": "supported",
+    "R3": "supported"
+   },
+   "overall": "supported"
+  },
+  "C4": {
+   "per_dataset": {
+    "v1": "supported",
+    "R1": "supported",
+    "R2": "supported",
+    "R3": "supported"
+   },
+   "overall": "supported"
+  },
+  "C5": {
+   "per_dataset": {
+    "v1": "supported",
+    "R1": "not supported",
+    "R2": "supported",
+    "R3": "supported"
+   },
+   "overall": "mixed"
+  }
+ },
+ "kendall_w": {
+  "sev_now": 0.9785714285714285,
+  "sev_fc": 1.0,
+  "status_now": 0.5928571428571429,
+  "status_fc": 0.675,
+  "onset_sust": 0.6928571428571428,
+  "onset_cross": 0.7357142857142858
+ }
+}

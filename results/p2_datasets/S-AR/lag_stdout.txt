@@ -1,0 +1,9 @@
+S-AR gru 0
+S-AR gru 1
+S-AR gru 2
+S-AR m1 0
+S-AR m1 1
+S-AR m1 2
+S-AR mlp_m1 0
+S-AR mlp_m1 1
+S-AR mlp_m1 2

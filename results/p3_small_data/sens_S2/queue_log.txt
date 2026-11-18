@@ -1,0 +1,44 @@
+2026-11-17T19:00:32.154585 start set=S2 jobs=20 workers=3
+2026-11-17T19:00:57.215124 [1/20] {"id": "gru_forecast_n100_d0_s0_S2", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 39.828125, "wall_s": 19.25056279997807} elapsed=25s
+2026-11-17T19:01:01.823007 [2/20] {"id": "gru_main_n100_d0_s0_S2", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 52.515625, "wall_s": 23.87631490000058} elapsed=30s
+2026-11-17T19:01:11.284222 [3/20] {"id": "gru_forecast_n100_d1_s0_S2", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 40.390625, "wall_s": 14.061382400104776} elapsed=39s
+2026-11-17T19:01:13.798897 [4/20] {"id": "gru_main_n100_d1_s0_S2", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 87.640625, "wall_s": 35.77795309992507} elapsed=42s
+2026-11-17T19:01:17.833507 [5/20] {"id": "gru_main_n100_d2_s0_S2", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 47.859375, "wall_s": 16.00416749995202} elapsed=46s
+2026-11-17T19:01:26.219233 [6/20] {"id": "gru_main_n100_d3_s0_S2", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 38.625, "wall_s": 12.367245399975218} elapsed=54s
+2026-11-17T19:01:27.816963 [7/20] {"id": "gru_forecast_n100_d2_s0_S2", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 49.921875, "wall_s": 16.523095600074157} elapsed=56s
+2026-11-17T19:01:30.927055 [8/20] {"id": "gru_forecast_n100_d3_s0_S2", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 39.671875, "wall_s": 13.084530399995856} elapsed=59s
+2026-11-17T19:01:41.527690 [9/20] {"id": "gru_main_n100_d4_s0_S2", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 44.40625, "wall_s": 15.30240180005785} elapsed=69s
+2026-11-17T19:01:41.575999 [10/20] {"id": "gru_forecast_n100_d4_s0_S2", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 39.296875, "wall_s": 13.751186099951155} elapsed=69s
+2026-11-17T19:01:41.675342 [11/20] {"id": "gru_main_n50_d0_s0_S2", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 32.15625, "wall_s": 10.740915599977598} elapsed=70s
+2026-11-17T19:01:52.581748 [12/20] {"id": "gru_forecast_n50_d0_s0_S2", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 32.078125, "wall_s": 11.041152899968438} elapsed=80s
+2026-11-17T19:01:55.784969 [13/20] {"id": "gru_forecast_n50_d1_s0_S2", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 38.65625, "wall_s": 14.103160699945875} elapsed=84s
+2026-11-17T19:01:56.552571 [14/20] {"id": "gru_main_n50_d1_s0_S2", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 41.734375, "wall_s": 14.969116599997506} elapsed=84s
+2026-11-17T19:02:07.354959 [15/20] {"id": "gru_main_n50_d2_s0_S2", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 39.765625, "wall_s": 14.767318699974567} elapsed=95s
+2026-11-17T19:02:07.679300 [16/20] {"id": "gru_forecast_n50_d2_s0_S2", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 33.625, "wall_s": 11.888222699984908} elapsed=96s
+2026-11-17T19:02:11.884567 [17/20] {"id": "gru_main_n50_d3_s0_S2", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 45.09375, "wall_s": 15.325498100020923} elapsed=100s
+2026-11-17T19:02:18.862498 [18/20] {"id": "gru_main_n50_d4_s0_S2", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 35.984375, "wall_s": 11.175219800090417} elapsed=107s
+2026-11-17T19:02:19.133099 [19/20] {"id": "gru_forecast_n50_d3_s0_S2", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 38.703125, "wall_s": 11.771416099974886} elapsed=107s
+2026-11-17T19:02:23.878956 [20/20] {"id": "gru_forecast_n50_d4_s0_S2", "ds": "R4", "status": "done", "finite": true, "partial_rerun": false, "cpu_s": 42.71875, "wall_s": 11.988346099969931} elapsed=112s
+2026-11-17T19:02:24.943240 end set=S2 done=20 stop=False elapsed=113s
+2026-11-18T00:22:44.328492 start set=S2 jobs=20 workers=3
+2026-11-18T00:22:49.774526 [1/20] {"id": "gru_main_n100_d0_s0_S2", "status": "skipped"} elapsed=5s
+2026-11-18T00:22:49.775530 [2/20] {"id": "gru_forecast_n100_d0_s0_S2", "status": "skipped"} elapsed=5s
+2026-11-18T00:22:49.776530 [3/20] {"id": "gru_main_n100_d1_s0_S2", "status": "skipped"} elapsed=5s
+2026-11-18T00:22:49.778531 [4/20] {"id": "gru_forecast_n100_d1_s0_S2", "status": "skipped"} elapsed=5s
+2026-11-18T00:22:49.780551 [5/20] {"id": "gru_main_n100_d2_s0_S2", "status": "skipped"} elapsed=5s
+2026-11-18T00:22:49.781550 [6/20] {"id": "gru_main_n100_d3_s0_S2", "status": "skipped"} elapsed=5s
+2026-11-18T00:22:49.782550 [7/20] {"id": "gru_forecast_n100_d2_s0_S2", "status": "skipped"} elapsed=5s
+2026-11-18T00:22:49.783554 [8/20] {"id": "gru_forecast_n100_d3_s0_S2", "status": "skipped"} elapsed=5s
+2026-11-18T00:22:49.783554 [9/20] {"id": "gru_main_n100_d4_s0_S2", "status": "skipped"} elapsed=5s
+2026-11-18T00:22:49.784550 [10/20] {"id": "gru_forecast_n100_d4_s0_S2", "status": "skipped"} elapsed=5s
+2026-11-18T00:22:49.785550 [11/20] {"id": "gru_main_n50_d0_s0_S2", "status": "skipped"} elapsed=5s
+2026-11-18T00:22:49.787555 [12/20] {"id": "gru_forecast_n50_d0_s0_S2", "status": "skipped"} elapsed=5s
+2026-11-18T00:22:49.787555 [13/20] {"id": "gru_main_n50_d1_s0_S2", "status": "skipped"} elapsed=5s
+2026-11-18T00:22:49.788571 [14/20] {"id": "gru_forecast_n50_d1_s0_S2", "status": "skipped"} elapsed=5s
+2026-11-18T00:22:49.788571 [15/20] {"id": "gru_main_n50_d2_s0_S2", "status": "skipped"} elapsed=5s
+2026-11-18T00:22:49.789563 [16/20] {"id": "gru_forecast_n50_d2_s0_S2", "status": "skipped"} elapsed=5s
+2026-11-18T00:22:49.789563 [17/20] {"id": "gru_main_n50_d3_s0_S2", "status": "skipped"} elapsed=5s
+2026-11-18T00:22:49.790564 [18/20] {"id": "gru_forecast_n50_d3_s0_S2", "status": "skipped"} elapsed=5s
+2026-11-18T00:22:49.790564 [19/20] {"id": "gru_main_n50_d4_s0_S2", "status": "skipped"} elapsed=5s
+2026-11-18T00:22:49.791563 [20/20] {"id": "gru_forecast_n50_d4_s0_S2", "status": "skipped"} elapsed=5s
+2026-11-18T00:22:50.595976 end set=S2 done=20 stop=False elapsed=6s

@@ -1,0 +1,25 @@
+{
+ "SYNTHETIC": true,
+ "lock_sha256": "9a395f02f8464833e08bd8945f8695d4af5ef797eef32efbedc9faeaaa4b4ca3",
+ "start": "2026-11-17T16:23:40.155720",
+ "datasets_fresh": [
+  "R1",
+  "R2",
+  "R3"
+ ],
+ "datasets_shift": [
+  "S-EFF",
+  "S-AR",
+  "S-MISS",
+  "S-HET",
+  "S-NOISE"
+ ],
+ "v1": "historical reference; existing test predictions reused; lag/aug inference on v1 test from existing checkpoints",
+ "events": [
+  [
+   "predictions done",
+   "2026-11-17T16:31:50.574912"
+  ]
+ ],
+ "end": "2026-11-17T17:03:25.365605"
+}

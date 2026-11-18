@@ -1,0 +1,9 @@
+S-MISS gru 0
+S-MISS gru 1
+S-MISS gru 2
+S-MISS m1 0
+S-MISS m1 1
+S-MISS m1 2
+S-MISS mlp_m1 0
+S-MISS mlp_m1 1
+S-MISS mlp_m1 2

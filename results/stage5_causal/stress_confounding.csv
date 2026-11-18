@@ -1,0 +1,6 @@
+feature,planted_loading_on_stress_in_u_units,within_person_corr_observed_feature_vs_TRUE_stress,within_person_corr_observed_feature_vs_stress_proxy
+sleep_variability,0.5,0.4800701353550818,0.36586165148541216
+steps,-0.2,-0.23551642864847988,-0.18278313576414135
+hrv,-0.2,-0.22376308912091467,-0.17150898737055237
+resting_hr,0.6,0.5361076978192684,0.40388382743213624
+calories,-0.14,-0.14325244873128887,-0.11064832655276505

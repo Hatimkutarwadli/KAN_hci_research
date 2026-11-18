@@ -1,0 +1,134 @@
+{
+ "SYNTHETIC": true,
+ "test_split_loaded": false,
+ "ds": "R4",
+ "model": "m1",
+ "ts": "all",
+ "n": 50,
+ "draw": 1,
+ "seed": 0,
+ "variant": "primary",
+ "id": "m1_all_n50_d1_s0",
+ "cost": 4.5,
+ "wall_s": 469.6981535999803,
+ "cpu_s": 1519.25,
+ "finite": true,
+ "n_params": 20932,
+ "partial_rerun": false,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.7362038967942679,
+   "cal_loss": 0.741685688495636
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.6483279187961292,
+   "cal_loss": 0.6458236575126648
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.5339840460208154,
+   "cal_loss": 0.5499005317687988
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.4460642506614808,
+   "cal_loss": 0.4796938896179199
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.3833606534106757,
+   "cal_loss": 0.45316603779792786
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.3506485479685568,
+   "cal_loss": 0.438638836145401
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.3348699135549607,
+   "cal_loss": 0.4318491518497467
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.336919626984545,
+   "cal_loss": 0.41828933358192444
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.31771025806344966,
+   "cal_loss": 0.4135630130767822
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.3204840242093609,
+   "cal_loss": 0.4035744071006775
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.31972389853128824,
+   "cal_loss": 0.4289846122264862
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.29785324724771645,
+   "cal_loss": 0.4320250153541565
+  },
+  {
+   "epoch": 13,
+   "train_loss": 0.2910976661917984,
+   "cal_loss": 0.4301777780056
+  },
+  {
+   "epoch": 14,
+   "train_loss": 0.31905526518821714,
+   "cal_loss": 0.44681161642074585
+  }
+ ],
+ "best_epoch": 10,
+ "epochs_run": 14,
+ "hparams": {
+  "epochs": 25,
+  "patience": 4,
+  "batch_size": 256,
+  "lr": 0.002,
+  "weight_decay": 0.001,
+  "epoch_frac": 0.5,
+  "model_kwargs": {
+   "dropout": 0.3,
+   "heads": [
+    "sev_dep_t0",
+    "sev_dep_h7",
+    "sev_dep_h14",
+    "sev_dep_h21",
+    "sev_anx_t0",
+    "sev_anx_h7",
+    "sev_anx_h14",
+    "sev_anx_h21",
+    "status_dep_t0",
+    "status_dep_h7",
+    "status_dep_h14",
+    "status_dep_h21",
+    "status_anx_t0",
+    "status_anx_h7",
+    "status_anx_h14",
+    "status_anx_h21",
+    "onset_sust_dep_h7",
+    "onset_sust_dep_h14",
+    "onset_sust_dep_h21",
+    "onset_sust_anx_h7",
+    "onset_sust_anx_h14",
+    "onset_sust_anx_h21",
+    "onset_cross_dep_h7",
+    "onset_cross_dep_h14",
+    "onset_cross_dep_h21",
+    "onset_cross_anx_h7",
+    "onset_cross_anx_h14",
+    "onset_cross_anx_h21"
+   ]
+  }
+ },
+ "finished": "2026-11-17T21:48:14.497486"
+}

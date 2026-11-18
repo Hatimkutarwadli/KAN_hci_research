@@ -1,0 +1,30 @@
+{
+ "SYNTHETIC": true,
+ "families": [
+  "gru",
+  "kan",
+  "kan_reg",
+  "m1",
+  "m1_static"
+ ],
+ "tasks": [
+  "sev_dep_t0",
+  "sev_dep_h7",
+  "sev_dep_h14",
+  "sev_dep_h21",
+  "sev_anx_t0",
+  "sev_anx_h7",
+  "sev_anx_h14",
+  "sev_anx_h21"
+ ],
+ "levels": [
+  "90%",
+  "95%"
+ ],
+ "eps_rule": "EPS_MULT x median(sigma over calibration eligible origins); primary 1.0; sensitivity 0.25, 4",
+ "tertile_cuts": "calibration sigma terciles",
+ "draws": "identical to Stage 6 (origin seed 20261114, repeat seed 7, 1000 repeats)",
+ "all_origin_draws": 200,
+ "ensemble": "5 saved seeds; sigma = std ddof=1",
+ "gbt": "excluded (single deterministic run)"
+}

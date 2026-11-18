@@ -1,0 +1,4 @@
+control verification: max |pred - saved| = 1.91e-06; units over tol 0.001: 0
+cal C0 rep0: 241s (windows 0.0, gbt feats 0.3, gbt 3, gru 2, kan 40, kan_reg 41, m1 48, m1_static 37, kangru 25, kangru_fixed 25)
+cal S1_r20 rep0: 242s (windows 0.0, gbt feats 0.3, gbt 1, gru 2, kan 40, kan_reg 42, m1 57, m1_static 39, kangru 26, kangru_fixed 27)
+cal S1_r20 rep1: 225s (windows 0.0, gbt feats 0.4, gbt 1, gru 2, kan 40, kan_reg 40, m1 46, m1_static 37, kangru 25, kangru_fixed 25)

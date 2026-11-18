@@ -1,0 +1,36 @@
+  gru R0O3T1 seed0 ep1 train 0.5221 cal 0.4832
+  gru R0O3T1 seed0 ep2 train 0.4291 cal 0.4825
+  gru R0O3T1 seed0 ep3 train 0.4229 cal 0.4887
+  gru R0O3T1 seed0 ep4 train 0.4233 cal 0.4795
+  gru R0O3T1 seed0 ep5 train 0.4179 cal 0.4844
+  gru R0O3T1 seed0 ep6 train 0.4141 cal 0.4885
+  gru R0O3T1 seed0 ep7 train 0.4096 cal 0.4910
+  gru R0O3T1 seed0 ep8 train 0.4078 cal 0.4913
+R0O3T1 seed0: wall 22s best_epoch 4 epochs_run 8
+  gru R0O3T1 seed1 ep1 train 0.5313 cal 0.4814
+  gru R0O3T1 seed1 ep2 train 0.4294 cal 0.4866
+  gru R0O3T1 seed1 ep3 train 0.4267 cal 0.4817
+  gru R0O3T1 seed1 ep4 train 0.4240 cal 0.4854
+  gru R0O3T1 seed1 ep5 train 0.4166 cal 0.4867
+R0O3T1 seed1: wall 14s best_epoch 1 epochs_run 5
+  gru R0O3T1 seed2 ep1 train 0.5176 cal 0.4815
+  gru R0O3T1 seed2 ep2 train 0.4250 cal 0.4766
+  gru R0O3T1 seed2 ep3 train 0.4215 cal 0.4829
+  gru R0O3T1 seed2 ep4 train 0.4192 cal 0.4815
+  gru R0O3T1 seed2 ep5 train 0.4174 cal 0.4859
+  gru R0O3T1 seed2 ep6 train 0.4102 cal 0.4875
+R0O3T1 seed2: wall 17s best_epoch 2 epochs_run 6
+  gru R0O3T1 seed3 ep1 train 0.5205 cal 0.4835
+  gru R0O3T1 seed3 ep2 train 0.4329 cal 0.4777
+  gru R0O3T1 seed3 ep3 train 0.4221 cal 0.4814
+  gru R0O3T1 seed3 ep4 train 0.4236 cal 0.4831
+  gru R0O3T1 seed3 ep5 train 0.4203 cal 0.4843
+  gru R0O3T1 seed3 ep6 train 0.4154 cal 0.4862
+R0O3T1 seed3: wall 17s best_epoch 2 epochs_run 6
+  gru R0O3T1 seed4 ep1 train 0.5213 cal 0.4850
+  gru R0O3T1 seed4 ep2 train 0.4297 cal 0.4809
+  gru R0O3T1 seed4 ep3 train 0.4210 cal 0.4844
+  gru R0O3T1 seed4 ep4 train 0.4170 cal 0.4854
+  gru R0O3T1 seed4 ep5 train 0.4136 cal 0.4878
+  gru R0O3T1 seed4 ep6 train 0.4105 cal 0.4912
+R0O3T1 seed4: wall 18s best_epoch 2 epochs_run 6

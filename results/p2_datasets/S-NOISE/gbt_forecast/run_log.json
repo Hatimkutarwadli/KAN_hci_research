@@ -1,0 +1,107 @@
+{
+ "SYNTHETIC": true,
+ "dataset": "S-NOISE",
+ "test_split_loaded": false,
+ "heads": [
+  "sev_dep_h7",
+  "sev_dep_h14",
+  "sev_dep_h21",
+  "sev_anx_h7",
+  "sev_anx_h14",
+  "sev_anx_h21",
+  "status_dep_h7",
+  "status_dep_h14",
+  "status_dep_h21",
+  "status_anx_h7",
+  "status_anx_h14",
+  "status_anx_h21"
+ ],
+ "runs": [
+  {
+   "model": "gbt",
+   "taskset": "forecast",
+   "seed": 0,
+   "wall_s": 131.6961222999962,
+   "cpu_s": 444.1875,
+   "n_params": null,
+   "best_cal_loss": null,
+   "selection": {
+    "sev_dep_h7": {
+     "depth": 3,
+     "n_iter": 180,
+     "cal_score": -3.082929201750353,
+     "metric": "-RMSE"
+    },
+    "sev_dep_h14": {
+     "depth": 3,
+     "n_iter": 200,
+     "cal_score": -3.278665006296901,
+     "metric": "-RMSE"
+    },
+    "sev_dep_h21": {
+     "depth": 3,
+     "n_iter": 120,
+     "cal_score": -3.4879267845389146,
+     "metric": "-RMSE"
+    },
+    "sev_anx_h7": {
+     "depth": 3,
+     "n_iter": 120,
+     "cal_score": -2.97787793986224,
+     "metric": "-RMSE"
+    },
+    "sev_anx_h14": {
+     "depth": 3,
+     "n_iter": 100,
+     "cal_score": -3.0841300400816136,
+     "metric": "-RMSE"
+    },
+    "sev_anx_h21": {
+     "depth": 3,
+     "n_iter": 120,
+     "cal_score": -3.166910626622855,
+     "metric": "-RMSE"
+    },
+    "status_dep_h7": {
+     "depth": 3,
+     "n_iter": 40,
+     "cal_score": 0.3561353330952406,
+     "metric": "AP"
+    },
+    "status_dep_h14": {
+     "depth": 3,
+     "n_iter": 80,
+     "cal_score": 0.2808600618397143,
+     "metric": "AP"
+    },
+    "status_dep_h21": {
+     "depth": 3,
+     "n_iter": 40,
+     "cal_score": 0.21346385390012215,
+     "metric": "AP"
+    },
+    "status_anx_h7": {
+     "depth": 3,
+     "n_iter": 60,
+     "cal_score": 0.44034361223186586,
+     "metric": "AP"
+    },
+    "status_anx_h14": {
+     "depth": 3,
+     "n_iter": 40,
+     "cal_score": 0.4099339635521995,
+     "metric": "AP"
+    },
+    "status_anx_h21": {
+     "depth": 3,
+     "n_iter": 60,
+     "cal_score": 0.3518318079687294,
+     "metric": "AP"
+    }
+   },
+   "history": null
+  }
+ ],
+ "torch_threads": 4,
+ "torch": "2.15.0+cpu"
+}

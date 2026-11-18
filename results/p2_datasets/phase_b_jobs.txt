@@ -1,0 +1,10 @@
+S-EFF m1
+S-AR m1
+S-MISS m1
+S-HET m1
+S-NOISE m1
+S-EFF gbt gru kan_reg mlp_b2_reg mlp_m1 gru_aug
+S-AR gbt gru kan_reg mlp_b2_reg mlp_m1 gru_aug
+S-MISS gbt gru kan_reg mlp_b2_reg mlp_m1 gru_aug
+S-HET gbt gru kan_reg mlp_b2_reg mlp_m1 gru_aug
+S-NOISE gbt gru kan_reg mlp_b2_reg mlp_m1 gru_aug

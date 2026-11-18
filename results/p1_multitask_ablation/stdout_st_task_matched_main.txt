@@ -1,0 +1,224 @@
+E:\HCI LAB\researchproject\synthetic-dataset-research\extension_p12\common_p12.py:80: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\autograd\generated\python_variable_methods.cpp:821.)
+  run += float(loss) * len(yb)
+  gru-fixed seed0 ep1 train 0.5932 cal 0.5569
+  gru-fixed seed0 ep2 train 0.5080 cal 0.5523
+  gru-fixed seed0 ep3 train 0.5040 cal 0.5510
+  gru-fixed seed0 ep4 train 0.4987 cal 0.5725
+st_task_matched sev_dep_t0 seed0: wall 40s cpu 98s params 10369 best_epoch 4 epochs_run 4
+  gru-fixed seed1 ep1 train 0.5961 cal 0.5546
+  gru-fixed seed1 ep2 train 0.5047 cal 0.5532
+  gru-fixed seed1 ep3 train 0.4999 cal 0.5516
+st_task_matched sev_dep_t0 seed1: wall 89s cpu 66s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed2 ep1 train 0.5917 cal 0.5484
+  gru-fixed seed2 ep2 train 0.5076 cal 0.5509
+  gru-fixed seed2 ep3 train 0.4964 cal 0.5606
+  gru-fixed seed2 ep4 train 0.4903 cal 0.5560
+st_task_matched sev_dep_t0 seed2: wall 72s cpu 98s params 10369 best_epoch 4 epochs_run 4
+  gru-fixed seed3 ep1 train 0.5906 cal 0.5655
+  gru-fixed seed3 ep2 train 0.5105 cal 0.5604
+  gru-fixed seed3 ep3 train 0.4954 cal 0.5492
+st_task_matched sev_dep_t0 seed3: wall 75s cpu 72s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed4 ep1 train 0.5947 cal 0.5638
+  gru-fixed seed4 ep2 train 0.5078 cal 0.5596
+  gru-fixed seed4 ep3 train 0.5022 cal 0.5593
+st_task_matched sev_dep_t0 seed4: wall 70s cpu 71s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed0 ep1 train 0.6772 cal 0.7358
+  gru-fixed seed0 ep2 train 0.6103 cal 0.7386
+  gru-fixed seed0 ep3 train 0.5993 cal 0.7412
+  gru-fixed seed0 ep4 train 0.5928 cal 0.7428
+st_task_matched sev_anx_t0 seed0: wall 83s cpu 89s params 10369 best_epoch 4 epochs_run 4
+  gru-fixed seed1 ep1 train 0.6769 cal 0.7323
+  gru-fixed seed1 ep2 train 0.6145 cal 0.7393
+  gru-fixed seed1 ep3 train 0.6017 cal 0.7494
+st_task_matched sev_anx_t0 seed1: wall 84s cpu 65s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed2 ep1 train 0.6729 cal 0.7371
+  gru-fixed seed2 ep2 train 0.6101 cal 0.7338
+  gru-fixed seed2 ep3 train 0.5930 cal 0.7363
+  gru-fixed seed2 ep4 train 0.5867 cal 0.7483
+st_task_matched sev_anx_t0 seed2: wall 107s cpu 59s params 10369 best_epoch 4 epochs_run 4
+  gru-fixed seed3 ep1 train 0.6824 cal 0.7267
+  gru-fixed seed3 ep2 train 0.6112 cal 0.7265
+  gru-fixed seed3 ep3 train 0.5980 cal 0.7461
+st_task_matched sev_anx_t0 seed3: wall 87s cpu 44s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed4 ep1 train 0.6736 cal 0.7246
+  gru-fixed seed4 ep2 train 0.6115 cal 0.7249
+  gru-fixed seed4 ep3 train 0.5956 cal 0.7433
+st_task_matched sev_anx_t0 seed4: wall 73s cpu 52s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed0 ep1 train 0.2424 cal 0.1862
+  gru-fixed seed0 ep2 train 0.1694 cal 0.1831
+  gru-fixed seed0 ep3 train 0.1654 cal 0.1846
+  gru-fixed seed0 ep4 train 0.1615 cal 0.1814
+st_task_matched status_dep_t0 seed0: wall 111s cpu 62s params 10369 best_epoch 4 epochs_run 4
+  gru-fixed seed1 ep1 train 0.2705 cal 0.1854
+  gru-fixed seed1 ep2 train 0.1678 cal 0.1811
+  gru-fixed seed1 ep3 train 0.1697 cal 0.1819
+st_task_matched status_dep_t0 seed1: wall 89s cpu 48s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed2 ep1 train 0.2488 cal 0.1864
+  gru-fixed seed2 ep2 train 0.1659 cal 0.1822
+  gru-fixed seed2 ep3 train 0.1620 cal 0.1844
+  gru-fixed seed2 ep4 train 0.1626 cal 0.1807
+st_task_matched status_dep_t0 seed2: wall 113s cpu 58s params 10369 best_epoch 4 epochs_run 4
+  gru-fixed seed3 ep1 train 0.2589 cal 0.1840
+  gru-fixed seed3 ep2 train 0.1689 cal 0.1819
+  gru-fixed seed3 ep3 train 0.1598 cal 0.1820
+st_task_matched status_dep_t0 seed3: wall 45s cpu 56s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed4 ep1 train 0.2444 cal 0.1862
+  gru-fixed seed4 ep2 train 0.1711 cal 0.1831
+  gru-fixed seed4 ep3 train 0.1638 cal 0.1817
+st_task_matched status_dep_t0 seed4: wall 16s cpu 61s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed0 ep1 train 0.2560 cal 0.2396
+  gru-fixed seed0 ep2 train 0.1820 cal 0.2381
+  gru-fixed seed0 ep3 train 0.1868 cal 0.2335
+  gru-fixed seed0 ep4 train 0.1800 cal 0.2421
+st_task_matched status_anx_t0 seed0: wall 21s cpu 79s params 10369 best_epoch 4 epochs_run 4
+  gru-fixed seed1 ep1 train 0.2831 cal 0.2340
+  gru-fixed seed1 ep2 train 0.1912 cal 0.2280
+  gru-fixed seed1 ep3 train 0.1875 cal 0.2339
+st_task_matched status_anx_t0 seed1: wall 16s cpu 60s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed2 ep1 train 0.2606 cal 0.2323
+  gru-fixed seed2 ep2 train 0.1880 cal 0.2360
+  gru-fixed seed2 ep3 train 0.1812 cal 0.2354
+  gru-fixed seed2 ep4 train 0.1824 cal 0.2326
+st_task_matched status_anx_t0 seed2: wall 21s cpu 78s params 10369 best_epoch 4 epochs_run 4
+  gru-fixed seed3 ep1 train 0.2714 cal 0.2284
+  gru-fixed seed3 ep2 train 0.1893 cal 0.2299
+  gru-fixed seed3 ep3 train 0.1827 cal 0.2364
+st_task_matched status_anx_t0 seed3: wall 18s cpu 53s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed4 ep1 train 0.2551 cal 0.2430
+  gru-fixed seed4 ep2 train 0.1879 cal 0.2311
+  gru-fixed seed4 ep3 train 0.1825 cal 0.2353
+st_task_matched status_anx_t0 seed4: wall 14s cpu 50s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed0 ep1 train 0.1549 cal 0.0783
+  gru-fixed seed0 ep2 train 0.0699 cal 0.0776
+  gru-fixed seed0 ep3 train 0.0702 cal 0.0786
+  gru-fixed seed0 ep4 train 0.0706 cal 0.0804
+st_task_matched onset_sust_dep_h7 seed0: wall 17s cpu 65s params 10369 best_epoch 4 epochs_run 4
+  gru-fixed seed1 ep1 train 0.1868 cal 0.0824
+  gru-fixed seed1 ep2 train 0.0739 cal 0.0778
+  gru-fixed seed1 ep3 train 0.0718 cal 0.0785
+st_task_matched onset_sust_dep_h7 seed1: wall 14s cpu 53s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed2 ep1 train 0.1621 cal 0.0801
+  gru-fixed seed2 ep2 train 0.0705 cal 0.0781
+  gru-fixed seed2 ep3 train 0.0759 cal 0.0768
+  gru-fixed seed2 ep4 train 0.0744 cal 0.0775
+st_task_matched onset_sust_dep_h7 seed2: wall 19s cpu 72s params 10369 best_epoch 4 epochs_run 4
+  gru-fixed seed3 ep1 train 0.1718 cal 0.0798
+  gru-fixed seed3 ep2 train 0.0760 cal 0.0769
+  gru-fixed seed3 ep3 train 0.0704 cal 0.0786
+st_task_matched onset_sust_dep_h7 seed3: wall 16s cpu 59s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed4 ep1 train 0.1530 cal 0.0793
+  gru-fixed seed4 ep2 train 0.0749 cal 0.0776
+  gru-fixed seed4 ep3 train 0.0708 cal 0.0773
+st_task_matched onset_sust_dep_h7 seed4: wall 15s cpu 56s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed0 ep1 train 0.1986 cal 0.1359
+  gru-fixed seed0 ep2 train 0.1231 cal 0.1332
+  gru-fixed seed0 ep3 train 0.1183 cal 0.1346
+  gru-fixed seed0 ep4 train 0.1244 cal 0.1345
+st_task_matched onset_sust_dep_h14 seed0: wall 23s cpu 77s params 10369 best_epoch 4 epochs_run 4
+  gru-fixed seed1 ep1 train 0.2301 cal 0.1366
+  gru-fixed seed1 ep2 train 0.1233 cal 0.1343
+  gru-fixed seed1 ep3 train 0.1238 cal 0.1349
+st_task_matched onset_sust_dep_h14 seed1: wall 14s cpu 54s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed2 ep1 train 0.2051 cal 0.1369
+  gru-fixed seed2 ep2 train 0.1236 cal 0.1387
+  gru-fixed seed2 ep3 train 0.1248 cal 0.1336
+  gru-fixed seed2 ep4 train 0.1276 cal 0.1363
+st_task_matched onset_sust_dep_h14 seed2: wall 18s cpu 64s params 10369 best_epoch 4 epochs_run 4
+  gru-fixed seed3 ep1 train 0.2177 cal 0.1377
+  gru-fixed seed3 ep2 train 0.1318 cal 0.1325
+  gru-fixed seed3 ep3 train 0.1241 cal 0.1344
+st_task_matched onset_sust_dep_h14 seed3: wall 16s cpu 60s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed4 ep1 train 0.2002 cal 0.1369
+  gru-fixed seed4 ep2 train 0.1261 cal 0.1358
+  gru-fixed seed4 ep3 train 0.1200 cal 0.1339
+st_task_matched onset_sust_dep_h14 seed4: wall 15s cpu 58s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed0 ep1 train 0.2402 cal 0.1851
+  gru-fixed seed0 ep2 train 0.1736 cal 0.1843
+  gru-fixed seed0 ep3 train 0.1645 cal 0.1829
+  gru-fixed seed0 ep4 train 0.1684 cal 0.1822
+st_task_matched onset_sust_dep_h21 seed0: wall 20s cpu 73s params 10369 best_epoch 4 epochs_run 4
+  gru-fixed seed1 ep1 train 0.2711 cal 0.1857
+  gru-fixed seed1 ep2 train 0.1702 cal 0.1889
+  gru-fixed seed1 ep3 train 0.1701 cal 0.1886
+st_task_matched onset_sust_dep_h21 seed1: wall 17s cpu 52s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed2 ep1 train 0.2462 cal 0.1884
+  gru-fixed seed2 ep2 train 0.1703 cal 0.1873
+  gru-fixed seed2 ep3 train 0.1694 cal 0.1815
+  gru-fixed seed2 ep4 train 0.1700 cal 0.1843
+st_task_matched onset_sust_dep_h21 seed2: wall 26s cpu 68s params 10369 best_epoch 4 epochs_run 4
+  gru-fixed seed3 ep1 train 0.2548 cal 0.1914
+  gru-fixed seed3 ep2 train 0.1817 cal 0.1839
+  gru-fixed seed3 ep3 train 0.1686 cal 0.1836
+st_task_matched onset_sust_dep_h21 seed3: wall 20s cpu 51s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed4 ep1 train 0.2406 cal 0.1891
+  gru-fixed seed4 ep2 train 0.1711 cal 0.1867
+  gru-fixed seed4 ep3 train 0.1679 cal 0.1833
+st_task_matched onset_sust_dep_h21 seed4: wall 13s cpu 47s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed0 ep1 train 0.1485 cal 0.0932
+  gru-fixed seed0 ep2 train 0.0735 cal 0.0922
+  gru-fixed seed0 ep3 train 0.0703 cal 0.0922
+  gru-fixed seed0 ep4 train 0.0712 cal 0.0934
+st_task_matched onset_sust_anx_h7 seed0: wall 17s cpu 62s params 10369 best_epoch 4 epochs_run 4
+  gru-fixed seed1 ep1 train 0.1903 cal 0.0980
+  gru-fixed seed1 ep2 train 0.0774 cal 0.0929
+  gru-fixed seed1 ep3 train 0.0756 cal 0.0917
+st_task_matched onset_sust_anx_h7 seed1: wall 13s cpu 49s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed2 ep1 train 0.1610 cal 0.0975
+  gru-fixed seed2 ep2 train 0.0723 cal 0.0917
+  gru-fixed seed2 ep3 train 0.0742 cal 0.0927
+  gru-fixed seed2 ep4 train 0.0736 cal 0.0894
+st_task_matched onset_sust_anx_h7 seed2: wall 17s cpu 63s params 10369 best_epoch 4 epochs_run 4
+  gru-fixed seed3 ep1 train 0.1674 cal 0.0965
+  gru-fixed seed3 ep2 train 0.0781 cal 0.0936
+  gru-fixed seed3 ep3 train 0.0726 cal 0.0936
+st_task_matched onset_sust_anx_h7 seed3: wall 13s cpu 50s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed4 ep1 train 0.1598 cal 0.0940
+  gru-fixed seed4 ep2 train 0.0757 cal 0.0932
+  gru-fixed seed4 ep3 train 0.0732 cal 0.0906
+st_task_matched onset_sust_anx_h7 seed4: wall 17s cpu 62s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed0 ep1 train 0.1953 cal 0.1553
+  gru-fixed seed0 ep2 train 0.1218 cal 0.1524
+  gru-fixed seed0 ep3 train 0.1212 cal 0.1546
+  gru-fixed seed0 ep4 train 0.1176 cal 0.1559
+st_task_matched onset_sust_anx_h14 seed0: wall 20s cpu 74s params 10369 best_epoch 4 epochs_run 4
+  gru-fixed seed1 ep1 train 0.2304 cal 0.1570
+  gru-fixed seed1 ep2 train 0.1272 cal 0.1554
+  gru-fixed seed1 ep3 train 0.1280 cal 0.1532
+st_task_matched onset_sust_anx_h14 seed1: wall 14s cpu 52s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed2 ep1 train 0.2049 cal 0.1544
+  gru-fixed seed2 ep2 train 0.1225 cal 0.1502
+  gru-fixed seed2 ep3 train 0.1230 cal 0.1514
+  gru-fixed seed2 ep4 train 0.1222 cal 0.1517
+st_task_matched onset_sust_anx_h14 seed2: wall 17s cpu 65s params 10369 best_epoch 4 epochs_run 4
+  gru-fixed seed3 ep1 train 0.2160 cal 0.1552
+  gru-fixed seed3 ep2 train 0.1260 cal 0.1535
+  gru-fixed seed3 ep3 train 0.1239 cal 0.1533
+st_task_matched onset_sust_anx_h14 seed3: wall 14s cpu 53s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed4 ep1 train 0.2025 cal 0.1547
+  gru-fixed seed4 ep2 train 0.1260 cal 0.1537
+  gru-fixed seed4 ep3 train 0.1249 cal 0.1524
+st_task_matched onset_sust_anx_h14 seed4: wall 13s cpu 51s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed0 ep1 train 0.2375 cal 0.2067
+  gru-fixed seed0 ep2 train 0.1694 cal 0.2078
+  gru-fixed seed0 ep3 train 0.1626 cal 0.2131
+  gru-fixed seed0 ep4 train 0.1610 cal 0.2113
+st_task_matched onset_sust_anx_h21 seed0: wall 18s cpu 66s params 10369 best_epoch 4 epochs_run 4
+  gru-fixed seed1 ep1 train 0.2661 cal 0.2128
+  gru-fixed seed1 ep2 train 0.1716 cal 0.2063
+  gru-fixed seed1 ep3 train 0.1728 cal 0.2073
+st_task_matched onset_sust_anx_h21 seed1: wall 14s cpu 51s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed2 ep1 train 0.2399 cal 0.2025
+  gru-fixed seed2 ep2 train 0.1643 cal 0.2007
+  gru-fixed seed2 ep3 train 0.1667 cal 0.2058
+  gru-fixed seed2 ep4 train 0.1663 cal 0.2059
+st_task_matched onset_sust_anx_h21 seed2: wall 19s cpu 68s params 10369 best_epoch 4 epochs_run 4
+  gru-fixed seed3 ep1 train 0.2541 cal 0.2084
+  gru-fixed seed3 ep2 train 0.1719 cal 0.2072
+  gru-fixed seed3 ep3 train 0.1670 cal 0.2069
+st_task_matched onset_sust_anx_h21 seed3: wall 14s cpu 52s params 10369 best_epoch 3 epochs_run 3
+  gru-fixed seed4 ep1 train 0.2429 cal 0.2080
+  gru-fixed seed4 ep2 train 0.1707 cal 0.2054
+  gru-fixed seed4 ep3 train 0.1676 cal 0.2037
+st_task_matched onset_sust_anx_h21 seed4: wall 14s cpu 53s params 10369 best_epoch 3 epochs_run 3
+done -> results/p1_multitask_ablation/st_task_matched_main

@@ -1,0 +1,61 @@
+variant,n,A,B,family,primary_mean_diff,primary_verdict,primary_better,sens_mean_diff,sens_verdict,sens_better
+S1,50,kan_reg,gru,sev_now,0.05357062816619873,consistent,B,0.06087336540222168,consistent,B
+S1,50,m1,gru,sev_now,0.21063709259033203,consistent,B,0.2137360175450643,consistent,B
+S1,50,kan_reg,mlp_b2_reg,sev_now,0.0027678489685058595,not distinguishable,,-0.017267870903015136,not distinguishable,
+S1,50,m1,mlp_m1,sev_now,0.0208986759185791,consistent,B,0.003589034080505371,not distinguishable,
+S1,50,mlp_b2_reg,gru,sev_now,0.05080277919769287,consistent,B,0.07814123630523681,consistent,B
+S1,50,gbt,gru,sev_now,0.09629378318786622,not distinguishable,,0.1043229341506958,not distinguishable,
+S1,50,m1,gru,sev_fc,0.1270088990529378,consistent,B,0.12443550427754706,consistent,B
+S1,50,m1,mlp_m1,sev_fc,0.01101548671722421,not distinguishable,,-0.011225965287950501,not distinguishable,
+S1,50,gbt,gru,sev_fc,0.10920778910319004,consistent,B,0.1082345724105834,consistent,B
+S1,50,kan_reg,gru,status_now,0.014010140960640183,not distinguishable,,0.012065171155873328,not distinguishable,
+S1,50,m1,gru,status_now,-0.08280204185769444,consistent,B,-0.07065826641143447,not distinguishable,
+S1,50,kan_reg,mlp_b2_reg,status_now,0.011017911163220184,not distinguishable,,0.013441164169969322,not distinguishable,
+S1,50,m1,mlp_m1,status_now,-0.022898068527561682,not distinguishable,,-0.004962427626870991,not distinguishable,
+S1,50,mlp_b2_reg,gru,status_now,0.0029922297974199984,not distinguishable,,-0.0013759930140959942,not distinguishable,
+S1,50,gbt,gru,status_now,-0.048938348464343584,not distinguishable,,-0.048772680181847064,not distinguishable,
+S1,50,m1,gru,status_fc,-0.06926720546878666,consistent,B,-0.07477132907211669,consistent,B
+S1,50,m1,mlp_m1,status_fc,-0.02522293273392171,not distinguishable,,-0.014826577051387407,not distinguishable,
+S1,50,gbt,gru,status_fc,-0.06403404045548744,consistent,B,-0.06006063386092704,consistent,B
+S1,50,kan_reg,gru,onset_sust,-0.011210955820616162,not distinguishable,,-0.012361856833632778,not distinguishable,
+S1,50,m1,gru,onset_sust,-0.020442272850917174,consistent,B,-0.01861391310999773,not distinguishable,
+S1,50,kan_reg,mlp_b2_reg,onset_sust,0.006891593331409565,not distinguishable,,0.009977440743228183,consistent,A
+S1,50,m1,mlp_m1,onset_sust,-0.011120518874608184,not distinguishable,,-0.00104824515282378,not distinguishable,
+S1,50,mlp_b2_reg,gru,onset_sust,-0.018102549152025728,consistent,B,-0.022339297576860963,consistent,B
+S1,50,gbt,gru,onset_sust,-0.035946835640040066,consistent,B,-0.03703596993982563,consistent,B
+S1,50,kan_reg,gru,onset_cross,-0.016649654280377568,consistent,B,-0.022440742078466323,not distinguishable,
+S1,50,m1,gru,onset_cross,-0.026703445402282998,consistent,B,-0.023033304538766907,not distinguishable,
+S1,50,kan_reg,mlp_b2_reg,onset_cross,0.0039020620400583572,not distinguishable,,0.007518769261246805,not distinguishable,
+S1,50,m1,mlp_m1,onset_cross,-0.01292749717649751,consistent,B,-0.00025309428879932705,not distinguishable,
+S1,50,mlp_b2_reg,gru,onset_cross,-0.020551716320435925,not distinguishable,,-0.02995951133971313,not distinguishable,
+S1,50,gbt,gru,onset_cross,-0.02915710147287841,consistent,B,-0.03524533477838793,consistent,B
+S1,100,kan_reg,gru,sev_now,0.06520881652832031,consistent,B,0.0731271505355835,consistent,B
+S1,100,m1,gru,sev_now,0.1790102243423462,consistent,B,0.1809765895207723,consistent,B
+S1,100,kan_reg,mlp_b2_reg,sev_now,0.011059856414794922,consistent,B,0.007506656646728516,consistent,B
+S1,100,m1,mlp_m1,sev_now,-0.0026579856872558593,not distinguishable,,-0.007283568382263184,not distinguishable,
+S1,100,mlp_b2_reg,gru,sev_now,0.05414896011352539,consistent,B,0.06562049388885498,consistent,B
+S1,100,gbt,gru,sev_now,0.08827402591705322,consistent,B,0.0964745283126831,consistent,B
+S1,100,m1,gru,sev_fc,0.12567537625630693,consistent,B,0.13935516940222836,consistent,B
+S1,100,m1,mlp_m1,sev_fc,0.0028276840845743224,not distinguishable,,0.010201719072130041,not distinguishable,
+S1,100,gbt,gru,sev_fc,0.07718929449717198,consistent,B,0.07642795244852688,consistent,B
+S1,100,kan_reg,gru,status_now,0.006982739873150834,not distinguishable,,0.002446480579394805,not distinguishable,
+S1,100,m1,gru,status_now,-0.09449573595067565,consistent,B,-0.09857238899670966,consistent,B
+S1,100,kan_reg,mlp_b2_reg,status_now,-0.009704188621694577,not distinguishable,,-0.007637096891376693,not distinguishable,
+S1,100,m1,mlp_m1,status_now,-0.03984017306346577,not distinguishable,,-0.016651712270787978,consistent,B
+S1,100,mlp_b2_reg,gru,status_now,0.01668692849484541,not distinguishable,,0.010083577470771498,not distinguishable,
+S1,100,gbt,gru,status_now,-0.05894029637643441,not distinguishable,,-0.06369062133855175,not distinguishable,
+S1,100,m1,gru,status_fc,-0.06322712471432997,not distinguishable,,-0.05978208063308756,consistent,B
+S1,100,m1,mlp_m1,status_fc,-0.03366716572107774,not distinguishable,,-0.021257299465056095,consistent,B
+S1,100,gbt,gru,status_fc,-0.051984436510540424,consistent,B,-0.05028240731499152,consistent,B
+S1,100,kan_reg,gru,onset_sust,-0.02135400961995965,consistent,B,-0.02476569896697956,consistent,B
+S1,100,m1,gru,onset_sust,-0.028672258816297556,not distinguishable,,-0.029431842880348516,not distinguishable,
+S1,100,kan_reg,mlp_b2_reg,onset_sust,-0.0016962477574990558,not distinguishable,,-0.0002986479796981939,not distinguishable,
+S1,100,m1,mlp_m1,onset_sust,-0.013519837671989087,not distinguishable,,-0.004308475730334087,not distinguishable,
+S1,100,mlp_b2_reg,gru,onset_sust,-0.019657761862460592,not distinguishable,,-0.024467050987281365,consistent,B
+S1,100,gbt,gru,onset_sust,-0.0359729959552144,consistent,B,-0.039483294979006406,consistent,B
+S1,100,kan_reg,gru,onset_cross,-0.03559211179636641,consistent,B,-0.037793156260535275,consistent,B
+S1,100,m1,gru,onset_cross,-0.04222276038244265,not distinguishable,,-0.0459518872433523,consistent,B
+S1,100,kan_reg,mlp_b2_reg,onset_cross,-0.008130574402177177,not distinguishable,,-0.006707332478333957,not distinguishable,
+S1,100,m1,mlp_m1,onset_cross,-0.018849764866207784,not distinguishable,,-0.017729824845956893,consistent,B
+S1,100,mlp_b2_reg,gru,onset_cross,-0.027461537394189234,consistent,B,-0.031085823782201323,consistent,B
+S1,100,gbt,gru,onset_cross,-0.04211055682190967,consistent,B,-0.0446972991855381,consistent,B

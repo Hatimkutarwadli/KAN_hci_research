@@ -1,0 +1,79 @@
+{
+ "SYNTHETIC": true,
+ "score": "1 - p_true (LAC)",
+ "variants": [
+  "marginal",
+  "mondrian (class-conditional)"
+ ],
+ "levels": [
+  "90%",
+  "95%"
+ ],
+ "quantile": "ceil((n+1)(1-alpha))-th smallest, +inf if absent",
+ "calibration": "calibration split participants, one origin per participant uniform among eligible origins in 27..98",
+ "origin_seed": 20261116,
+ "repeat_draws": 200,
+ "recalibration": "Platt and isotonic fit on calibration-split rows (all eligible origins), applied to test",
+ "ece": "equal-count 10 bins",
+ "heads": [
+  "status_dep_t0",
+  "status_dep_h7",
+  "status_dep_h14",
+  "status_dep_h21",
+  "status_anx_t0",
+  "status_anx_h7",
+  "status_anx_h14",
+  "status_anx_h21",
+  "onset_sust_dep_h7",
+  "onset_sust_dep_h14",
+  "onset_sust_dep_h21",
+  "onset_sust_anx_h7",
+  "onset_sust_anx_h14",
+  "onset_sust_anx_h21"
+ ],
+ "models": {
+  "gbt": [
+   0
+  ],
+  "gru": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "kan": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "kan_reg": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "m1": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "m1_static": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ "not_implemented": [
+  "Venn-Abers",
+  "conformalised risk thresholds",
+  "time-series/adaptive conformal (P2-5)"
+ ]
+}

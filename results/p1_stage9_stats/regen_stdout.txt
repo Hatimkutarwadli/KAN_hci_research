@@ -1,0 +1,16 @@
+C0 rep0: 4.9s
+S1_r40 rep0: 6.8s
+S1_r40 rep1: 7.3s
+S2_r40_L7 rep0: 7.4s
+S2_r40_L7 rep1: 7.6s
+S3_k3 rep0: 7.4s
+S3_k7 rep0: 7.3s
+S3_k14 rep0: 7.4s
+S4_activity_absent rep0: 7.4s
+S4_sleep_absent rep0: 7.3s
+S4_cardiac_absent rep0: 7.4s
+S5_rand40 rep0: 7.5s
+S5_rand40 rep1: 8.2s
+S5_blk40 rep0: 7.3s
+S5_blk40 rep1: 7.1s
+done 108s; decision sha256 3a6817ef64285a45b391c5d80178f370f068956554b15a2e7778fdb89e3ea80e

@@ -1,0 +1,12 @@
+{
+ "dataset": "S-EFF",
+ "gates": {
+  "prevalence_5_to_10pct": false,
+  "cal_min_evaluable_sustained_onset_participants": 32,
+  "cal_onset_participants_ge_25": true,
+  "no_nan_in_processed_train_cal": true,
+  "label_cross_check_vs_simulator": "PASS (asserted in run)",
+  "all_pass": false
+ },
+ "policy": "retained and flagged; not reseeded, retuned or excluded"
+}

@@ -1,0 +1,109 @@
+{
+ "SYNTHETIC": true,
+ "test_split_loaded": false,
+ "ds": "R5",
+ "model": "mlp_m1",
+ "ts": "all",
+ "n": 50,
+ "draw": 1,
+ "seed": 0,
+ "variant": "primary",
+ "id": "mlp_m1_all_n50_d1_s0",
+ "cost": 0.4166666666666667,
+ "wall_s": 22.355047299992293,
+ "cpu_s": 71.828125,
+ "finite": true,
+ "n_params": 20997,
+ "partial_rerun": false,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.739583192307462,
+   "cal_loss": 0.6378899812698364
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.6111260398228964,
+   "cal_loss": 0.5064603090286255
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.45907969740129284,
+   "cal_loss": 0.3766678273677826
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.35992123351302197,
+   "cal_loss": 0.3493571877479553
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.3287571380087124,
+   "cal_loss": 0.34141120314598083
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.3105313460288509,
+   "cal_loss": 0.37960880994796753
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.29441918671131134,
+   "cal_loss": 0.39819052815437317
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.29899065383018986,
+   "cal_loss": 0.353503942489624
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.2843162122464949,
+   "cal_loss": 0.36395835876464844
+  }
+ ],
+ "best_epoch": 5,
+ "epochs_run": 9,
+ "hparams": {
+  "epochs": 25,
+  "patience": 4,
+  "batch_size": 256,
+  "lr": 0.002,
+  "weight_decay": 0.001,
+  "epoch_frac": 0.5,
+  "model_kwargs": {
+   "dropout": 0.3,
+   "heads": [
+    "sev_dep_t0",
+    "sev_dep_h7",
+    "sev_dep_h14",
+    "sev_dep_h21",
+    "sev_anx_t0",
+    "sev_anx_h7",
+    "sev_anx_h14",
+    "sev_anx_h21",
+    "status_dep_t0",
+    "status_dep_h7",
+    "status_dep_h14",
+    "status_dep_h21",
+    "status_anx_t0",
+    "status_anx_h7",
+    "status_anx_h14",
+    "status_anx_h21",
+    "onset_sust_dep_h7",
+    "onset_sust_dep_h14",
+    "onset_sust_dep_h21",
+    "onset_sust_anx_h7",
+    "onset_sust_anx_h14",
+    "onset_sust_anx_h21",
+    "onset_cross_dep_h7",
+    "onset_cross_dep_h14",
+    "onset_cross_dep_h21",
+    "onset_cross_anx_h7",
+    "onset_cross_anx_h14",
+    "onset_cross_anx_h21"
+   ]
+  }
+ },
+ "finished": "2026-11-18T00:04:46.320480"
+}

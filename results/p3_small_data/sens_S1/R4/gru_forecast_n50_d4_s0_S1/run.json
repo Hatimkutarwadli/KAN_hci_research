@@ -1,0 +1,107 @@
+{
+ "SYNTHETIC": true,
+ "test_split_loaded": false,
+ "ds": "R4",
+ "model": "gru",
+ "ts": "forecast",
+ "n": 50,
+ "draw": 4,
+ "seed": 0,
+ "variant": "S1",
+ "id": "gru_forecast_n50_d4_s0_S1",
+ "cost": 0.18333333333333335,
+ "wall_s": 23.165397199918516,
+ "cpu_s": 61.578125,
+ "finite": true,
+ "n_params": 10732,
+ "partial_rerun": false,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.8275743244283943,
+   "cal_loss": 0.8407361507415771
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.7249233553486486,
+   "cal_loss": 0.7475592494010925
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.6086232592213539,
+   "cal_loss": 0.6178185343742371
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.5444355361307821,
+   "cal_loss": 0.5546308755874634
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.5021502577873969,
+   "cal_loss": 0.5255313515663147
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.44578926217171455,
+   "cal_loss": 0.5130559206008911
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.45207933286184904,
+   "cal_loss": 0.5081592202186584
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.4250104469637717,
+   "cal_loss": 0.5304957628250122
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.43777794821287996,
+   "cal_loss": 0.5257390737533569
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.4236649013462887,
+   "cal_loss": 0.514556348323822
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.4055015392072739,
+   "cal_loss": 0.5052475333213806
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.4180150640908108,
+   "cal_loss": 0.5147730708122253
+  },
+  {
+   "epoch": 13,
+   "train_loss": 0.40435860540277213,
+   "cal_loss": 0.5181798338890076
+  },
+  {
+   "epoch": 14,
+   "train_loss": 0.39402802193036646,
+   "cal_loss": 0.5180647969245911
+  },
+  {
+   "epoch": 15,
+   "train_loss": 0.38838789674543567,
+   "cal_loss": 0.530074417591095
+  }
+ ],
+ "best_epoch": 11,
+ "epochs_run": 15,
+ "hparams": {
+  "epochs": 25,
+  "patience": 4,
+  "batch_size": 256,
+  "lr": 0.002,
+  "weight_decay": 1e-05,
+  "epoch_frac": 0.5,
+  "model_kwargs": {}
+ },
+ "finished": "2026-11-18T01:01:51.223157"
+}

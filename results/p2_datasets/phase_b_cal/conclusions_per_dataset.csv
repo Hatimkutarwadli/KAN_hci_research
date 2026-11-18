@@ -1,0 +1,10 @@
+dataset,family_type,gate_flagged,C1,C1_beaten,C1_gru_rank1,C2,C2_nK,C2_nM,C3,C3_nm,C1_noGBT,C1_noGBT_beaten,C4,C5
+v1,replication,False,mixed,status_fc;status_now,4,supported,0,9,supported,0,supported,,supported,supported
+R1,replication,False,supported,,6,supported,0,6,supported,0,supported,,supported,not supported
+R2,replication,False,mixed,status_now,4,supported,1,0,supported,0,mixed,status_now,supported,supported
+R3,replication,False,mixed,status_now,4,supported,0,3,supported,0,supported,,supported,supported
+S-EFF,shift,True,mixed,onset_cross,5,supported,0,5,supported,0,supported,,supported,mixed
+S-AR,shift,False,supported,,3,supported,0,3,supported,0,supported,,supported,supported
+S-MISS,shift,False,supported,,5,supported,0,7,supported,0,supported,,supported,mixed
+S-HET,shift,False,supported,,6,supported,0,1,supported,0,supported,,supported,supported
+S-NOISE,shift,False,supported,,6,supported,0,6,supported,0,supported,,supported,supported

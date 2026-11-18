@@ -1,0 +1,7 @@
+n,model,family,R4,R5,reproducible_KAN,reproducible_GRU,KAN_one_dataset_only
+50,kan_reg,sev_now,B,,False,False,False
+50,kan_reg,status_now,A,,False,False,True
+50,m1,sev_now,B,B,False,True,False
+50,m1,sev_fc,B,B,False,True,False
+50,m1,status_now,B,B,False,True,False
+50,m1,status_fc,B,B,False,True,False

@@ -1,0 +1,11 @@
+R2 C0
+R2 S1_r40
+R2 S2_r40_L7
+R2 S3_k3
+R2 S3_k7
+R2 S3_k14
+R2 S4_activity_absent
+R2 S4_sleep_absent
+R2 S4_cardiac_absent
+R2 S5_rand40
+R2 S5_blk40

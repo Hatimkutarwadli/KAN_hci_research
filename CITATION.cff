@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below. All results are synthetic."
+title: "Do Kolmogorov-Arnold Networks Help Longitudinal Digital Phenotyping? A Controlled Synthetic Evaluation of Prediction, Lag Recovery, and Uncertainty"
+type: software
+date-released: "2026-11-18"
+authors:
+  - given-names: Hatim
+    family-names: Kutarwadliwala
+    affiliation: "Department of Artificial Intelligence, Sardar Vallabhbhai National Institute of Technology (SVNIT), Surat, India"
+  - given-names: Sakina
+    family-names: Dhilawala
+    affiliation: "Department of Artificial Intelligence, Sardar Vallabhbhai National Institute of Technology (SVNIT), Surat, India"
+  - given-names: Krisha
+    family-names: Chaudhari
+    affiliation: "Department of Artificial Intelligence, Sardar Vallabhbhai National Institute of Technology (SVNIT), Surat, India"
+  - given-names: Chris Reji
+    family-names: George
+    affiliation: "Department of Artificial Intelligence, Sardar Vallabhbhai National Institute of Technology (SVNIT), Surat, India"
+  - given-names: Sruthi
+    family-names: Jayesh
+    affiliation: "Department of Artificial Intelligence, Sardar Vallabhbhai National Institute of Technology (SVNIT), Surat, India"
+  - given-names: Sudhakar
+    family-names: Mishra
+    affiliation: "Department of Artificial Intelligence, Sardar Vallabhbhai National Institute of Technology (SVNIT), Surat, India"
+keywords:
+  - Kolmogorov-Arnold networks
+  - digital phenotyping
+  - longitudinal modeling
+  - multitask learning
+  - conformal prediction
+  - synthetic data

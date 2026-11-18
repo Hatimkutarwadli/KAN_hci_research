@@ -1,0 +1,9 @@
+R3 gru 0
+R3 gru 1
+R3 gru 2
+R3 m1 0
+R3 m1 1
+R3 m1 2
+R3 mlp_m1 0
+R3 mlp_m1 1
+R3 mlp_m1 2

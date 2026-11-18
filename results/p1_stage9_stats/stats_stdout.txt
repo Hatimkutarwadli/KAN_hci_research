@@ -1,0 +1,16 @@
+C0 rep0 259s
+S1_r40 rep0 513s
+S1_r40 rep1 834s
+S2_r40_L7 rep0 1087s
+S2_r40_L7 rep1 1340s
+S3_k3 rep0 1592s
+S3_k7 rep0 1990s
+S3_k14 rep0 2414s
+S4_activity_absent rep0 2841s
+S4_sleep_absent rep0 3267s
+S4_cardiac_absent rep0 3695s
+S5_rand40 rep0 4124s
+S5_rand40 rep1 4562s
+S5_blk40 rep0 5030s
+S5_blk40 rep1 5486s
+done 5488s 1540 arrays

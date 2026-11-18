@@ -1,0 +1,23 @@
+S-NOISE gbt main seed0: 168s
+S-NOISE gbt forecast seed0: 132s
+E:\HCI LAB\researchproject\synthetic-dataset-research\src\baselines.py:187: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\autograd\generated\python_variable_methods.cpp:821.)
+  run += float(loss) * len(yb)
+S-NOISE gru main seed0: 63s
+S-NOISE gru main seed1: 61s
+S-NOISE gru main seed2: 47s
+S-NOISE gru forecast seed0: 56s
+S-NOISE gru forecast seed1: 36s
+S-NOISE gru forecast seed2: 41s
+S-NOISE kan_reg main seed0: 153s
+S-NOISE kan_reg main seed1: 165s
+S-NOISE kan_reg main seed2: 159s
+S-NOISE mlp_b2_reg main seed0: 18s
+S-NOISE mlp_b2_reg main seed1: 15s
+S-NOISE mlp_b2_reg main seed2: 23s
+S-NOISE mlp_m1 all seed0: 59s
+S-NOISE mlp_m1 all seed1: 29s
+S-NOISE mlp_m1 all seed2: 40s
+S-NOISE gru_aug main seed0: 27s
+S-NOISE gru_aug main seed1: 27s
+S-NOISE gru_aug main seed2: 27s

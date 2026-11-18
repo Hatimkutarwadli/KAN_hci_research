@@ -1,0 +1,9 @@
+  gru seed0 ep1 train 0.7937 cal 0.6741
+  gru seed0 ep2 train 0.5763 cal 0.4748
+  gru seed0 ep3 train 0.4712 cal 0.4614
+  gru seed0 ep4 train 0.4496 cal 0.4638
+  gru seed0 ep5 train 0.4387 cal 0.4480
+  gru seed0 ep6 train 0.4268 cal 0.4487
+  gru seed0 ep7 train 0.4221 cal 0.4481
+  gru seed0 ep8 train 0.4140 cal 0.4573
+  gru seed0 ep9 train 0.4178 cal 0.4536

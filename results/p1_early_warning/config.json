@@ -1,0 +1,217 @@
+{
+ "SYNTHETIC": true,
+ "EXTENSION": "P1-5 extended early-warning evaluation",
+ "horizons": [
+  7,
+  14,
+  21
+ ],
+ "W": "= h",
+ "T1": "sust 117-h, cross 119-h",
+ "targets": [
+  0.1,
+  0.2
+ ],
+ "leads": [
+  1,
+  3,
+  7,
+  14,
+  21
+ ],
+ "episode_gap": 7,
+ "B_boot": 1000,
+ "boot_seed": 20261116,
+ "B_threshold_boot": 300,
+ "threshold_boot_seed": 20261117,
+ "n_shuffles": 200,
+ "shuffle_perm_seed": 15015,
+ "iid_null_draws": 5,
+ "models": {
+  "gbt": [
+   "results/stage3",
+   [
+    0
+   ],
+   "stage7"
+  ],
+  "gru": [
+   "results/stage3",
+   [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "stage7"
+  ],
+  "kan": [
+   "results/stage3",
+   [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "stage7"
+  ],
+  "kan_reg": [
+   "results/stage3b_kan_reg/final",
+   [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "stage7"
+  ],
+  "m1": [
+   "results/stage4_m1",
+   [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "stage7"
+  ],
+  "m1_static": [
+   "results/stage4_ablation",
+   [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "stage7"
+  ],
+  "kangru": [
+   "results/ext_kangru",
+   [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "stage7"
+  ],
+  "kangru_fixed": [
+   "results/ext_kangru",
+   [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "stage7"
+  ],
+  "transformer": [
+   "results/p1_baselines/main",
+   [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "p1-1"
+  ],
+  "cnnlstm": [
+   "results/p1_baselines/main",
+   [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "p1-1"
+  ],
+  "mlp_m1": [
+   "results/p1_kan_mlp_control/m1_all",
+   [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "p1-3"
+  ],
+  "mlp_b2": [
+   "results/p1_kan_mlp_control/b2_main",
+   [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "p1-3"
+  ],
+  "mlp_b2_reg": [
+   "results/p1_kan_mlp_control/b2_main",
+   [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "p1-3"
+  ],
+  "kan_nospline": [
+   "results/p1_kan_mlp_control/b2_main",
+   [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "p1-3"
+  ],
+  "st_task": [
+   "results/p1_multitask_ablation/st_task_main",
+   [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "p1-2"
+  ],
+  "st_task_matched": [
+   "results/p1_multitask_ablation/st_task_matched_main",
+   [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "p1-2"
+  ],
+  "family": [
+   "results/p1_multitask_ablation/family_main",
+   [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "p1-2"
+  ]
+ },
+ "primary_contrast": "sust, h21, target FAP 0.20, det_lead7 (overall), per outcome, paired stratified participant bootstrap vs GRU (seed-pooled)",
+ "matched_exposure": "complete non-overlapping W-day blocks of the never-onset window; leftover days at the end are not used"
+}

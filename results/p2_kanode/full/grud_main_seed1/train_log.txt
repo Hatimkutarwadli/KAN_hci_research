@@ -1,0 +1,14 @@
+  grud seed1 ep1 train 0.3276 cal 0.2214
+  diag {"epoch": 1}
+  grud seed1 ep2 train 0.2012 cal 0.2199
+  diag {"epoch": 2}
+  grud seed1 ep3 train 0.2011 cal 0.2181
+  diag {"epoch": 3}
+  grud seed1 ep4 train 0.1964 cal 0.2202
+  diag {"epoch": 4}
+  grud seed1 ep5 train 0.1936 cal 0.2198
+  diag {"epoch": 5}
+  grud seed1 ep6 train 0.1941 cal 0.2214
+  diag {"epoch": 6}
+  grud seed1 ep7 train 0.1919 cal 0.2222
+  diag {"epoch": 7}

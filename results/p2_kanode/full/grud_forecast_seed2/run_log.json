@@ -1,0 +1,92 @@
+{
+ "SYNTHETIC": true,
+ "test_split_loaded": false,
+ "model": "grud",
+ "taskset": "forecast",
+ "heads": [
+  "sev_dep_h7",
+  "sev_dep_h14",
+  "sev_dep_h21",
+  "sev_anx_h7",
+  "sev_anx_h14",
+  "sev_anx_h21",
+  "status_dep_h7",
+  "status_dep_h14",
+  "status_dep_h21",
+  "status_anx_h7",
+  "status_anx_h14",
+  "status_anx_h21"
+ ],
+ "seed": 2,
+ "wall_s": 44.44352129998151,
+ "cpu_s": 164.125,
+ "n_params": 10892,
+ "torch_threads": 4,
+ "quick": false,
+ "best_cal_loss": 0.48031461238861084,
+ "final_diagnostics": {},
+ "epoch_diagnostics": [
+  {
+   "epoch": 1
+  },
+  {
+   "epoch": 2
+  },
+  {
+   "epoch": 3
+  },
+  {
+   "epoch": 4
+  },
+  {
+   "epoch": 5
+  },
+  {
+   "epoch": 6
+  }
+ ],
+ "best_epoch": 2,
+ "epochs_run": 6,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.5338248753120395,
+   "cal_loss": 0.4814204275608063
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.4214463063380197,
+   "cal_loss": 0.48031461238861084
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.4175789347130765,
+   "cal_loss": 0.4844985902309418
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.4146865747778219,
+   "cal_loss": 0.4837973415851593
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.41273832494212737,
+   "cal_loss": 0.48786818981170654
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.40541857832221573,
+   "cal_loss": 0.4869372844696045
+  }
+ ],
+ "hparams": {
+  "epochs": 25,
+  "patience": 4,
+  "batch_size": 256,
+  "lr": 0.002,
+  "weight_decay": 1e-05,
+  "epoch_frac": 0.5,
+  "model_kwargs": {}
+ },
+ "torch": "2.15.0+cpu"
+}

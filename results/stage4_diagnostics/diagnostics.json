@@ -1,0 +1,189 @@
+{
+ "models": {
+  "m1": {
+   "per_seed": [
+    {
+     "seed": 0,
+     "sens_old7": 0.047636162489652634,
+     "sens_recent7": 0.1543547362089157,
+     "sens_ratio_recent_over_old": 3.2402848622082883,
+     "cal_loss": 0.3431193232536316,
+     "cal_loss_shuffled_days": 0.34777289628982544,
+     "cal_loss_increase_when_shuffled": 0.004653573036193848,
+     "mean_abs_state_step": 0.053426314145326614,
+     "temporal_std_of_state_within_window": 0.2372847944498062,
+     "corr_z_T_with_z_T_minus_7": 0.8336700877537768,
+     "probe_R2_true_z_dep": 0.44806981043568617,
+     "probe_R2_true_z_anx": 0.346099311395911
+    },
+    {
+     "seed": 1,
+     "sens_old7": 0.030824314802885056,
+     "sens_recent7": 0.11621563881635666,
+     "sens_ratio_recent_over_old": 3.770258627305456,
+     "cal_loss": 0.3529888093471527,
+     "cal_loss_shuffled_days": 0.3575230538845062,
+     "cal_loss_increase_when_shuffled": 0.004534244537353516,
+     "mean_abs_state_step": 0.04435890540480614,
+     "temporal_std_of_state_within_window": 0.20607641339302063,
+     "corr_z_T_with_z_T_minus_7": 0.8310952895120862,
+     "probe_R2_true_z_dep": 0.46341972450271407,
+     "probe_R2_true_z_anx": 0.3303700490964814
+    },
+    {
+     "seed": 2,
+     "sens_old7": 0.04110437631607056,
+     "sens_recent7": 0.14186713099479675,
+     "sens_ratio_recent_over_old": 3.4513875092986397,
+     "cal_loss": 0.34713977575302124,
+     "cal_loss_shuffled_days": 0.350588858127594,
+     "cal_loss_increase_when_shuffled": 0.003449082374572754,
+     "mean_abs_state_step": 0.05638687312602997,
+     "temporal_std_of_state_within_window": 0.2457810491323471,
+     "corr_z_T_with_z_T_minus_7": 0.8011676316876385,
+     "probe_R2_true_z_dep": 0.47349095841831446,
+     "probe_R2_true_z_anx": 0.3148517528206244
+    },
+    {
+     "seed": 3,
+     "sens_old7": 0.0439603216946125,
+     "sens_recent7": 0.1405441164970398,
+     "sens_ratio_recent_over_old": 3.1970675163249314,
+     "cal_loss": 0.3449733555316925,
+     "cal_loss_shuffled_days": 0.3496839106082916,
+     "cal_loss_increase_when_shuffled": 0.004710555076599121,
+     "mean_abs_state_step": 0.04902498796582222,
+     "temporal_std_of_state_within_window": 0.215702623128891,
+     "corr_z_T_with_z_T_minus_7": 0.843735210333309,
+     "probe_R2_true_z_dep": 0.48774960239269327,
+     "probe_R2_true_z_anx": 0.31577855762118956
+    },
+    {
+     "seed": 4,
+     "sens_old7": 0.04079996049404144,
+     "sens_recent7": 0.1592513620853424,
+     "sens_ratio_recent_over_old": 3.903223438380534,
+     "cal_loss": 0.34655624628067017,
+     "cal_loss_shuffled_days": 0.35785919427871704,
+     "cal_loss_increase_when_shuffled": 0.011302947998046875,
+     "mean_abs_state_step": 0.05409883335232735,
+     "temporal_std_of_state_within_window": 0.23261722922325134,
+     "corr_z_T_with_z_T_minus_7": 0.8369840636463552,
+     "probe_R2_true_z_dep": 0.4541392443083154,
+     "probe_R2_true_z_anx": 0.3185306812825993
+    }
+   ],
+   "mean": {
+    "sens_old7": 0.040865027159452436,
+    "sens_recent7": 0.14244659692049028,
+    "sens_ratio_recent_over_old": 3.51244439070357,
+    "cal_loss": 0.34695550203323366,
+    "cal_loss_shuffled_days": 0.3526855826377869,
+    "cal_loss_increase_when_shuffled": 0.005730080604553223,
+    "mean_abs_state_step": 0.051459182798862454,
+    "temporal_std_of_state_within_window": 0.22749242186546326,
+    "corr_z_T_with_z_T_minus_7": 0.8293304565866333,
+    "probe_R2_true_z_dep": 0.46537386801154473,
+    "probe_R2_true_z_anx": 0.3251260704433611
+   },
+   "sd": {
+    "sens_old7": 0.006251130862418485,
+    "sens_recent7": 0.01670495651849949,
+    "sens_ratio_recent_over_old": 0.3148165216870129,
+    "cal_loss": 0.0037161583485701183,
+    "cal_loss_shuffled_days": 0.004682631772618603,
+    "cal_loss_increase_when_shuffled": 0.0031578524608165096,
+    "mean_abs_state_step": 0.004781703051655775,
+    "temporal_std_of_state_within_window": 0.016234784197308054,
+    "corr_z_T_with_z_T_minus_7": 0.016440547221276133,
+    "probe_R2_true_z_dep": 0.01577994376544385,
+    "probe_R2_true_z_anx": 0.013264736191529881
+   }
+  },
+  "m1_static": {
+   "per_seed": [
+    {
+     "seed": 0,
+     "sens_old7": 0.21945856511592865,
+     "sens_recent7": 0.20228026807308197,
+     "sens_ratio_recent_over_old": 0.9217241895581871,
+     "cal_loss": 0.3590758144855499,
+     "cal_loss_shuffled_days": 0.35969632863998413,
+     "cal_loss_increase_when_shuffled": 0.0006205141544342041,
+     "probe_R2_true_z_dep": 0.473480053278577,
+     "probe_R2_true_z_anx": 0.30704844515678875
+    },
+    {
+     "seed": 1,
+     "sens_old7": 0.19878700375556946,
+     "sens_recent7": 0.19059959053993225,
+     "sens_ratio_recent_over_old": 0.9588131363672822,
+     "cal_loss": 0.36220115423202515,
+     "cal_loss_shuffled_days": 0.3563118875026703,
+     "cal_loss_increase_when_shuffled": -0.005889266729354858,
+     "probe_R2_true_z_dep": 0.4507514693229723,
+     "probe_R2_true_z_anx": 0.26307377466518256
+    },
+    {
+     "seed": 2,
+     "sens_old7": 0.15019306540489197,
+     "sens_recent7": 0.1333087980747223,
+     "sens_ratio_recent_over_old": 0.8875829101386745,
+     "cal_loss": 0.3558773994445801,
+     "cal_loss_shuffled_days": 0.35491475462913513,
+     "cal_loss_increase_when_shuffled": -0.0009626448154449463,
+     "probe_R2_true_z_dep": 0.47074367315307286,
+     "probe_R2_true_z_anx": 0.31642864280773497
+    },
+    {
+     "seed": 3,
+     "sens_old7": 0.10614737123250961,
+     "sens_recent7": 0.08116800338029861,
+     "sens_ratio_recent_over_old": 0.7646727605011041,
+     "cal_loss": 0.3556857705116272,
+     "cal_loss_shuffled_days": 0.3538784086704254,
+     "cal_loss_increase_when_shuffled": -0.0018073618412017822,
+     "probe_R2_true_z_dep": 0.4749616379660382,
+     "probe_R2_true_z_anx": 0.3038585251109107
+    },
+    {
+     "seed": 4,
+     "sens_old7": 0.09338274598121643,
+     "sens_recent7": 0.0696815699338913,
+     "sens_ratio_recent_over_old": 0.7461931987725813,
+     "cal_loss": 0.35960203409194946,
+     "cal_loss_shuffled_days": 0.3567688465118408,
+     "cal_loss_increase_when_shuffled": -0.0028331875801086426,
+     "probe_R2_true_z_dep": 0.4721280073101348,
+     "probe_R2_true_z_anx": 0.3308448974118511
+    }
+   ],
+   "mean": {
+    "sens_old7": 0.15359375029802322,
+    "sens_recent7": 0.1354076460003853,
+    "sens_ratio_recent_over_old": 0.8557972390675659,
+    "cal_loss": 0.3584884345531464,
+    "cal_loss_shuffled_days": 0.35631404519081117,
+    "cal_loss_increase_when_shuffled": -0.002174389362335205,
+    "probe_R2_true_z_dep": 0.46841296820615896,
+    "probe_R2_true_z_anx": 0.30425085703049365
+   },
+   "sd": {
+    "sens_old7": 0.055382065179271474,
+    "sens_recent7": 0.06079547555986894,
+    "sens_ratio_recent_over_old": 0.09524400640708762,
+    "cal_loss": 0.002740521693014715,
+    "cal_loss_shuffled_days": 0.00221003560849199,
+    "cal_loss_increase_when_shuffled": 0.0024315040952039317,
+    "probe_R2_true_z_dep": 0.009996532782039,
+    "probe_R2_true_z_anx": 0.02529364537794412
+   }
+  }
+ },
+ "reference_probes_no_model": {
+  "last_day_channels_probe_R2_true_z_dep": 0.24241388872199532,
+  "last_day_channels_probe_R2_true_z_anx": 0.1744761236218515,
+  "window_mean_channels_probe_R2_true_z_dep": 0.4932763472980696,
+  "window_mean_channels_probe_R2_true_z_anx": 0.3577472193768305
+ }
+}
