@@ -4,13 +4,13 @@
 
 Undergraduate semester research project: *Longitudinal, Causally-Informed Multitask Digital Phenotyping with Uncertainty-Aware KAN Models*.
 
-| Author | Registration |
-|---|---|
-| Hatim Kutarwadliwala | U24AI103 |
-| Sakina Dhilawala | U24AI104 |
-| Krisha Chaudhari | U24AI115 |
-| Chris Reji George | U24AI010 |
-| Sruthi Jayesh | U24AI004 |
+| Author | 
+|---|
+| Hatim Kutarwadliwala |
+| Sakina Dhilawala |
+| Krisha Chaudhari |
+| Chris Reji George |
+| Sruthi Jayesh |
 
 **Supervisor:** Dr. Sudhakar Mishra.
 **Affiliation:** Department of Artificial Intelligence, Sardar Vallabhbhai National Institute of Technology (SVNIT), Surat, India.
